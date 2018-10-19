@@ -1,0 +1,213 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Modal component should render closed modal 1`] = `
+<Modal
+  ariaHideApp={false}
+  bodyOpenClassName="modal-open"
+  className="content hide bottomSheet"
+  closeTimeoutMS={300}
+  contentLabel=""
+  isOpen={false}
+  onRequestClose={[Function]}
+  overlayClassName="overlay modal-position-bottom"
+  parentSelector={[Function]}
+  portalClassName="root"
+  role="dialog"
+  shouldCloseOnEsc={true}
+  shouldCloseOnOverlayClick={false}
+  shouldFocusAfterRender={true}
+  shouldReturnFocusAfterClose={true}
+>
+  <ModalBodySection
+    sidebar={null}
+  />
+</Modal>
+`;
+
+exports[`Modal component should render component with default props 1`] = `
+<Modal
+  ariaHideApp={false}
+  bodyOpenClassName="modal-open"
+  className="content hide bottomSheet"
+  closeTimeoutMS={300}
+  contentLabel=""
+  isOpen={false}
+  onRequestClose={[Function]}
+  overlayClassName="overlay modal-position-bottom"
+  parentSelector={[Function]}
+  portalClassName="root"
+  role="dialog"
+  shouldCloseOnEsc={true}
+  shouldCloseOnOverlayClick={false}
+  shouldFocusAfterRender={true}
+  shouldReturnFocusAfterClose={true}
+>
+  <ModalBodySection
+    sidebar={null}
+  />
+</Modal>
+`;
+
+exports[`Modal component should render opened modal 1`] = `
+<Modal
+  ariaHideApp={false}
+  bodyOpenClassName="modal-open"
+  className="content show bottomSheet"
+  closeTimeoutMS={300}
+  contentLabel=""
+  isOpen={true}
+  onRequestClose={[Function]}
+  overlayClassName="overlay modal-position-bottom"
+  parentSelector={[Function]}
+  portalClassName="root"
+  role="dialog"
+  shouldCloseOnEsc={true}
+  shouldCloseOnOverlayClick={false}
+  shouldFocusAfterRender={true}
+  shouldReturnFocusAfterClose={true}
+>
+  <ModalBodySection
+    sidebar={null}
+  />
+</Modal>
+`;
+
+exports[`Modal component should render with children 1`] = `
+<Modal
+  ariaHideApp={false}
+  bodyOpenClassName="modal-open"
+  className="content hide bottomSheet"
+  closeTimeoutMS={300}
+  contentLabel=""
+  isOpen={false}
+  onRequestClose={[Function]}
+  overlayClassName="overlay modal-position-bottom"
+  parentSelector={[Function]}
+  portalClassName="root"
+  role="dialog"
+  shouldCloseOnEsc={true}
+  shouldCloseOnOverlayClick={false}
+  shouldFocusAfterRender={true}
+  shouldReturnFocusAfterClose={true}
+>
+  <ModalBodySection
+    sidebar={null}
+  >
+    Modal Content
+  </ModalBodySection>
+</Modal>
+`;
+
+exports[`Modal component should render with classes 1`] = `
+<Modal
+  ariaHideApp={false}
+  bodyOpenClassName="bodyOpenClassName"
+  className="content contentClassName hide bottomSheet"
+  closeTimeoutMS={300}
+  contentLabel=""
+  isOpen={false}
+  onRequestClose={[Function]}
+  overlayClassName="overlay modal-position-bottom overlayClassName"
+  parentSelector={[Function]}
+  portalClassName="root className"
+  role="dialog"
+  shouldCloseOnEsc={true}
+  shouldCloseOnOverlayClick={false}
+  shouldFocusAfterRender={true}
+  shouldReturnFocusAfterClose={true}
+>
+  <ModalBodySection
+    sidebar={null}
+  />
+</Modal>
+`;
+
+exports[`Modal component should render with position 1`] = `
+<Modal
+  ariaHideApp={false}
+  bodyOpenClassName="modal-open"
+  className="content hide"
+  closeTimeoutMS={300}
+  contentLabel=""
+  isOpen={false}
+  onRequestClose={[Function]}
+  overlayClassName="overlay modal-position-middle"
+  parentSelector={[Function]}
+  portalClassName="root"
+  role="dialog"
+  shouldCloseOnEsc={true}
+  shouldCloseOnOverlayClick={false}
+  shouldFocusAfterRender={true}
+  shouldReturnFocusAfterClose={true}
+>
+  <ModalBodySection
+    sidebar={null}
+  />
+</Modal>
+`;
+
+exports[`Modal component should render with sections 1`] = `
+<Modal
+  ariaHideApp={false}
+  bodyOpenClassName="modal-open"
+  className="content hide bottomSheet"
+  closeTimeoutMS={300}
+  contentLabel=""
+  isOpen={false}
+  onRequestClose={[Function]}
+  overlayClassName="overlay modal-position-bottom"
+  parentSelector={[Function]}
+  portalClassName="root"
+  role="dialog"
+  shouldCloseOnEsc={true}
+  shouldCloseOnOverlayClick={false}
+  shouldFocusAfterRender={true}
+  shouldReturnFocusAfterClose={true}
+>
+  <span>
+    Title Content
+  </span>
+  <span>
+    Header Content
+  </span>
+  <ModalBodySection
+    sidebar={
+      <span>
+        Sidebar Content
+      </span>
+    }
+  />
+  <ModalFooterSection>
+    <span>
+      Footer Content
+    </span>
+  </ModalFooterSection>
+</Modal>
+`;
+
+exports[`Modal component should render with sections 2`] = `
+<Modal
+  ariaHideApp={false}
+  bodyOpenClassName="modal-open"
+  className="content hide bottomSheet"
+  closeTimeoutMS={300}
+  contentLabel=""
+  isOpen={false}
+  onAfterOpen={[Function]}
+  onRequestClose={[Function]}
+  overlayClassName="overlay modal-position-bottom"
+  parentSelector={[Function]}
+  portalClassName="root"
+  role="dialog"
+  shouldCloseOnEsc={true}
+  shouldCloseOnOverlayClick={false}
+  shouldFocusAfterRender={true}
+  shouldReturnFocusAfterClose={true}
+>
+  <ModalBodySection
+    sidebar={null}
+  />
+</Modal>
+`;
+
+exports[`Modal component shouldn't render component 1`] = `null`;

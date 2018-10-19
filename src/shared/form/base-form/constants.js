@@ -1,0 +1,1 @@
+export const SELECTED_FIELD = 'SELECTED_FIELD';

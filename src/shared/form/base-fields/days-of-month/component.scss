@@ -1,0 +1,105 @@
+@import '../../../scss/variables';
+
+.root {
+  display: flex;
+  flex-direction: row;
+
+  .description {
+    display: inline-block;
+    width: 350px;
+    padding: 20px 15px;
+    color: $c-raisin-black;
+  }
+
+  .dateCard {
+    width: 210px;
+  }
+
+  .dayCell {
+    width: 30px;
+    height: 30px;
+    box-shadow: none;
+    border-top: none;
+    border-left: none;
+
+    &:first-child {
+      border-top-left-radius: 3px;
+    }
+
+    &.selected {
+      background-color: $c-north-texas-green;
+      border-color: $c-white;
+      color: $c-white;
+    }
+
+    &:nth-child(-n + 7) {
+      border-top: 1px solid $c-gainsboro;
+
+      &.selected {
+        border-top: 1px solid $c-north-texas-green;
+      }
+
+      &.error {
+        border-top: 1px solid $c-upsdell-red;
+      }
+    }
+
+    &:nth-child(7n) {
+      border-right: 1px solid $c-gainsboro;
+
+      &.selected {
+        border-right: 1px solid $c-north-texas-green;
+      }
+
+      &.error {
+        border-right: 1px solid $c-upsdell-red;
+      }
+    }
+
+    &:nth-child(n + 25) {
+      border-bottom: 1px solid $c-gainsboro;
+
+      &.selected {
+        border-bottom: 1px solid $c-north-texas-green;
+      }
+
+      &.error {
+        border-bottom: 1px solid $c-upsdell-red;
+      }
+    }
+
+    &:nth-child(7n + 1) {
+      border-left: 1px solid $c-gainsboro;
+
+      &.selected {
+        border-left: 1px solid $c-north-texas-green;
+      }
+
+      &.error {
+        border-left: 1px solid $c-upsdell-red;
+      }
+    }
+
+    &:nth-child(7) {
+      border-top-right-radius: 3px;
+    }
+
+    &:nth-child(29) {
+      border-bottom-left-radius: 3px;
+    }
+
+    &:last-child,
+    &:nth-child(28) {
+      border-bottom-right-radius: 3px;
+
+      &.error {
+        border-right: 1px solid $c-upsdell-red;
+      }
+    }
+
+    &:focus {
+      outline: none;
+      box-shadow: 0 0 2px 1px $c-fresh-air;
+    }
+  }
+}

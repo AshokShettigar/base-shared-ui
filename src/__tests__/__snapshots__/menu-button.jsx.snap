@@ -1,0 +1,42 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`menu-button should render the icon only 1`] = `
+<button
+  className="cn-menu-button"
+  data-component="MenuButton"
+  onClick={[Function]}
+>
+  <Icon
+    className="cn-menu-button__icon"
+    icon="testIcon"
+    size="extra-small"
+  />
+</button>
+`;
+
+exports[`menu-button should render the menu button 1`] = `
+<button
+  className="cn-menu-button"
+  data-component="MenuButton"
+  onClick={[Function]}
+>
+  <span>
+    MyButton
+  </span>
+</button>
+`;
+
+exports[`menu-button should render with the title 1`] = `
+<button
+  className="cn-menu-button"
+  data-component="MenuButton"
+  onClick={[Function]}
+  title="MyTitle"
+>
+  <Icon
+    className="cn-menu-button__icon"
+    icon="testIcon"
+    size="extra-small"
+  />
+</button>
+`;

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+    <title>info</title>
+    <path d="M10,19.6A9.6,9.6,0,1,1,19.6,10,9.6,9.6,0,0,1,10,19.6Zm0-18A8.4,8.4,0,1,0,18.4,10,8.4,8.4,0,0,0,10,1.6Z"/>
+    <rect x="9.2" y="8.9" width="1.7" height="5.92" transform="translate(20.1 23.7) rotate(-180)"/>
+    <circle cx="10.2" cy="5.9" r="1.1"/>
+</svg>

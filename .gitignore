@@ -1,0 +1,13 @@
+.DS_Store
+.eslintcache
+.idea
+.history
+coverage
+lib
+dist
+dist-versioned
+analytics
+node_modules
+npm-debug.log
+test-reports
+yarn-error.log

@@ -1,0 +1,74 @@
+@import '../../../../scss/variables';
+
+.root {
+  display: inline-block;
+}
+
+.field-wrapper {
+  position: relative;
+}
+
+.field {
+  font-family: $ff-open-sans;
+  font-size: $fs-small;
+  color: $c-raisin-black;
+  width: 100%;
+
+  height: 30px;
+  background: $c-white;
+  border: 1px solid $c-gainsboro;
+  box-shadow: 1px 1px 1px #eee inset;
+  border-radius: 3px;
+  padding: 6px 8px;
+
+  &:focus,
+  &:hover {
+    border: 1px solid #ccc;
+  }
+
+  &:focus {
+    outline: none;
+    box-shadow: 0 0 2px 1px $c-fresh-air;
+  }
+
+  &::placeholder {
+    color: $c-black;
+  }
+
+  &:disabled {
+    cursor: default;
+    background-color: $c-white;
+    opacity: .8;
+    box-shadow: 1px 1px 1px $c-gainsboro inset;
+
+    &:hover {
+      border: 1px solid $c-gainsboro;
+    }
+  }
+
+  &::-ms-clear {
+    display: none;
+  }
+}
+
+.with-error {
+  .error {
+    display: block;
+    margin-top: 4px;
+    color: $c-upsdell-red;
+  }
+
+  .field {
+    border-color: $c-upsdell-red;
+  }
+}
+
+.asterisk {
+  color: $c-upsdell-red;
+  margin-left: 3px;
+  font-weight: bold;
+}
+
+.content {
+  margin-left: 5px;
+}

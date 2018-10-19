@@ -1,0 +1,18 @@
+@import '../../../../scss/variables';
+
+.root {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 6px 8px;
+  cursor: pointer;
+  background-color: $c-white;
+  border: 1px solid $c-gainsboro;
+
+  &.disabled {
+    background-color: $c-white-smoke;
+    border-color: $c-gainsboro;
+    color: $c-gainsboro;
+    cursor: default;
+  }
+}

@@ -1,0 +1,69 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`modal/controls should render the controls 1`] = `
+<div
+  className="cn-modal-controls"
+  data-component="ModalControls"
+>
+  <Button
+    className="cn-modal-controls__button"
+    isDark={false}
+    isDisabled={false}
+    onClick={[Function]}
+    size={1}
+    type="button"
+    variation={1}
+  >
+    Save
+  </Button>
+  <Button
+    className="cn-modal-controls__button"
+    isDark={false}
+    isDisabled={false}
+    onClick={[Function]}
+    size={1}
+    type="button"
+    variation={2}
+  >
+    Cancel
+  </Button>
+</div>
+`;
+
+exports[`modal/controls should render the controls with state loading 1`] = `
+<div
+  className="cn-modal-controls"
+  data-component="ModalControls"
+>
+  <Button
+    className="cn-modal-controls__button"
+    isDark={false}
+    isDisabled={false}
+    isLoading={true}
+    onClick={[Function]}
+    size={1}
+    type="button"
+    variation={1}
+  >
+    Save
+  </Button>
+  <Button
+    className="cn-modal-controls__button"
+    isDark={false}
+    isDisabled={false}
+    onClick={[Function]}
+    size={1}
+    type="button"
+    variation={2}
+  >
+    Cancel
+  </Button>
+</div>
+`;
+
+exports[`modal/controls should render without controls 1`] = `
+<div
+  className="cn-modal-controls"
+  data-component="ModalControls"
+/>
+`;

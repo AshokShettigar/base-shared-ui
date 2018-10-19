@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Sidebar should render component 1`] = `
+<Modal
+  ariaHideApp={false}
+  bodyOpenClassName="sidebar-open"
+  className="content hide-right"
+  closeTimeoutMS={300}
+  contentLabel="Title"
+  isOpen={false}
+  onAfterOpen={[Function]}
+  onRequestClose={[Function]}
+  overlayClassName="overlay-right sidebar-position-right"
+  parentSelector={[Function]}
+  portalClassName="root"
+  role="dialog"
+  shouldCloseOnEsc={true}
+  shouldCloseOnOverlayClick={false}
+  shouldFocusAfterRender={true}
+  shouldReturnFocusAfterClose={true}
+>
+  <SidebarHeaderSection
+    onDismiss={[Function]}
+  >
+    Title
+  </SidebarHeaderSection>
+  <SidebarBodySection>
+    Modal Content
+  </SidebarBodySection>
+</Modal>
+`;

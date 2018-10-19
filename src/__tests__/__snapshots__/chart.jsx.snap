@@ -1,0 +1,8 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`chart should render the component 1`] = `
+<canvas
+  className="cn-chart"
+  data-component="ChartWrapper"
+/>
+`;

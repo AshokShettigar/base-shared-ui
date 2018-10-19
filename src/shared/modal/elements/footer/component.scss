@@ -1,0 +1,17 @@
+@import '../../../scss/variables.scss';
+
+.root {
+  display: flex;
+  flex-direction: row;
+  padding: 10px 20px;
+}
+
+.submit {
+  margin-right: 5px;
+}
+
+.previous {
+  margin-right: 5px;
+}
+
+.dismiss {}

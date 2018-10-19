@@ -1,0 +1,112 @@
+@import '../scss/variables.scss';
+
+.root {
+  &:empty {
+    display: none;
+  }
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  min-width: 200px;
+}
+
+.title {
+  text-transform: uppercase;
+  font-size: 10px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  padding: 0 15px;
+  color: $c-raisin-black;
+  font-weight: bold;
+}
+
+.active {
+  background: $c-fresh-air;
+}
+
+.enabledItem {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 4px 15px;
+  cursor: pointer;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  outline: none;
+  font-size: $fs-small;
+  flex: 0 0 auto;
+
+  &:hover,
+  &:focus {
+    div {
+      display: flex;
+    }
+    background: $c-fresh-air;
+  }
+
+  .bullet {
+    margin-right: 5px;
+    fill: $c-dim-grey;
+  }
+
+  .icon {
+    fill: $c-dim-grey;
+    margin-left: auto;
+  }
+
+  .iconGlyph {
+    fill: $c-dim-grey;
+  }
+
+  .truncate {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+
+  .itemName {
+    @extend .truncate;
+  }
+
+  .itemLabel {
+    @extend .truncate;
+
+    display: inline-block;
+    color: $c-raisin-black;
+    flex: 1;
+  }
+
+  .nameContainer {
+    display: flex;
+    flex-flow: row;
+    flex: 2;
+    overflow: hidden;
+  }
+}
+
+.disabledItem {
+  composes: enabledItem;
+  opacity: 0.5;
+
+  cursor: default;
+
+  &:hover,
+  &:focus {
+    background: $c-white;
+  }
+}
+
+.target {
+  display: block;
+}
+
+.delimiter {
+  border-top: 1px solid $c-gainsboro;
+  margin: 12px 15px 5px;
+  pointer-events: none;
+}

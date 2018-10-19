@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="15px" viewBox="0 0 16 15" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>tickets_normal_warning</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="0 0.0758823529 15.9999786 0.0758823529 15.9999786 14.1176471 0 14.1176471"></polygon>
+        <polygon id="path-3" points="0 14.9239412 16 14.9239412 16 0.882176471 0 0.882176471"></polygon>
+    </defs>
+    <g id="Icons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g transform="translate(-1010.000000, -307.000000)" id="Status">
+            <g transform="translate(25.000000, 139.000000)">
+                <g id="Tickets-(normal)" transform="translate(941.000000, 137.000000)">
+                    <g id="Icons" transform="translate(0.000000, 30.000000)">
+                        <g id="tickets_normal_warning" transform="translate(44.000000, 1.000000)">
+                            <g id="Group-3" transform="translate(0.000000, 0.806294)">
+                                <mask id="mask-2" fill="white">
+                                    <use xlink:href="#path-1"></use>
+                                </mask>
+                                <g id="Clip-2"></g>
+                                <path d="M1.21386667,14.1177353 L14.7863111,14.1177353 C15.7196444,14.1177353 16.3027556,13.1136176 15.8352,12.3115588 L9.04853333,0.675970588 C8.58186667,-0.124323529 7.41742222,-0.124323529 6.95164444,0.675970588 L0.164977778,12.3115588 C-0.303466667,13.1136176 0.280533333,14.1177353 1.21386667,14.1177353" id="Fill-1" fill="#FFC217" mask="url(#mask-2)"></path>
+                            </g>
+                            <mask id="mask-4" fill="white">
+                                <use xlink:href="#path-3"></use>
+                            </mask>
+                            <g id="Clip-5"></g>
+                            <polygon id="Fill-4" fill="#231F20" mask="url(#mask-4)" points="7.30933333 9.816 8.78844444 9.816 8.78844444 4.78570588 7.30933333 4.78570588"></polygon>
+                            <path d="M9.17386667,11.9355 C9.17386667,12.4631471 8.74275556,12.8910882 8.2112,12.8910882 C7.67964444,12.8910882 7.24853333,12.4631471 7.24853333,11.9355 C7.24853333,11.4078529 7.67964444,10.9799118 8.2112,10.9799118 C8.74275556,10.9799118 9.17386667,11.4078529 9.17386667,11.9355" id="Fill-6" fill="#231F20" mask="url(#mask-4)"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

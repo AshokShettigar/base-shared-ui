@@ -1,0 +1,118 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Placement component should render component with class names 1`] = `
+<Placement
+  className="className"
+  contentClassName="contentClassName"
+  context={null}
+  hidden={false}
+  isOpen={false}
+  isPortal={false}
+  onDismiss={[Function]}
+  position="bottom-start"
+  target={
+    <span>
+      target
+    </span>
+  }
+  targetClassName="targetClassName"
+/>
+`;
+
+exports[`Placement component should render component with default props 1`] = `
+<Placement
+  context={null}
+  hidden={false}
+  isOpen={false}
+  isPortal={false}
+  onDismiss={[Function]}
+  position="bottom-start"
+  target={
+    <span>
+      target
+    </span>
+  }
+/>
+`;
+
+exports[`Placement component should render component with isPortal prop 1`] = `
+<Placement
+  context={null}
+  hidden={false}
+  isOpen={false}
+  isPortal={true}
+  onDismiss={[Function]}
+  position="bottom-start"
+  target={
+    <span>
+      target
+    </span>
+  }
+/>
+`;
+
+exports[`Placement component should render component with open drop-down content 1`] = `
+<Placement
+  context={null}
+  hidden={false}
+  isOpen={false}
+  isPortal={false}
+  onDismiss={[Function]}
+  position="bottom-start"
+  target={
+    <span>
+      target
+    </span>
+  }
+/>
+`;
+
+exports[`Placement component should render component with position prop 1`] = `
+<Placement
+  context={null}
+  hidden={false}
+  isOpen={false}
+  isPortal={false}
+  onDismiss={[Function]}
+  position="auto"
+  target={
+    <span>
+      target
+    </span>
+  }
+/>
+`;
+
+exports[`Placement component should render component with target prop as ref 1`] = `
+<Placement
+  context={null}
+  hidden={false}
+  isOpen={false}
+  isPortal={false}
+  onDismiss={[Function]}
+  position="bottom-start"
+  target={<div />}
+/>
+`;
+
+exports[`Placement component should render hidden component 1`] = `
+<div
+  hidden={true}
+>
+  <Placement
+    context={null}
+    hidden={true}
+    isOpen={false}
+    isPortal={false}
+    onDismiss={[Function]}
+    position="bottom-start"
+    target={
+      <span>
+        target
+      </span>
+    }
+  />
+</div>
+`;
+
+exports[`Placement component shouldn't render component 1`] = `null`;

@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PlacementContent component should render component with className prop 1`] = `
+<div
+  className="root className"
+  data-component="PlacementContent"
+  style={
+    Object {
+      "marginTop": "8px",
+    }
+  }
+>
+  <div>
+    Children
+  </div>
+</div>
+`;
+
+exports[`PlacementContent component should render component with default props 1`] = `
+<div
+  className="root"
+  data-component="PlacementContent"
+  style={
+    Object {
+      "marginTop": "8px",
+    }
+  }
+>
+  <div>
+    Children
+  </div>
+</div>
+`;
+
+exports[`PlacementContent component should render component with offset prop 1`] = `
+<div
+  className="root"
+  data-component="PlacementContent"
+  style={
+    Object {
+      "marginTop": "10px",
+    }
+  }
+>
+  <div>
+    Children
+  </div>
+</div>
+`;

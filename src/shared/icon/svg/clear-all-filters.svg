@@ -1,0 +1,30 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 16 12">
+    <defs>
+        <style>.cls-1{fill:#fff;}.cls-2{mask:url(#mask);}.cls-3{fill:#626e70;}.cls-4{fill:none;stroke:#626e70;stroke-linecap:round;stroke-miterlimit:10;stroke-width:0.88px;}</style>
+        <mask id="mask" x="1.25" y="2.16" width="14.07" height="0.97" maskUnits="userSpaceOnUse">
+            <g id="mask-2">
+                <polygon id="path-1" class="cls-1" points="1.25 2.15 15.32 2.15 15.32 3.12 1.25 3.12 1.25 2.15"/>
+            </g>
+        </mask>
+    </defs>
+    <title>clear-all-filters</title>
+    <g id="Icons">
+        <g id="Action">
+            <g id="Filter">
+                <g id="Honeycomb">
+                    <g id="honeycomb_enabled" data-name="honeycomb/enabled">
+                        <g id="Group-3">
+                            <g class="cls-2">
+                                <path id="Fill-1" class="cls-3" d="M14.85,3.12H1.72a.48.48,0,0,1-.47-.48.47.47,0,0,1,.47-.48H14.85a.47.47,0,0,1,.47.48.48.48,0,0,1-.47.48"/>
+                            </g>
+                        </g>
+                        <path id="Fill-4" class="cls-3" d="M12.92,6H3.65a.48.48,0,0,1,0-1h9.27a.48.48,0,0,1,0,1"/>
+                        <path id="Fill-6" class="cls-3" d="M11,8.88H5.58a.47.47,0,0,1-.47-.48.48.48,0,0,1,.47-.48H11a.48.48,0,0,1,.47.48.47.47,0,0,1-.47.48"/>
+                        <path id="Fill-8" class="cls-3" d="M9.06,11.77H7.51a.49.49,0,0,1,0-1H9.06a.49.49,0,0,1,0,1"/>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+    <line class="cls-4" x1="12.72" y1="0.53" x2="5.27" y2="11.51"/>
+</svg>

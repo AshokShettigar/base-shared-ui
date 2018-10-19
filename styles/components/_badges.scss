@@ -1,0 +1,124 @@
+/* Badges */
+
+$darkbadgeicon: #000;
+
+.cn-badge {
+  display: inline-block;
+  vertical-align: middle;
+  min-width: 25px;
+  height: 18px;
+  text-align: center;
+  border: 1px solid transparent;
+  border-radius: 2px;
+  margin: 0 2px;
+  padding: 0 2px;
+
+  .cn-icon {
+    width: 21px;
+    height: 16px;
+    fill: $white;
+  }
+  .cn-icon--wide {
+    width: 30px;
+  }
+  &.cn-badge--small {
+    height: 16px;
+    line-height: 16px;
+    
+    .cn-icon {
+      height: 14px;
+    }
+  }
+}
+
+.cn-badge--status {
+  color: $textdefault;
+  background-color: $white;
+
+  .cn-icon {
+    fill: $darkbadgeicon;
+  }
+  &.cn-badge--vip {
+    background-color: $yellow;
+  }
+  &.cn-badge--dark {
+    color: $white;
+    background-color: $black;
+
+    .cn-icon {
+      fill: $white;
+    }
+  }
+}
+.cn-badge--sla-on {
+  color: $white;
+  background-color: $green;
+}
+.cn-badge--sla-closing {
+  color: $white;
+  background-color: $navy;
+  border-color: $green;
+}
+.cn-badge--sla-off {
+  color: $bluelightest;
+  background-color: $navy;
+  border-color: $blue;
+  opacity: .7;
+}
+.cn-badge--sla-none {
+  color: $white;
+  background-color: $blue;
+  opacity: .5;
+
+  .cn-field__opt & {
+    background-color: $gray;
+  }
+}
+.cn-badge--inactive {
+  background-color: $blue;
+  opacity: .5;
+
+  .cn-icon, 
+  .cn-table & .cn-icon {
+    width: 12px;
+  }
+}
+.cn-badge--timer {
+  color: $white;
+  height: auto;
+  width: auto;
+  padding: 0 3px;
+  font-size: $size13;
+  @include webfontNormal;
+  .cn-icon {
+    vertical-align: middle;
+    margin-top: -1px;
+  }
+}
+
+.cn-badge--chat {
+  position: relative;
+  font-size: 10px;
+  @include webfontBold;
+  background: $yellow;
+  height: 14px;
+  line-height: 12px;
+  color: $black;
+  vertical-align: top;
+  min-width: 0;
+  padding: 0 4px;
+  margin: 0 2px;
+
+  &:before {
+    position: absolute;
+    display: block;
+    content: " "; 
+    bottom: -6px;
+    left: 50%;
+    margin-left: -3px;
+    border-right: 6px solid transparent;
+    border-bottom: 6px solid $yellow;
+    z-index: 5;
+    transform: rotate(90deg);
+  }
+}

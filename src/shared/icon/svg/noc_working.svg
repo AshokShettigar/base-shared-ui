@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>noc_working</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Icons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g transform="translate(-747.000000, -236.000000)" id="Status">
+            <g transform="translate(25.000000, 139.000000)">
+                <g id="NOC-working" transform="translate(722.000000, 67.000000)">
+                    <g id="Icons" transform="translate(0.000000, 30.000000)">
+                        <g id="noc_working">
+                            <rect id="Rectangle" stroke="#FFFFFF" fill="#FFFFFF" x="0.5" y="0.5" width="15" height="15" rx="7.5"></rect>
+                            <path d="M7.9999,0.0001 C3.5819,0.0001 -0.0001,3.5821 -0.0001,8.0001 C-0.0001,10.7381 1.3769,13.1521 3.4749,14.5941 L5.6049,9.7461 C4.7429,8.7831 4.4689,7.3751 5.0179,6.1161 C5.6609,4.6421 7.2009,3.8551 8.7159,4.1181 L7.4669,6.9801 L8.9699,7.6351 L10.2189,4.7731 C11.4369,5.6921 11.9119,7.3701 11.2689,8.8441 C10.7209,10.1011 9.5039,10.8561 8.2169,10.8831 L6.0909,15.7611 C6.7039,15.9111 7.3409,16.0001 7.9999,16.0001 C12.4179,16.0001 15.9999,12.4181 15.9999,8.0001 C15.9999,3.5821 12.4179,0.0001 7.9999,0.0001" id="Fill-1" fill="#FF671F"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,89 @@
+/*
+* Slider
+*/
+
+$slider-width: 130px;
+
+.slider {
+  width: $slider-width;
+  min-height: 90px;
+
+  .slider___hint {
+    text-transform: uppercase;
+    position: relative;
+    font-size: 10px;
+  }
+  .slider__hint--low,
+  .slider__hint--high {
+    position: absolute;
+    top: 25px;
+  }
+  .slider__hint--low {
+    left: 0;
+  }
+  .slider__hint--high {
+    right: 0;
+  }
+}
+
+/*
+* Rangeslider
+*/
+.rangeslider {
+  margin: 10px 0 0 0;
+  position: relative;
+  background: #d8d8d8;
+  -ms-touch-action: none;
+  touch-action: none;
+  border: 1px solid #979797;
+}
+.rangeslider,
+.rangeslider .rangeslider__fill {
+  display: block;
+}
+.rangeslider .rangeslider__handle {
+  background: #fff;
+  border: 1px solid #979797;
+  box-sizing: border-box;
+  cursor: pointer;
+  display: inline-block;
+  position: absolute;
+}
+.rangeslider .rangeslider__handle .rangeslider__active {
+  opacity: 1;
+}
+
+/**
+* Rangeslider - Horizontal slider
+*/
+.rangeslider-horizontal {
+  height: 6px;
+}
+.rangeslider-horizontal .rangeslider__fill {
+  height: 100%;
+  background-color: transparent;
+  top: 0;
+}
+.rangeslider-horizontal .rangeslider__handle {
+  width: 17px;
+  height: 17px;
+  border-radius: 50%;
+  transform: translate(-50%, -60%);
+}
+
+/**
+* Rangeslider - Labels
+*/
+.rangeslider__labels {
+  position: relative;
+  margin: 0;
+}
+.rangeslider__labels .rangeslider__label-item {
+  position: absolute;
+  font-size: 10px;
+  font-weight: 600;
+  transform: translateX(-50%);
+  cursor: pointer;
+  display: inline-block;
+  top: 10px;
+}

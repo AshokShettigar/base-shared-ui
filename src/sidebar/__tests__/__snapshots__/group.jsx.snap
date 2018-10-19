@@ -1,0 +1,60 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`sidebar/group should render the sidebar group 1`] = `
+<div
+  className="cn-sidebar-group"
+  data-component="Group"
+>
+  <span
+    className="cn-sidebar-group__title"
+    onClick={[Function]}
+    role="button"
+  >
+    Group1
+  </span>
+  <ul
+    className="cn-sidebar-group__list"
+  >
+    <div>
+      Item 1
+    </div>
+  </ul>
+</div>
+`;
+
+exports[`sidebar/group should render the sidebar group with collapsed state 1`] = `
+<div
+  className="cn-sidebar-group"
+  data-component="Group"
+>
+  <span
+    className="cn-sidebar-group__title"
+    onClick={[Function]}
+    role="button"
+  >
+    Group1
+  </span>
+</div>
+`;
+
+exports[`sidebar/group should render the sidebar group with custom class names 1`] = `
+<div
+  className="cn-sidebar-group my-class"
+  data-component="Group"
+>
+  <span
+    className="cn-sidebar-group__title my-title=class"
+    onClick={[Function]}
+    role="button"
+  >
+    Group1
+  </span>
+  <ul
+    className="cn-sidebar-group__list"
+  >
+    <div>
+      Item 1
+    </div>
+  </ul>
+</div>
+`;

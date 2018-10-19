@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Inline Notification Title default renders 1`] = `
+<div
+  className="inline-notification__title"
+  data-component="InlineNotificationTitle"
+>
+  Inline Notification Title
+</div>
+`;
+
+exports[`Inline Notification Title renders with prop className 1`] = `
+<div
+  className="inline-notification__title class-name"
+  data-component="InlineNotificationTitle"
+>
+  Inline Notification Title
+</div>
+`;

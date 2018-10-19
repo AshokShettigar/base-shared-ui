@@ -1,0 +1,143 @@
+/* Application messages */
+
+.cn-message {
+  color: $textdefault; // make variations using the color property; border and icon fill will inherit from this
+  background-color: $white;
+  padding: 12px 15px 10px;
+  position: relative;
+  margin: 0 0 20px;
+}
+.cn-message--icon {
+    padding-left: 45px;
+
+  .cn-message__icon {
+    width: 20px;
+    height: 20px;
+    fill: currentColor;
+    position: absolute;
+    top: 12px;
+    left: 12px;
+  }
+  .cn-message__icon * {
+    fill: currentColor;
+  }
+}
+.cn-message--dismissable {
+  padding-right: 45px;
+
+  .cn-message__dismiss {
+    color: currentColor;
+    width: 18px;
+    height: 18px;
+    position: absolute;
+    top: 12px;
+    right: 12px;
+  }
+  .cn-message__dismiss .cn-icon {
+    width: 18px;
+    height: 18px;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+}
+.cn-message--buttons {
+  padding-right: 200px;
+}
+.cn-message--accented {
+  border-top: 3px solid currentColor;
+}
+.cn-message--special {
+  color: $orange;
+}
+.cn-message--special.cn-message--reverse {
+  background: $orange;
+  color: #fff;
+}
+.cn-message--question {
+  color: $blue;
+}
+.cn-message--question.cn-message--reverse {
+  background: $blue;
+  color: #fff;
+}
+.cn-message--success {
+  color: $green;
+}
+.cn-message--success.cn-message--reverse {
+  background: $green;
+  color: #fff;
+}
+.cn-message--error {
+  color: $red;
+}
+.cn-message--error.cn-message--reverse {
+  background: $red;
+  color: #fff;
+}
+.cn-message__title,
+.cn-message__text {
+  color: $textdefault;
+  margin: 0;
+  display: inline-block;
+}
+.cn-message__title--reverse,
+.cn-message__text--reverse {
+  color: currentColor;
+}
+.cn-message__buttons {
+  position: absolute;
+  right: 12px;
+  top: 10px;
+  text-align: right;
+  width: 185px;
+}
+.cn-message--dismissable .cn-message__buttons {
+  right: 45px;
+  width: 155px;
+}
+.cn-message--buttons .btn {
+  display: inline-block;
+}
+.cn-message--reverse .cn-btn--primary {
+  border: 1px solid currentColor;
+  background: none;
+}
+.cn-message--reverse .cn-icon {
+  fill: $white;
+}
+.cn-message--collapsible {
+  color: $blue;
+}
+.cn-message__title {
+  font-size: $size14;
+  text-transform: none;
+}
+.cn-message__title--collapsible {
+  cursor: pointer;
+  display: block;
+  outline: none;
+  color: currentColor;
+}
+.cn-message__title--special {
+  text-transform: uppercase;
+  font-size: $size15;
+  display: block;
+}
+.cn-message__text {
+  font-size: $size14;
+  margin: 0;
+}
+.cn-message__text--collapsed {
+  display: none;
+}
+.cn-message__text--expanded {
+  display: block;
+  margin: .5em 0;
+  color: $textdefault;
+}
+.cn-message__text--special {
+  font-size: $size13;
+  margin: .5em 0;
+  display: block;
+}

@@ -1,0 +1,14 @@
+@import '../../../scss/variables';
+
+.timepicker {
+  display: inline-flex;
+  margin: 0 8px;
+
+  &:first-child {
+    margin-left: 0;
+  }
+}
+
+.description {
+  color: $c-dim-grey;
+}

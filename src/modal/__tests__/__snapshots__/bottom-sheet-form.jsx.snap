@@ -1,0 +1,210 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`modal/bottom-sheet-form should render the HOC component 1`] = `
+<Provider
+  store={
+    Object {
+      "clearActions": [Function],
+      "dispatch": [Function],
+      "getActions": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+    }
+  }
+>
+  <BottomSheetModal
+    formControls={
+      Array [
+        Object {
+          "label": "Save",
+          "onClick": [Function],
+          "variation": 1,
+        },
+        Object {
+          "label": "Cancel",
+          "onClick": [Function],
+          "variation": 2,
+        },
+      ]
+    }
+    id="defaultBottomSheet"
+    layoverClassName="cn-modal-layover"
+    onClosePopup={[Function]}
+    popupClassName="cn-modal cn-bottom-sheet"
+  >
+    <HigherOrderPopupComponent
+      formControls={
+        Array [
+          Object {
+            "label": "Save",
+            "onClick": [Function],
+            "variation": 1,
+          },
+          Object {
+            "label": "Cancel",
+            "onClick": [Function],
+            "variation": 2,
+          },
+        ]
+      }
+      id="defaultBottomSheet"
+      layoverClassName="cn-modal-layover"
+      onClosePopup={[Function]}
+      popupClassName="cn-modal cn-bottom-sheet"
+      updatePopupProps={[Function]}
+    />
+  </BottomSheetModal>
+</Provider>
+`;
+
+exports[`modal/bottom-sheet-form should render the component 1`] = `
+<div
+  className="cn-bottom-sheet-form"
+>
+  <div
+    className="cn-bottom-sheet-form__body"
+  >
+    <div
+      className="cn-modal__content"
+    >
+      <ContentComponent
+        formControls={
+          Array [
+            Object {
+              "label": "Save",
+              "onClick": [Function],
+              "variation": 1,
+            },
+            Object {
+              "label": "Cancel",
+              "onClick": [Function],
+              "variation": 2,
+            },
+          ]
+        }
+        sidebar="Sidebar Content"
+      />
+    </div>
+    <ModalSidebar>
+      Sidebar Content
+    </ModalSidebar>
+  </div>
+  <ModalControls
+    controls={
+      Array [
+        Object {
+          "label": "Save",
+          "onClick": [Function],
+          "variation": 1,
+        },
+        Object {
+          "label": "Cancel",
+          "onClick": [Function],
+          "variation": 2,
+        },
+      ]
+    }
+  />
+</div>
+`;
+
+exports[`modal/bottom-sheet-form should render the component with sub control 1`] = `
+<div
+  className="cn-bottom-sheet-form"
+>
+  <div
+    className="cn-bottom-sheet-form__body"
+  >
+    <div
+      className="cn-modal__content"
+    >
+      <ContentComponent
+        formControls={
+          Array [
+            Object {
+              "label": "Save",
+              "onClick": [Function],
+              "variation": 1,
+            },
+            Object {
+              "label": "Cancel",
+              "onClick": [Function],
+              "variation": 2,
+            },
+          ]
+        }
+        subControl="Some control"
+      />
+    </div>
+  </div>
+  <div
+    className="cn-modal-sub-controls"
+  >
+    Some control
+  </div>
+  <ModalControls
+    controls={
+      Array [
+        Object {
+          "label": "Save",
+          "onClick": [Function],
+          "variation": 1,
+        },
+        Object {
+          "label": "Cancel",
+          "onClick": [Function],
+          "variation": 2,
+        },
+      ]
+    }
+  />
+</div>
+`;
+
+exports[`modal/bottom-sheet-form should render the component without sidebar 1`] = `
+<div
+  className="cn-bottom-sheet-form"
+>
+  <div
+    className="cn-bottom-sheet-form__body"
+  >
+    <div
+      className="cn-modal__content"
+    >
+      <ContentComponent
+        formControls={
+          Array [
+            Object {
+              "label": "Save",
+              "onClick": [Function],
+              "variation": 1,
+            },
+            Object {
+              "label": "Cancel",
+              "onClick": [Function],
+              "variation": 2,
+            },
+          ]
+        }
+      />
+    </div>
+  </div>
+  <ModalControls
+    controls={
+      Array [
+        Object {
+          "label": "Save",
+          "onClick": [Function],
+          "variation": 1,
+        },
+        Object {
+          "label": "Cancel",
+          "onClick": [Function],
+          "variation": 2,
+        },
+      ]
+    }
+  />
+</div>
+`;

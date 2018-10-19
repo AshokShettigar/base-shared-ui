@@ -1,0 +1,78 @@
+@import "../scss/variables";
+
+@import "./title/component";
+@import "./message/component";
+
+$info-color: $c-french-blue;
+$warning-color: $c-mikado-yellow;
+$error-color: $c-upsdell-red;
+$success-color: $c-north-texas-green;
+
+$close-icon-color: $c-dim-grey;
+$icon-offset: 10px;
+
+.inline-notification {
+  font-family: $ff-open-sans;
+  min-height: 51px;
+  display: flex;
+  background: $c-white-smoke;
+  font-size: $fs-small;
+  color: $c-primary;
+  font-weight: normal;
+  border-left-width: 4px;
+  border-left-style: solid;
+  word-break: break-word;
+
+  &__content {
+    margin: 10px;
+  }
+
+  &__button-close {
+    margin-left: auto;
+    margin-right: $icon-offset;
+  }
+
+  &--info {
+    border-left-color: $info-color;
+  }
+
+  &--warning {
+    border-left-color: $warning-color;
+  }
+
+  &--error {
+    border-left-color: $error-color;
+  }
+
+  &--success {
+    border-left-color: $success-color;
+  }
+
+  &__icon {
+    margin-top: $icon-offset;
+
+    &--info {
+      fill: $info-color;
+      margin-left: $icon-offset;
+    }
+
+    &--warning {
+      fill: $warning-color;
+      margin-left: $icon-offset;
+    }
+
+    &--error {
+      fill: $error-color;
+      margin-left: $icon-offset;
+    }
+
+    &--success {
+      fill: $success-color;
+      margin-left: $icon-offset;
+    }
+
+    &--close {
+      fill: $close-icon-color;
+    }
+  }
+}

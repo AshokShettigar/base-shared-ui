@@ -1,0 +1,112 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Progress Tracker component should render component 1`] = `
+<div
+  className="root className"
+  data-component="ProgressTracker"
+>
+  <ul
+    className="steps stepsClassName"
+  >
+    <li
+      className="step stepClassName current"
+    >
+      <i
+        className="stepIcon stepIconClassName"
+      >
+        1
+      </i>
+      <span
+        className="stepTitle stepTitleClassName"
+      >
+        Select targets
+      </span>
+    </li>
+    <li
+      className="step stepClassName"
+    >
+      <i
+        className="stepIcon stepIconClassName"
+      >
+        2
+      </i>
+      <span
+        className="stepTitle stepTitleClassName"
+      >
+        Configure setup
+      </span>
+    </li>
+    <li
+      className="step stepClassName"
+    >
+      <i
+        className="stepIcon stepIconClassName"
+      >
+        3
+      </i>
+      <span
+        className="stepTitle stepTitleClassName"
+      >
+        Schedule
+      </span>
+    </li>
+  </ul>
+</div>
+`;
+
+exports[`Progress Tracker component should render component with custom active step 1`] = `
+<div
+  className="root className"
+  data-component="ProgressTracker"
+>
+  <ul
+    className="steps stepsClassName"
+  >
+    <li
+      className="step stepClassName previous"
+    >
+      <i
+        className="stepIcon stepIconClassName"
+      >
+        <Icon
+          icon="checkmark"
+          size="extra-small"
+        />
+      </i>
+      <span
+        className="stepTitle stepTitleClassName"
+      >
+        Select targets
+      </span>
+    </li>
+    <li
+      className="step stepClassName current"
+    >
+      <i
+        className="stepIcon stepIconClassName"
+      >
+        2
+      </i>
+      <span
+        className="stepTitle stepTitleClassName"
+      >
+        Configure setup
+      </span>
+    </li>
+    <li
+      className="step stepClassName"
+    >
+      <i
+        className="stepIcon stepIconClassName"
+      >
+        3
+      </i>
+      <span
+        className="stepTitle stepTitleClassName"
+      >
+        Schedule
+      </span>
+    </li>
+  </ul>
+</div>
+`;

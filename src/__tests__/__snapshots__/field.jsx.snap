@@ -1,0 +1,74 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`field should render the field 1`] = `
+<div
+  className="cn-field"
+  data-component="Field"
+>
+  Input
+</div>
+`;
+
+exports[`field should render the field with custom classname 1`] = `
+<div
+  className="cn-field my-class"
+  data-component="Field"
+>
+  Input
+</div>
+`;
+
+exports[`field should render the field with disabled 1`] = `
+<div
+  className="cn-field cn-field--disabled"
+  data-component="Field"
+>
+  Input
+</div>
+`;
+
+exports[`field should render the field with hasError 1`] = `
+<div
+  className="cn-field cn-field--invalid"
+  data-component="Field"
+>
+  Input
+</div>
+`;
+
+exports[`field should render the field with label 1`] = `
+<div
+  className="cn-field"
+  data-component="Field"
+>
+  <span
+    className="cn-field__label"
+  >
+    field label
+  </span>
+  Input
+</div>
+`;
+
+exports[`field should render the field with label and hideLabel option 1`] = `
+<div
+  className="cn-field"
+  data-component="Field"
+>
+  <span
+    className="a11y cn-field__label"
+  >
+    field label
+  </span>
+  Input
+</div>
+`;
+
+exports[`field should render the field with required 1`] = `
+<div
+  className="cn-field cn-field--required"
+  data-component="Field"
+>
+  Input
+</div>
+`;

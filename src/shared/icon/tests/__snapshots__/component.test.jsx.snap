@@ -1,0 +1,110 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Icon component should render component with active prop 1`] = `
+<Icon
+  active={true}
+  controlled={true}
+  disabled={false}
+  glyph="calendar"
+  hidden={false}
+  size="medium"
+/>
+`;
+
+exports[`Icon component should render component with class names props 1`] = `
+<Icon
+  active={false}
+  className="className"
+  controlled={true}
+  disabled={false}
+  glyph="calendar"
+  glyphClassName="glyphClassName"
+  hidden={false}
+  size="medium"
+/>
+`;
+
+exports[`Icon component should render component with class size prop 1`] = `
+<Icon
+  active={false}
+  controlled={true}
+  disabled={false}
+  glyph="calendar"
+  hidden={false}
+  size="tiny"
+/>
+`;
+
+exports[`Icon component should render component with controlled prop 1`] = `
+<Icon
+  active={false}
+  controlled={true}
+  disabled={false}
+  glyph="calendar"
+  hidden={false}
+  size="medium"
+/>
+`;
+
+exports[`Icon component should render component with default props 1`] = `
+<Icon
+  active={false}
+  controlled={true}
+  disabled={false}
+  glyph="calendar"
+  hidden={false}
+  size="medium"
+/>
+`;
+
+exports[`Icon component should render component with disabled prop 1`] = `
+<Icon
+  active={false}
+  controlled={true}
+  disabled={true}
+  glyph="calendar"
+  hidden={false}
+  size="medium"
+/>
+`;
+
+exports[`Icon component should render component with onClick prop 1`] = `
+<Icon
+  active={false}
+  controlled={true}
+  disabled={false}
+  glyph="calendar"
+  hidden={false}
+  onClick={[Function]}
+  size="medium"
+/>
+`;
+
+exports[`Icon component should render component with required prop 1`] = `
+<Icon
+  active={false}
+  controlled={true}
+  disabled={false}
+  glyph="calendar"
+  hidden={false}
+  required={true}
+  size="medium"
+/>
+`;
+
+exports[`Icon component should render hidden component 1`] = `
+<div
+  hidden={true}
+>
+  <Icon
+    active={false}
+    controlled={true}
+    disabled={false}
+    glyph="calendar"
+    hidden={true}
+    size="medium"
+  />
+</div>
+`;
+
+exports[`Icon component shouldn't render component 1`] = `null`;

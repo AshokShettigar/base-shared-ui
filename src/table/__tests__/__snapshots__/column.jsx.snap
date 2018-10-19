@@ -1,0 +1,91 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`table/column should render the component 1`] = `
+<th
+  className="cn-table__column"
+  data-component="Column"
+  onClick={[Function]}
+  style={
+    Object {
+      "maxWidth": 100,
+      "minWidth": 100,
+    }
+  }
+>
+  Header 1
+</th>
+`;
+
+exports[`table/column should render the component with ascending sort direction 1`] = `
+<th
+  className="cn-table__column"
+  data-component="Column"
+  onClick={[Function]}
+  style={
+    Object {
+      "maxWidth": 100,
+      "minWidth": 100,
+    }
+  }
+>
+  Header 1
+  <Icon
+    className="cn-table__column__sort-icon"
+    icon="arrow-up"
+    size="extra-small"
+  />
+</th>
+`;
+
+exports[`table/column should render the component with class name 1`] = `
+<th
+  className="cn-table__column my-class"
+  data-component="Column"
+  onClick={[Function]}
+  style={
+    Object {
+      "maxWidth": 100,
+      "minWidth": 100,
+    }
+  }
+>
+  Header 1
+</th>
+`;
+
+exports[`table/column should render the component with descending sort direction 1`] = `
+<th
+  className="cn-table__column"
+  data-component="Column"
+  onClick={[Function]}
+  style={
+    Object {
+      "maxWidth": 100,
+      "minWidth": 100,
+    }
+  }
+>
+  Header 1
+  <Icon
+    className="cn-table__column__sort-icon"
+    icon="arrow-down"
+    size="extra-small"
+  />
+</th>
+`;
+
+exports[`table/column should render the component with isSortable 1`] = `
+<th
+  className="cn-table__column cn-table__column--is-sortable"
+  data-component="Column"
+  onClick={[Function]}
+  style={
+    Object {
+      "maxWidth": 100,
+      "minWidth": 100,
+    }
+  }
+>
+  Header 1
+</th>
+`;

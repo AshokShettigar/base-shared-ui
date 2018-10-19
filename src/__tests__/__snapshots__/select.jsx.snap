@@ -1,0 +1,335 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`select should render the select 1`] = `
+<label
+  className="cn-field my-class"
+  data-component="Select"
+  htmlFor="Select meA"
+>
+  <span
+    className="cn-field__label"
+  >
+    Select me
+  </span>
+  <div
+    className="cn-field__select"
+  >
+    <select
+      defaultValue={undefined}
+      disabled={false}
+      id="Select meA"
+      onChange={[Function]}
+      value="A"
+    >
+      <option
+        disabled={false}
+        value="a"
+      >
+        A
+      </option>
+      <option
+        disabled={false}
+        value="b"
+      >
+        B
+      </option>
+      <option
+        disabled={false}
+        value="c"
+      >
+        C
+      </option>
+      <option
+        disabled={false}
+        value="d"
+      >
+        D
+      </option>
+      <option
+        disabled={false}
+        value="e"
+      >
+        E
+      </option>
+    </select>
+  </div>
+</label>
+`;
+
+exports[`select should render the select with disabled option 1`] = `
+<label
+  className="cn-field cn-field--disabled"
+  data-component="Select"
+  htmlFor="Select meA"
+>
+  <span
+    className="cn-field__label"
+  >
+    Select me
+  </span>
+  <div
+    className="cn-field__select"
+  >
+    <select
+      defaultValue={undefined}
+      disabled={true}
+      id="Select meA"
+      onChange={[Function]}
+      value="A"
+    >
+      <option
+        disabled={false}
+        value="a"
+      >
+        A
+      </option>
+      <option
+        disabled={false}
+        value="b"
+      >
+        B
+      </option>
+      <option
+        disabled={false}
+        value="c"
+      >
+        C
+      </option>
+      <option
+        disabled={false}
+        value="d"
+      >
+        D
+      </option>
+      <option
+        disabled={false}
+        value="e"
+      >
+        E
+      </option>
+    </select>
+  </div>
+</label>
+`;
+
+exports[`select should render the select with empty option 1`] = `
+<label
+  className="cn-field"
+  data-component="Select"
+  htmlFor="Select meA"
+>
+  <span
+    className="cn-field__label"
+  >
+    Select me
+  </span>
+  <div
+    className="cn-field__select"
+  >
+    <select
+      defaultValue={undefined}
+      disabled={false}
+      id="Select meA"
+      onChange={[Function]}
+      value="A"
+    >
+      <option
+        data-component="renderEmptyOption"
+        disabled={false}
+      />
+      <option
+        disabled={false}
+        value="a"
+      >
+        A
+      </option>
+      <option
+        disabled={false}
+        value="b"
+      >
+        B
+      </option>
+      <option
+        disabled={false}
+        value="c"
+      >
+        C
+      </option>
+      <option
+        disabled={false}
+        value="d"
+      >
+        D
+      </option>
+      <option
+        disabled={false}
+        value="e"
+      >
+        E
+      </option>
+    </select>
+  </div>
+</label>
+`;
+
+exports[`select should render the select with empty option and label 1`] = `
+<label
+  className="cn-field"
+  data-component="Select"
+  htmlFor="Select meA"
+>
+  <span
+    className="cn-field__label"
+  >
+    Select me
+  </span>
+  <div
+    className="cn-field__select"
+  >
+    <select
+      defaultValue={undefined}
+      disabled={false}
+      id="Select meA"
+      onChange={[Function]}
+      value="A"
+    >
+      <option
+        data-component="renderEmptyOption"
+        disabled={false}
+      >
+        Choose...
+      </option>
+      <option
+        disabled={false}
+        value="a"
+      >
+        A
+      </option>
+      <option
+        disabled={false}
+        value="b"
+      >
+        B
+      </option>
+      <option
+        disabled={false}
+        value="c"
+      >
+        C
+      </option>
+      <option
+        disabled={false}
+        value="d"
+      >
+        D
+      </option>
+      <option
+        disabled={false}
+        value="e"
+      >
+        E
+      </option>
+    </select>
+  </div>
+</label>
+`;
+
+exports[`select should render the select with empty option and label with required 1`] = `
+<label
+  className="cn-field cn-field--required"
+  data-component="Select"
+  htmlFor="Select meA"
+>
+  <span
+    className="cn-field__label"
+  >
+    Select me
+  </span>
+  <div
+    className="cn-field__select"
+  >
+    <select
+      defaultValue={undefined}
+      disabled={false}
+      id="Select meA"
+      onChange={[Function]}
+      value="A"
+    >
+      <option
+        data-component="renderEmptyOption"
+        disabled={true}
+      >
+        Choose...
+      </option>
+      <option
+        disabled={false}
+        value="a"
+      >
+        A
+      </option>
+      <option
+        disabled={false}
+        value="b"
+      >
+        B
+      </option>
+      <option
+        disabled={false}
+        value="c"
+      >
+        C
+      </option>
+      <option
+        disabled={false}
+        value="d"
+      >
+        D
+      </option>
+      <option
+        disabled={false}
+        value="e"
+      >
+        E
+      </option>
+    </select>
+  </div>
+</label>
+`;
+
+exports[`select should render the select with the first property disabled 1`] = `
+<label
+  className="cn-field"
+  data-component="Select"
+  htmlFor="Select meA"
+>
+  <span
+    className="cn-field__label"
+  >
+    Select me
+  </span>
+  <div
+    className="cn-field__select"
+  >
+    <select
+      defaultValue={undefined}
+      disabled={false}
+      id="Select meA"
+      onChange={[Function]}
+      value="A"
+    >
+      <option
+        disabled={true}
+        value="a"
+      >
+        A
+      </option>
+      <option
+        disabled={false}
+        value="b"
+      >
+        B
+      </option>
+    </select>
+  </div>
+</label>
+`;

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+    <title>edit</title>
+    <path d="M1,19.6l-.4-.2a.6.6,0,0,1-.2-.6l1.3-5,.2-.3L14.1,1.2A2.2,2.2,0,0,1,17.2.9l1.9,1.9a1.8,1.8,0,0,1,.5,1.6,2.8,2.8,0,0,1-.8,1.4L6.5,18.2l-.3.2-5,1.3Zm1.8-5.3-1,3.9,3.9-1L17.9,5a1.6,1.6,0,0,0,.5-.8.6.6,0,0,0-.1-.6L16.3,1.8c-.4-.4-1,0-1.4.3Z"/>
+    <rect x="14.6" y="2.1" width="1.2" height="5.35" transform="translate(1.1 12.2) rotate(-45)"/>
+    <rect x="3.6" y="13.2" width="1.2" height="5.35" transform="translate(-10 7.6) rotate(-45)"/>
+</svg>

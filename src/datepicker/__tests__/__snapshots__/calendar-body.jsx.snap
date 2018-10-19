@@ -1,0 +1,1218 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`datepicker/calendar-body should render the component 1`] = `
+<div
+  className="cn-calendar-body"
+  data-component="CalendarBody"
+  style={
+    Object {
+      "height": 120,
+    }
+  }
+>
+  <CSSTransitionGroup
+    transitionAppear={false}
+    transitionEnter={true}
+    transitionEnterTimeout={150}
+    transitionLeave={true}
+    transitionLeaveTimeout={150}
+    transitionName="month-next"
+  >
+    <div
+      className="cn-calendar-body__month"
+    >
+      <div
+        className="cn-calendar__column cn-calendar__day cn-calendar__day--is-disabled"
+        data-component="renderDay"
+        onClick={null}
+      >
+        29
+      </div>
+      <div
+        className="cn-calendar__column cn-calendar__day cn-calendar__day--is-disabled"
+        data-component="renderDay"
+        onClick={null}
+      >
+        30
+      </div>
+      <div
+        className="cn-calendar__column cn-calendar__day cn-calendar__day--is-disabled"
+        data-component="renderDay"
+        onClick={null}
+      >
+        31
+      </div>
+      <div
+        className="cn-calendar__column cn-calendar__day cn-calendar__day--is-highlighted"
+        data-component="renderDay"
+        onClick={true}
+      >
+        1
+      </div>
+      <div
+        className="cn-calendar__column cn-calendar__day"
+        data-component="renderDay"
+        onClick={true}
+      >
+        2
+      </div>
+      <div
+        className="cn-calendar__column cn-calendar__day"
+        data-component="renderDay"
+        onClick={true}
+      >
+        3
+      </div>
+      <div
+        className="cn-calendar__column cn-calendar__day"
+        data-component="renderDay"
+        onClick={true}
+      >
+        4
+      </div>
+      <div
+        className="cn-calendar__column cn-calendar__day"
+        data-component="renderDay"
+        onClick={true}
+      >
+        5
+      </div>
+      <div
+        className="cn-calendar__column cn-calendar__day"
+        data-component="renderDay"
+        onClick={true}
+      >
+        6
+      </div>
+      <div
+        className="cn-calendar__column cn-calendar__day"
+        data-component="renderDay"
+        onClick={true}
+      >
+        7
+      </div>
+      <div
+        className="cn-calendar__column cn-calendar__day"
+        data-component="renderDay"
+        onClick={true}
+      >
+        8
+      </div>
+      <div
+        className="cn-calendar__column cn-calendar__day"
+        data-component="renderDay"
+        onClick={true}
+      >
+        9
+      </div>
+      <div
+        className="cn-calendar__column cn-calendar__day"
+        data-component="renderDay"
+        onClick={true}
+      >
+        10
+      </div>
+      <div
+        className="cn-calendar__column cn-calendar__day"
+        data-component="renderDay"
+        onClick={true}
+      >
+        11
+      </div>
+      <div
+        className="cn-calendar__column cn-calendar__day"
+        data-component="renderDay"
+        onClick={true}
+      >
+        12
+      </div>
+      <div
+        className="cn-calendar__column cn-calendar__day"
+        data-component="renderDay"
+        onClick={true}
+      >
+        13
+      </div>
+      <div
+        className="cn-calendar__column cn-calendar__day"
+        data-component="renderDay"
+        onClick={true}
+      >
+        14
+      </div>
+      <div
+        className="cn-calendar__column cn-calendar__day"
+        data-component="renderDay"
+        onClick={true}
+      >
+        15
+      </div>
+      <div
+        className="cn-calendar__column cn-calendar__day"
+        data-component="renderDay"
+        onClick={true}
+      >
+        16
+      </div>
+      <div
+        className="cn-calendar__column cn-calendar__day"
+        data-component="renderDay"
+        onClick={true}
+      >
+        17
+      </div>
+      <div
+        className="cn-calendar__column cn-calendar__day"
+        data-component="renderDay"
+        onClick={true}
+      >
+        18
+      </div>
+      <div
+        className="cn-calendar__column cn-calendar__day"
+        data-component="renderDay"
+        onClick={true}
+      >
+        19
+      </div>
+      <div
+        className="cn-calendar__column cn-calendar__day"
+        data-component="renderDay"
+        onClick={true}
+      >
+        20
+      </div>
+      <div
+        className="cn-calendar__column cn-calendar__day"
+        data-component="renderDay"
+        onClick={true}
+      >
+        21
+      </div>
+      <div
+        className="cn-calendar__column cn-calendar__day"
+        data-component="renderDay"
+        onClick={true}
+      >
+        22
+      </div>
+      <div
+        className="cn-calendar__column cn-calendar__day"
+        data-component="renderDay"
+        onClick={true}
+      >
+        23
+      </div>
+      <div
+        className="cn-calendar__column cn-calendar__day"
+        data-component="renderDay"
+        onClick={true}
+      >
+        24
+      </div>
+      <div
+        className="cn-calendar__column cn-calendar__day"
+        data-component="renderDay"
+        onClick={true}
+      >
+        25
+      </div>
+      <div
+        className="cn-calendar__column cn-calendar__day"
+        data-component="renderDay"
+        onClick={true}
+      >
+        26
+      </div>
+      <div
+        className="cn-calendar__column cn-calendar__day"
+        data-component="renderDay"
+        onClick={true}
+      >
+        27
+      </div>
+      <div
+        className="cn-calendar__column cn-calendar__day"
+        data-component="renderDay"
+        onClick={true}
+      >
+        28
+      </div>
+      <div
+        className="cn-calendar__column cn-calendar__day cn-calendar__day--is-disabled"
+        data-component="renderDay"
+        onClick={null}
+      >
+        1
+      </div>
+      <div
+        className="cn-calendar__column cn-calendar__day cn-calendar__day--is-disabled"
+        data-component="renderDay"
+        onClick={null}
+      >
+        2
+      </div>
+      <div
+        className="cn-calendar__column cn-calendar__day cn-calendar__day--is-disabled"
+        data-component="renderDay"
+        onClick={null}
+      >
+        3
+      </div>
+      <div
+        className="cn-calendar__column cn-calendar__day cn-calendar__day--is-disabled"
+        data-component="renderDay"
+        onClick={null}
+      >
+        4
+      </div>
+    </div>
+  </CSSTransitionGroup>
+</div>
+`;
+
+exports[`datepicker/calendar-body should render the current month 1`] = `
+<div>
+  <div
+    className="cn-calendar__column cn-calendar__day cn-calendar__day--is-highlighted"
+    data-component="renderDay"
+    onClick={true}
+  >
+    1
+  </div>
+  <div
+    className="cn-calendar__column cn-calendar__day"
+    data-component="renderDay"
+    onClick={true}
+  >
+    2
+  </div>
+  <div
+    className="cn-calendar__column cn-calendar__day"
+    data-component="renderDay"
+    onClick={true}
+  >
+    3
+  </div>
+  <div
+    className="cn-calendar__column cn-calendar__day"
+    data-component="renderDay"
+    onClick={true}
+  >
+    4
+  </div>
+  <div
+    className="cn-calendar__column cn-calendar__day"
+    data-component="renderDay"
+    onClick={true}
+  >
+    5
+  </div>
+  <div
+    className="cn-calendar__column cn-calendar__day"
+    data-component="renderDay"
+    onClick={true}
+  >
+    6
+  </div>
+  <div
+    className="cn-calendar__column cn-calendar__day"
+    data-component="renderDay"
+    onClick={true}
+  >
+    7
+  </div>
+  <div
+    className="cn-calendar__column cn-calendar__day"
+    data-component="renderDay"
+    onClick={true}
+  >
+    8
+  </div>
+  <div
+    className="cn-calendar__column cn-calendar__day"
+    data-component="renderDay"
+    onClick={true}
+  >
+    9
+  </div>
+  <div
+    className="cn-calendar__column cn-calendar__day"
+    data-component="renderDay"
+    onClick={true}
+  >
+    10
+  </div>
+  <div
+    className="cn-calendar__column cn-calendar__day"
+    data-component="renderDay"
+    onClick={true}
+  >
+    11
+  </div>
+  <div
+    className="cn-calendar__column cn-calendar__day"
+    data-component="renderDay"
+    onClick={true}
+  >
+    12
+  </div>
+  <div
+    className="cn-calendar__column cn-calendar__day"
+    data-component="renderDay"
+    onClick={true}
+  >
+    13
+  </div>
+  <div
+    className="cn-calendar__column cn-calendar__day"
+    data-component="renderDay"
+    onClick={true}
+  >
+    14
+  </div>
+  <div
+    className="cn-calendar__column cn-calendar__day"
+    data-component="renderDay"
+    onClick={true}
+  >
+    15
+  </div>
+  <div
+    className="cn-calendar__column cn-calendar__day"
+    data-component="renderDay"
+    onClick={true}
+  >
+    16
+  </div>
+  <div
+    className="cn-calendar__column cn-calendar__day"
+    data-component="renderDay"
+    onClick={true}
+  >
+    17
+  </div>
+  <div
+    className="cn-calendar__column cn-calendar__day"
+    data-component="renderDay"
+    onClick={true}
+  >
+    18
+  </div>
+  <div
+    className="cn-calendar__column cn-calendar__day"
+    data-component="renderDay"
+    onClick={true}
+  >
+    19
+  </div>
+  <div
+    className="cn-calendar__column cn-calendar__day"
+    data-component="renderDay"
+    onClick={true}
+  >
+    20
+  </div>
+  <div
+    className="cn-calendar__column cn-calendar__day"
+    data-component="renderDay"
+    onClick={true}
+  >
+    21
+  </div>
+  <div
+    className="cn-calendar__column cn-calendar__day"
+    data-component="renderDay"
+    onClick={true}
+  >
+    22
+  </div>
+  <div
+    className="cn-calendar__column cn-calendar__day"
+    data-component="renderDay"
+    onClick={true}
+  >
+    23
+  </div>
+  <div
+    className="cn-calendar__column cn-calendar__day"
+    data-component="renderDay"
+    onClick={true}
+  >
+    24
+  </div>
+  <div
+    className="cn-calendar__column cn-calendar__day"
+    data-component="renderDay"
+    onClick={true}
+  >
+    25
+  </div>
+  <div
+    className="cn-calendar__column cn-calendar__day"
+    data-component="renderDay"
+    onClick={true}
+  >
+    26
+  </div>
+  <div
+    className="cn-calendar__column cn-calendar__day"
+    data-component="renderDay"
+    onClick={true}
+  >
+    27
+  </div>
+  <div
+    className="cn-calendar__column cn-calendar__day"
+    data-component="renderDay"
+    onClick={true}
+  >
+    28
+  </div>
+  <div
+    className="cn-calendar__column cn-calendar__day"
+    data-component="renderDay"
+    onClick={true}
+  >
+    29
+  </div>
+  <div
+    className="cn-calendar__column cn-calendar__day"
+    data-component="renderDay"
+    onClick={true}
+  >
+    30
+  </div>
+  <div
+    className="cn-calendar__column cn-calendar__day"
+    data-component="renderDay"
+    onClick={true}
+  >
+    31
+  </div>
+</div>
+`;
+
+exports[`datepicker/calendar-body should render the current month 2`] = `
+<div>
+  <div
+    className="cn-calendar__column cn-calendar__day cn-calendar__day--is-highlighted"
+    data-component="renderDay"
+    onClick={true}
+  >
+    1
+  </div>
+  <div
+    className="cn-calendar__column cn-calendar__day"
+    data-component="renderDay"
+    onClick={true}
+  >
+    2
+  </div>
+  <div
+    className="cn-calendar__column cn-calendar__day"
+    data-component="renderDay"
+    onClick={true}
+  >
+    3
+  </div>
+  <div
+    className="cn-calendar__column cn-calendar__day"
+    data-component="renderDay"
+    onClick={true}
+  >
+    4
+  </div>
+  <div
+    className="cn-calendar__column cn-calendar__day"
+    data-component="renderDay"
+    onClick={true}
+  >
+    5
+  </div>
+  <div
+    className="cn-calendar__column cn-calendar__day"
+    data-component="renderDay"
+    onClick={true}
+  >
+    6
+  </div>
+  <div
+    className="cn-calendar__column cn-calendar__day"
+    data-component="renderDay"
+    onClick={true}
+  >
+    7
+  </div>
+  <div
+    className="cn-calendar__column cn-calendar__day"
+    data-component="renderDay"
+    onClick={true}
+  >
+    8
+  </div>
+  <div
+    className="cn-calendar__column cn-calendar__day"
+    data-component="renderDay"
+    onClick={true}
+  >
+    9
+  </div>
+  <div
+    className="cn-calendar__column cn-calendar__day"
+    data-component="renderDay"
+    onClick={true}
+  >
+    10
+  </div>
+  <div
+    className="cn-calendar__column cn-calendar__day"
+    data-component="renderDay"
+    onClick={true}
+  >
+    11
+  </div>
+  <div
+    className="cn-calendar__column cn-calendar__day"
+    data-component="renderDay"
+    onClick={true}
+  >
+    12
+  </div>
+  <div
+    className="cn-calendar__column cn-calendar__day"
+    data-component="renderDay"
+    onClick={true}
+  >
+    13
+  </div>
+  <div
+    className="cn-calendar__column cn-calendar__day"
+    data-component="renderDay"
+    onClick={true}
+  >
+    14
+  </div>
+  <div
+    className="cn-calendar__column cn-calendar__day cn-calendar__day--is-selected"
+    data-component="renderDay"
+    onClick={true}
+  >
+    15
+  </div>
+  <div
+    className="cn-calendar__column cn-calendar__day"
+    data-component="renderDay"
+    onClick={true}
+  >
+    16
+  </div>
+  <div
+    className="cn-calendar__column cn-calendar__day"
+    data-component="renderDay"
+    onClick={true}
+  >
+    17
+  </div>
+  <div
+    className="cn-calendar__column cn-calendar__day"
+    data-component="renderDay"
+    onClick={true}
+  >
+    18
+  </div>
+  <div
+    className="cn-calendar__column cn-calendar__day"
+    data-component="renderDay"
+    onClick={true}
+  >
+    19
+  </div>
+  <div
+    className="cn-calendar__column cn-calendar__day"
+    data-component="renderDay"
+    onClick={true}
+  >
+    20
+  </div>
+  <div
+    className="cn-calendar__column cn-calendar__day"
+    data-component="renderDay"
+    onClick={true}
+  >
+    21
+  </div>
+  <div
+    className="cn-calendar__column cn-calendar__day"
+    data-component="renderDay"
+    onClick={true}
+  >
+    22
+  </div>
+  <div
+    className="cn-calendar__column cn-calendar__day"
+    data-component="renderDay"
+    onClick={true}
+  >
+    23
+  </div>
+  <div
+    className="cn-calendar__column cn-calendar__day"
+    data-component="renderDay"
+    onClick={true}
+  >
+    24
+  </div>
+  <div
+    className="cn-calendar__column cn-calendar__day"
+    data-component="renderDay"
+    onClick={true}
+  >
+    25
+  </div>
+  <div
+    className="cn-calendar__column cn-calendar__day"
+    data-component="renderDay"
+    onClick={true}
+  >
+    26
+  </div>
+  <div
+    className="cn-calendar__column cn-calendar__day"
+    data-component="renderDay"
+    onClick={true}
+  >
+    27
+  </div>
+  <div
+    className="cn-calendar__column cn-calendar__day"
+    data-component="renderDay"
+    onClick={true}
+  >
+    28
+  </div>
+  <div
+    className="cn-calendar__column cn-calendar__day"
+    data-component="renderDay"
+    onClick={true}
+  >
+    29
+  </div>
+  <div
+    className="cn-calendar__column cn-calendar__day"
+    data-component="renderDay"
+    onClick={true}
+  >
+    30
+  </div>
+  <div
+    className="cn-calendar__column cn-calendar__day"
+    data-component="renderDay"
+    onClick={true}
+  >
+    31
+  </div>
+</div>
+`;
+
+exports[`datepicker/calendar-body should render the current month 3`] = `
+<div>
+  <div
+    className="cn-calendar__column cn-calendar__day"
+    data-component="renderDay"
+    onClick={true}
+  >
+    1
+  </div>
+  <div
+    className="cn-calendar__column cn-calendar__day"
+    data-component="renderDay"
+    onClick={true}
+  >
+    2
+  </div>
+  <div
+    className="cn-calendar__column cn-calendar__day"
+    data-component="renderDay"
+    onClick={true}
+  >
+    3
+  </div>
+  <div
+    className="cn-calendar__column cn-calendar__day"
+    data-component="renderDay"
+    onClick={true}
+  >
+    4
+  </div>
+  <div
+    className="cn-calendar__column cn-calendar__day"
+    data-component="renderDay"
+    onClick={true}
+  >
+    5
+  </div>
+  <div
+    className="cn-calendar__column cn-calendar__day"
+    data-component="renderDay"
+    onClick={true}
+  >
+    6
+  </div>
+  <div
+    className="cn-calendar__column cn-calendar__day"
+    data-component="renderDay"
+    onClick={true}
+  >
+    7
+  </div>
+  <div
+    className="cn-calendar__column cn-calendar__day"
+    data-component="renderDay"
+    onClick={true}
+  >
+    8
+  </div>
+  <div
+    className="cn-calendar__column cn-calendar__day"
+    data-component="renderDay"
+    onClick={true}
+  >
+    9
+  </div>
+  <div
+    className="cn-calendar__column cn-calendar__day"
+    data-component="renderDay"
+    onClick={true}
+  >
+    10
+  </div>
+  <div
+    className="cn-calendar__column cn-calendar__day"
+    data-component="renderDay"
+    onClick={true}
+  >
+    11
+  </div>
+  <div
+    className="cn-calendar__column cn-calendar__day"
+    data-component="renderDay"
+    onClick={true}
+  >
+    12
+  </div>
+  <div
+    className="cn-calendar__column cn-calendar__day"
+    data-component="renderDay"
+    onClick={true}
+  >
+    13
+  </div>
+  <div
+    className="cn-calendar__column cn-calendar__day"
+    data-component="renderDay"
+    onClick={true}
+  >
+    14
+  </div>
+  <div
+    className="cn-calendar__column cn-calendar__day"
+    data-component="renderDay"
+    onClick={true}
+  >
+    15
+  </div>
+  <div
+    className="cn-calendar__column cn-calendar__day"
+    data-component="renderDay"
+    onClick={true}
+  >
+    16
+  </div>
+  <div
+    className="cn-calendar__column cn-calendar__day"
+    data-component="renderDay"
+    onClick={true}
+  >
+    17
+  </div>
+  <div
+    className="cn-calendar__column cn-calendar__day"
+    data-component="renderDay"
+    onClick={true}
+  >
+    18
+  </div>
+  <div
+    className="cn-calendar__column cn-calendar__day"
+    data-component="renderDay"
+    onClick={true}
+  >
+    19
+  </div>
+  <div
+    className="cn-calendar__column cn-calendar__day"
+    data-component="renderDay"
+    onClick={true}
+  >
+    20
+  </div>
+  <div
+    className="cn-calendar__column cn-calendar__day"
+    data-component="renderDay"
+    onClick={true}
+  >
+    21
+  </div>
+  <div
+    className="cn-calendar__column cn-calendar__day"
+    data-component="renderDay"
+    onClick={true}
+  >
+    22
+  </div>
+  <div
+    className="cn-calendar__column cn-calendar__day"
+    data-component="renderDay"
+    onClick={true}
+  >
+    23
+  </div>
+  <div
+    className="cn-calendar__column cn-calendar__day"
+    data-component="renderDay"
+    onClick={true}
+  >
+    24
+  </div>
+  <div
+    className="cn-calendar__column cn-calendar__day"
+    data-component="renderDay"
+    onClick={true}
+  >
+    25
+  </div>
+  <div
+    className="cn-calendar__column cn-calendar__day"
+    data-component="renderDay"
+    onClick={true}
+  >
+    26
+  </div>
+  <div
+    className="cn-calendar__column cn-calendar__day"
+    data-component="renderDay"
+    onClick={true}
+  >
+    27
+  </div>
+  <div
+    className="cn-calendar__column cn-calendar__day"
+    data-component="renderDay"
+    onClick={true}
+  >
+    28
+  </div>
+  <div
+    className="cn-calendar__column cn-calendar__day"
+    data-component="renderDay"
+    onClick={true}
+  >
+    29
+  </div>
+  <div
+    className="cn-calendar__column cn-calendar__day"
+    data-component="renderDay"
+    onClick={true}
+  >
+    30
+  </div>
+  <div
+    className="cn-calendar__column cn-calendar__day"
+    data-component="renderDay"
+    onClick={true}
+  >
+    31
+  </div>
+</div>
+`;
+
+exports[`datepicker/calendar-body should render the next month 1`] = `<div />`;
+
+exports[`datepicker/calendar-body should render the next month 2`] = `
+<div>
+  <div
+    className="cn-calendar__column cn-calendar__day cn-calendar__day--is-disabled"
+    data-component="renderDay"
+    onClick={null}
+  >
+    1
+  </div>
+  <div
+    className="cn-calendar__column cn-calendar__day cn-calendar__day--is-disabled"
+    data-component="renderDay"
+    onClick={null}
+  >
+    2
+  </div>
+  <div
+    className="cn-calendar__column cn-calendar__day cn-calendar__day--is-disabled"
+    data-component="renderDay"
+    onClick={null}
+  >
+    3
+  </div>
+  <div
+    className="cn-calendar__column cn-calendar__day cn-calendar__day--is-disabled"
+    data-component="renderDay"
+    onClick={null}
+  >
+    4
+  </div>
+  <div
+    className="cn-calendar__column cn-calendar__day cn-calendar__day--is-disabled"
+    data-component="renderDay"
+    onClick={null}
+  >
+    5
+  </div>
+  <div
+    className="cn-calendar__column cn-calendar__day cn-calendar__day--is-disabled"
+    data-component="renderDay"
+    onClick={null}
+  >
+    6
+  </div>
+</div>
+`;
+
+exports[`datepicker/calendar-body should render the next month 3`] = `
+<div>
+  <div
+    className="cn-calendar__column cn-calendar__day cn-calendar__day--is-disabled"
+    data-component="renderDay"
+    onClick={null}
+  >
+    1
+  </div>
+  <div
+    className="cn-calendar__column cn-calendar__day cn-calendar__day--is-disabled"
+    data-component="renderDay"
+    onClick={null}
+  >
+    2
+  </div>
+  <div
+    className="cn-calendar__column cn-calendar__day cn-calendar__day--is-disabled"
+    data-component="renderDay"
+    onClick={null}
+  >
+    3
+  </div>
+  <div
+    className="cn-calendar__column cn-calendar__day cn-calendar__day--is-disabled"
+    data-component="renderDay"
+    onClick={null}
+  >
+    4
+  </div>
+  <div
+    className="cn-calendar__column cn-calendar__day cn-calendar__day--is-disabled"
+    data-component="renderDay"
+    onClick={null}
+  >
+    5
+  </div>
+</div>
+`;
+
+exports[`datepicker/calendar-body should render the next month 4`] = `
+<div>
+  <div
+    className="cn-calendar__column cn-calendar__day cn-calendar__day--is-disabled"
+    data-component="renderDay"
+    onClick={null}
+  >
+    1
+  </div>
+  <div
+    className="cn-calendar__column cn-calendar__day cn-calendar__day--is-disabled"
+    data-component="renderDay"
+    onClick={null}
+  >
+    2
+  </div>
+  <div
+    className="cn-calendar__column cn-calendar__day cn-calendar__day--is-disabled"
+    data-component="renderDay"
+    onClick={null}
+  >
+    3
+  </div>
+  <div
+    className="cn-calendar__column cn-calendar__day cn-calendar__day--is-disabled"
+    data-component="renderDay"
+    onClick={null}
+  >
+    4
+  </div>
+</div>
+`;
+
+exports[`datepicker/calendar-body should render the next month 5`] = `
+<div>
+  <div
+    className="cn-calendar__column cn-calendar__day cn-calendar__day--is-disabled"
+    data-component="renderDay"
+    onClick={null}
+  >
+    1
+  </div>
+  <div
+    className="cn-calendar__column cn-calendar__day cn-calendar__day--is-disabled"
+    data-component="renderDay"
+    onClick={null}
+  >
+    2
+  </div>
+  <div
+    className="cn-calendar__column cn-calendar__day cn-calendar__day--is-disabled"
+    data-component="renderDay"
+    onClick={null}
+  >
+    3
+  </div>
+</div>
+`;
+
+exports[`datepicker/calendar-body should render the next month 6`] = `
+<div>
+  <div
+    className="cn-calendar__column cn-calendar__day cn-calendar__day--is-disabled"
+    data-component="renderDay"
+    onClick={null}
+  >
+    1
+  </div>
+  <div
+    className="cn-calendar__column cn-calendar__day cn-calendar__day--is-disabled"
+    data-component="renderDay"
+    onClick={null}
+  >
+    2
+  </div>
+</div>
+`;
+
+exports[`datepicker/calendar-body should render the next month 7`] = `
+<div>
+  <div
+    className="cn-calendar__column cn-calendar__day cn-calendar__day--is-disabled"
+    data-component="renderDay"
+    onClick={null}
+  >
+    1
+  </div>
+</div>
+`;
+
+exports[`datepicker/calendar-body should render the previous month 1`] = `<div />`;
+
+exports[`datepicker/calendar-body should render the previous month 2`] = `
+<div>
+  <div
+    className="cn-calendar__column cn-calendar__day cn-calendar__day--is-disabled"
+    data-component="renderDay"
+    onClick={null}
+  >
+    31
+  </div>
+</div>
+`;
+
+exports[`datepicker/calendar-body should render the previous month 3`] = `
+<div>
+  <div
+    className="cn-calendar__column cn-calendar__day cn-calendar__day--is-disabled"
+    data-component="renderDay"
+    onClick={null}
+  >
+    27
+  </div>
+  <div
+    className="cn-calendar__column cn-calendar__day cn-calendar__day--is-disabled"
+    data-component="renderDay"
+    onClick={null}
+  >
+    28
+  </div>
+  <div
+    className="cn-calendar__column cn-calendar__day cn-calendar__day--is-disabled"
+    data-component="renderDay"
+    onClick={null}
+  >
+    29
+  </div>
+  <div
+    className="cn-calendar__column cn-calendar__day cn-calendar__day--is-disabled"
+    data-component="renderDay"
+    onClick={null}
+  >
+    30
+  </div>
+  <div
+    className="cn-calendar__column cn-calendar__day cn-calendar__day--is-disabled"
+    data-component="renderDay"
+    onClick={null}
+  >
+    31
+  </div>
+</div>
+`;
+
+exports[`datepicker/calendar-body should render the previous month 4`] = `
+<div>
+  <div
+    className="cn-calendar__column cn-calendar__day cn-calendar__day--is-disabled"
+    data-component="renderDay"
+    onClick={null}
+  >
+    26
+  </div>
+  <div
+    className="cn-calendar__column cn-calendar__day cn-calendar__day--is-disabled"
+    data-component="renderDay"
+    onClick={null}
+  >
+    27
+  </div>
+  <div
+    className="cn-calendar__column cn-calendar__day cn-calendar__day--is-disabled"
+    data-component="renderDay"
+    onClick={null}
+  >
+    28
+  </div>
+  <div
+    className="cn-calendar__column cn-calendar__day cn-calendar__day--is-disabled"
+    data-component="renderDay"
+    onClick={null}
+  >
+    29
+  </div>
+  <div
+    className="cn-calendar__column cn-calendar__day cn-calendar__day--is-disabled"
+    data-component="renderDay"
+    onClick={null}
+  >
+    30
+  </div>
+  <div
+    className="cn-calendar__column cn-calendar__day cn-calendar__day--is-disabled"
+    data-component="renderDay"
+    onClick={null}
+  >
+    31
+  </div>
+</div>
+`;

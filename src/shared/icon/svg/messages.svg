@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="14px" height="15px" viewBox="0 0 14 15" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>messages/standard</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="0 0.821960784 13.9998353 0.821960784 13.9998353 15.8954248 0 15.8954248"></polygon>
+    </defs>
+    <g id="Icons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g transform="translate(-746.000000, -1873.000000)" id="Objects">
+            <g transform="translate(25.000000, 1496.000000)">
+                <g id="Messages" transform="translate(721.000000, 346.000000)">
+                    <g id="messages/standard" transform="translate(0.000000, 30.000000)">
+                        <g id="Group-3">
+                            <mask id="mask-2" fill="white">
+                                <use xlink:href="#path-1"></use>
+                            </mask>
+                            <g id="Clip-2"></g>
+                            <path d="M12.2557647,1.77777778 L1.74423529,1.77777778 C0.780705882,1.77777778 0,2.57171242 0,3.55137255 L0,11.4321569 C0,12.4109804 0.780705882,13.204915 1.74423529,13.204915 L4.01388235,13.204915 L4.01388235,16.8516601 L7.60117647,13.204915 L12.2557647,13.204915 C13.2192941,13.204915 14,12.4109804 14,11.4321569 L14,3.55137255 C14,2.57171242 13.2192941,1.77777778 12.2557647,1.77777778 M12.2557647,2.78169935 C12.6724706,2.78169935 13.0117647,3.12637908 13.0117647,3.55137255 L13.0117647,11.4321569 C13.0117647,11.8563137 12.6724706,12.2009935 12.2557647,12.2009935 L7.60117647,12.2009935 L7.19188235,12.2009935 L6.902,12.4954771 L5.00211765,14.4263529 L5.00211765,13.204915 L5.00211765,12.2009935 L4.01388235,12.2009935 L1.74423529,12.2009935 C1.32752941,12.2009935 0.988235294,11.8563137 0.988235294,11.4321569 L0.988235294,3.55137255 C0.988235294,3.12637908 1.32752941,2.78169935 1.74423529,2.78169935 L12.2557647,2.78169935" id="Fill-1" fill="#626E70" mask="url(#mask-2)"></path>
+                        </g>
+                        <text id="5" font-family="OpenSans-Bold, Open Sans" font-size="7.04" font-weight="bold" fill="#626E70">
+                            <tspan x="4.83636949" y="11.5555556">5</tspan>
+                        </text>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

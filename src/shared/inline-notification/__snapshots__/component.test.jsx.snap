@@ -1,0 +1,144 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Inline Notification default renders 1`] = `
+<div
+  className="inline-notification inline-notification--message"
+  data-component="InlineNotification"
+>
+  <Icon
+    className="inline-notification__icon inline-notification__icon--message"
+    icon="message"
+    size="extra-small"
+  />
+  <div
+    className="inline-notification__content"
+  >
+    Inline Notification Message
+  </div>
+</div>
+`;
+
+exports[`Inline Notification renders closed 1`] = `null`;
+
+exports[`Inline Notification renders with custom className props 1`] = `
+<div
+  className="inline-notification inline-notification--message class-name"
+  data-component="InlineNotification"
+>
+  <Icon
+    className="inline-notification__icon inline-notification__icon--message icon-type-class-name"
+    icon="message"
+    size="extra-small"
+  />
+  <div
+    className="inline-notification__content content-class-name"
+  >
+    Inline Notification Message
+  </div>
+</div>
+`;
+
+exports[`Inline Notification renders with handler 1`] = `
+<div
+  className="inline-notification inline-notification--message"
+  data-component="InlineNotification"
+>
+  <Icon
+    className="inline-notification__icon inline-notification__icon--message"
+    icon="message"
+    size="extra-small"
+  />
+  <div
+    className="inline-notification__content"
+  >
+    Inline Notification Message
+  </div>
+  <Button
+    className="cn-link inline-notification__button-close"
+    isDark={false}
+    isDisabled={false}
+    onClick={[Function]}
+    size={1}
+    type="button"
+    variation={0}
+  >
+    <Icon
+      className="inline-notification__icon inline-notification__icon--close"
+      icon="close"
+      size="extra-small"
+    />
+  </Button>
+</div>
+`;
+
+exports[`Inline Notification renders with type error 1`] = `
+<div
+  className="inline-notification inline-notification--error"
+  data-component="InlineNotification"
+>
+  <Icon
+    className="inline-notification__icon inline-notification__icon--error"
+    icon="remove"
+    size="extra-small"
+  />
+  <div
+    className="inline-notification__content"
+  >
+    Inline Notification Error Message
+  </div>
+</div>
+`;
+
+exports[`Inline Notification renders with type info 1`] = `
+<div
+  className="inline-notification inline-notification--info"
+  data-component="InlineNotification"
+>
+  <Icon
+    className="inline-notification__icon inline-notification__icon--info"
+    icon="info"
+    size="extra-small"
+  />
+  <div
+    className="inline-notification__content"
+  >
+    Inline Notification Info Message
+  </div>
+</div>
+`;
+
+exports[`Inline Notification renders with type success 1`] = `
+<div
+  className="inline-notification inline-notification--success"
+  data-component="InlineNotification"
+>
+  <Icon
+    className="inline-notification__icon inline-notification__icon--success"
+    icon="success"
+    size="extra-small"
+  />
+  <div
+    className="inline-notification__content"
+  >
+    Inline Notification Success Message
+  </div>
+</div>
+`;
+
+exports[`Inline Notification renders with type warning 1`] = `
+<div
+  className="inline-notification inline-notification--warning"
+  data-component="InlineNotification"
+>
+  <Icon
+    className="inline-notification__icon inline-notification__icon--warning"
+    icon="alert"
+    size="extra-small"
+  />
+  <div
+    className="inline-notification__content"
+  >
+    Inline Notification Warning Message
+  </div>
+</div>
+`;

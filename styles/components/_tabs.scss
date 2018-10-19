@@ -1,0 +1,110 @@
+/* Tabs */
+
+.cn-tabs {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+.cn-tab {		
+	display: inline-block;
+	vertical-align: middle;
+	margin: 0 25px 0 0;
+	padding-bottom: 3px;
+	border-bottom: 3px solid transparent;
+
+	&:last-child {
+		margin: 0;
+	}
+}
+.cn-tab__link {
+	-moz-appearance: none;
+  -webkit-appearance: none;
+	background-color: inherit;
+	border: 0;
+	padding: 0;
+	font-size: $size14;
+	color: $gray;
+	@include themer( color, "tabs-link-text", $themes );
+
+	&:hover {
+		color: $linkdefault;
+		@include themer( color, "tabs-link-hover-text", $themes );  
+	}
+	.cn-icon {
+		width: 11px;
+		height: 11px;
+		vertical-align: middle;
+		margin: -2px 4px 0 0;
+	}
+}
+.cn-tab--active {
+	border-color: $blue;
+	@include themer( border-color, "toolbar-link-active-border", $themes );  
+}
+.cn-tab--active .cn-tab__link {
+	@include webfontBold;
+	color: $textdefault;
+	@include themer( color, "toolbar-link-active-text", $themes );  
+}
+
+.cn-tabs__title {
+	float: left;
+	margin: 6px 1em 4px 0;
+	font-size: $size12;
+	text-transform: uppercase;
+	@include webfontNormal;
+	color: $gray;
+	opacity: .8;
+	@include themer( color, "tabs-link-text", $themes );
+}
+
+/* Secondary tabs -- appear alongside a standard tabs block */
+.cn-tabs--secondary {
+	display: inline-block;
+	
+	.cn-tab, 
+	.cn-toolbar & .cn-tab {
+		padding-top: 2px;
+		padding-bottom: 2px;
+		margin-right: 20px;
+		border-width: 0 0 2px;
+		&:last-child {
+			margin-right: 0;
+		}
+	}
+	.cn-tab__link {
+		font-size: $size12;
+	}
+}
+
+/* Tabs that look like buttons */
+.cn-tabs--buttons {
+	display: table;
+	width: 100%;
+	border: 1px solid $graylight;
+	border-radius: $btnradius;
+
+	.cn-tab {
+		display: table-cell;
+		padding: 0;
+		margin: 0;
+		border-left: 1px solid $graylight;
+		font-size: $size14;
+
+		&:first-child {
+			border-left: 0;
+		}
+	}
+	.cn-tab__link {
+		display: block;
+		padding: .6em .5em .4em;
+		text-align: center;
+	}
+}
+
+
+
+
+
+
+

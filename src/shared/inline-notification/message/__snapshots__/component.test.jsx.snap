@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Inline Notification Message default renders 1`] = `
+<div
+  className="inline-notification__message"
+  data-component="InlineNotificationMessage"
+>
+  Inline Notification Message
+</div>
+`;
+
+exports[`Inline Notification Message renders with prop className 1`] = `
+<div
+  className="inline-notification__message class-name"
+  data-component="InlineNotificationMessage"
+>
+  Inline Notification Message
+</div>
+`;

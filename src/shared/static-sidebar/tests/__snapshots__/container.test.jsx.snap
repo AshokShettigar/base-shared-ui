@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Static side bar container should render component 1`] = `
+<StaticSidebar
+  isBackIconShown={false}
+  isExpand={false}
+  onCollapse={[Function]}
+  onExpand={[Function]}
+  title="default title"
+>
+  <div>
+    Children
+  </div>
+</StaticSidebar>
+`;

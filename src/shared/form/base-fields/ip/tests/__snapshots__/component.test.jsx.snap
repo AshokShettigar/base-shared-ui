@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`IPv4Field Component should render component with custom props 1`] = `null`;
+
+exports[`IPv4Field Component should render component with default props 1`] = `
+<TextField
+  autoFocus={false}
+  disabled={false}
+  fieldClassName="field"
+  hidden={false}
+  hideErrorMessages={false}
+  icon=""
+  onChange={[Function]}
+  onKeyDown={[Function]}
+  onKeyUp={[Function]}
+  onPaste={[Function]}
+  placeholder="000.000.000.000"
+  readOnly={false}
+  refField={[Function]}
+  required={false}
+/>
+`;

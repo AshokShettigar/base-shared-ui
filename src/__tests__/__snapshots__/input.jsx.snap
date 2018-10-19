@@ -1,0 +1,197 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`input should render the input 1`] = `
+<label
+  className="cn-field"
+  data-component="Input"
+  htmlFor="inputId"
+>
+  <span
+    className="cn-field__label"
+  >
+    text
+  </span>
+  <input
+    className="cn-field__input"
+    disabled={false}
+    id="inputId"
+    max={undefined}
+    maxLength={undefined}
+    min={undefined}
+    onBlur={[Function]}
+    onChange={[Function]}
+    onKeyDown={[Function]}
+    placeholder={undefined}
+    type="text"
+    value={undefined}
+  />
+</label>
+`;
+
+exports[`input should render the input with className 1`] = `
+<label
+  className="cn-field my-class-name"
+  data-component="Input"
+  htmlFor="inputId"
+>
+  <span
+    className="cn-field__label"
+  >
+    text
+  </span>
+  <input
+    className="cn-field__input"
+    disabled={false}
+    id="inputId"
+    max={undefined}
+    maxLength={undefined}
+    min={undefined}
+    onBlur={[Function]}
+    onChange={[Function]}
+    onKeyDown={[Function]}
+    placeholder={undefined}
+    type="text"
+    value={undefined}
+  />
+</label>
+`;
+
+exports[`input should render the input with error 1`] = `
+<label
+  className="cn-field cn-field--invalid"
+  data-component="Input"
+  htmlFor="inputId"
+>
+  <span
+    className="cn-field__label"
+  >
+    text
+  </span>
+  <input
+    className="cn-field__input"
+    disabled={false}
+    id="inputId"
+    max={undefined}
+    maxLength={undefined}
+    min={undefined}
+    onBlur={[Function]}
+    onChange={[Function]}
+    onKeyDown={[Function]}
+    placeholder={undefined}
+    type="text"
+    value={undefined}
+  />
+</label>
+`;
+
+exports[`input should render the input with value 1`] = `
+<label
+  className="cn-field"
+  data-component="Input"
+  htmlFor="inputId"
+>
+  <span
+    className="cn-field__label"
+  >
+    text
+  </span>
+  <input
+    className="cn-field__input"
+    disabled={false}
+    id="inputId"
+    max={undefined}
+    maxLength={undefined}
+    min={undefined}
+    onBlur={[Function]}
+    onChange={[Function]}
+    onKeyDown={[Function]}
+    placeholder={undefined}
+    type="text"
+    value="myValue"
+  />
+</label>
+`;
+
+exports[`input should render with disabled 1`] = `
+<label
+  className="cn-field cn-field--disabled"
+  data-component="Input"
+  htmlFor="inputId"
+>
+  <span
+    className="cn-field__label"
+  >
+    text
+  </span>
+  <input
+    className="cn-field__input"
+    disabled={true}
+    id="inputId"
+    max={undefined}
+    maxLength={undefined}
+    min={undefined}
+    onBlur={[Function]}
+    onChange={[Function]}
+    onKeyDown={[Function]}
+    placeholder={undefined}
+    type="text"
+    value={undefined}
+  />
+</label>
+`;
+
+exports[`input should render with input required 1`] = `
+<label
+  className="cn-field cn-field--required"
+  data-component="Input"
+  htmlFor="inputId"
+>
+  <span
+    className="cn-field__label"
+  >
+    text
+  </span>
+  <input
+    className="cn-field__input"
+    disabled={false}
+    id="inputId"
+    max={undefined}
+    maxLength={undefined}
+    min={undefined}
+    onBlur={[Function]}
+    onChange={[Function]}
+    onKeyDown={[Function]}
+    placeholder={undefined}
+    type="text"
+    value={undefined}
+  />
+</label>
+`;
+
+exports[`input should render with no label 1`] = `
+<label
+  className="cn-field"
+  data-component="Input"
+  htmlFor="inputId"
+>
+  <span
+    className="a11y cn-field__label"
+  >
+    text
+  </span>
+  <input
+    className="cn-field__input"
+    disabled={false}
+    id="inputId"
+    max={undefined}
+    maxLength={undefined}
+    min={undefined}
+    onBlur={[Function]}
+    onChange={[Function]}
+    onKeyDown={[Function]}
+    placeholder={undefined}
+    type="text"
+    value={undefined}
+  />
+</label>
+`;

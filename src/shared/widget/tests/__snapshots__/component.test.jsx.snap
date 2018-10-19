@@ -1,0 +1,133 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Widget should render with default props 1`] = `
+<div
+  className="normal"
+  data-component="Widget"
+  onClick={[Function]}
+  role="presentation"
+  tabIndex={0}
+>
+  <div
+    className="iconContainer"
+  >
+    <Icon
+      className="icon"
+      icon="alert"
+      size="extra-small"
+    />
+  </div>
+  <div
+    className="info"
+  >
+    <div
+      className="counter"
+    >
+      <span
+        className="actualCount"
+      >
+        1
+      </span>
+      <span
+        className="totalCount"
+      >
+         of 
+        30
+      </span>
+    </div>
+    <div
+      className="title"
+    >
+      Title
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Widget should render with default props and active 1`] = `
+<div
+  className="active"
+  data-component="Widget"
+  onClick={[Function]}
+  role="presentation"
+  tabIndex={0}
+>
+  <div
+    className="iconContainer"
+  >
+    <Icon
+      className="icon"
+      icon="alert"
+      size="extra-small"
+    />
+  </div>
+  <div
+    className="info"
+  >
+    <div
+      className="counter"
+    >
+      <span
+        className="actualCount"
+      >
+        1
+      </span>
+      <span
+        className="totalCount"
+      >
+         of 
+        30
+      </span>
+    </div>
+    <div
+      className="title"
+    >
+      Title
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Widget should render with default props and disabled 1`] = `
+<div
+  className="disabled"
+  data-component="Widget"
+  onClick={[Function]}
+  role="presentation"
+  tabIndex={0}
+>
+  <div
+    className="iconContainer"
+  >
+    <Icon
+      className="icon"
+      icon="alert"
+      size="extra-small"
+    />
+  </div>
+  <div
+    className="info"
+  >
+    <div
+      className="counter"
+    >
+      <span
+        className="actualCount"
+      >
+        1
+      </span>
+      <span
+        className="totalCount"
+      >
+         of 
+        30
+      </span>
+    </div>
+    <div
+      className="title"
+    >
+      Title
+    </div>
+  </div>
+</div>
+`;

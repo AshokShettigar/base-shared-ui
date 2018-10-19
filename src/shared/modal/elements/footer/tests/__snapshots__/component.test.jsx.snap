@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render component 1`] = `
+<div
+  className="root"
+  data-component="ModalFooterElement"
+>
+  <WithRender
+    className="previous"
+    hidden={true}
+    kind="secondary"
+    rendered={true}
+    size="medium"
+  />
+  <WithRender
+    className="submit"
+    disabled={false}
+    hidden={false}
+    kind="primary"
+    loading={false}
+    onClick={[Function]}
+    rendered={true}
+    size="medium"
+    type="submit"
+  />
+  <WithRender
+    className="dismiss"
+    hidden={false}
+    kind="secondary"
+    onClick={[Function]}
+    rendered={true}
+    size="medium"
+  />
+</div>
+`;

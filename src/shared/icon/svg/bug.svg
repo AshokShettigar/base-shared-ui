@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 109.75 109.75">
+    <title>bug</title>
+    <path d="M52.57 45.86s8.2-10.11 15.16-3.22C74.2 49 64.52 57.8 64.52 57.8" stroke-width="3.62" fill="none" stroke="#3b3b3b" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M48.46 44.5s13.32 7.12 17.69 17.69c-1.84 2.07-13.33 20-24.93 8.62s7.24-26.31 7.24-26.31z" stroke-width="3.62" fill="none" stroke="#3b3b3b" stroke-linecap="round" stroke-linejoin="round"/>
+    <path stroke-width="2.9" fill="none" stroke="#3b3b3b" stroke-linecap="round" stroke-linejoin="round" d="M41.22 70.81l17.3-19M69.1 44.41l4.85-4.86 4.42 4.42M64.96 40.27l4.86-4.85L65.4 31"/>
+    <circle cx="79.34" cy="45.05" r="2.56" fill="#3b3b3b"/>
+    <circle cx="64.17" cy="29.68" r="2.56" fill="#3b3b3b"/>
+    <path d="M66.15 62.19s6.89 5.52 7 13.67M47.88 43.93s-5.51-6.9-13.67-7M58.78 70.82s5.16 7.18 3.09 15.05M39.12 53.71S31.75 48.85 24 51.25" stroke-width="2.9" fill="none" stroke="#3b3b3b" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="54.88" cy="54.88" r="53.38" stroke-width="3" stroke-dasharray="20.96 20.96" fill="none" stroke="#3b3b3b" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

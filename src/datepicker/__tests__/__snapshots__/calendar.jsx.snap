@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`datepicker/calendar should render the component 1`] = `
+<div
+  className="cn-calendar"
+  data-component="Calendar"
+>
+  <CalendarMonth
+    month={0}
+    onChangeMonthAndYear={[Function]}
+    year={2017}
+  />
+  <Component />
+  <CalendarBody
+    highlightedDate={2017-01-01T00:00:00.000Z}
+    month={0}
+    onUpdateSelectedDate={[Function]}
+    year={2017}
+  />
+</div>
+`;

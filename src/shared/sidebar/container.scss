@@ -1,0 +1,103 @@
+@import '../scss/variables.scss';
+
+.root {
+  font-family: $ff-open-sans;
+  font-size: $fs-tiny;
+  color: $c-primary;
+}
+
+%overlay {
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  z-index: $z-modal-window;
+}
+
+.overlay-right {
+  @extend %overlay;
+
+  top: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.overlay-left {
+  @extend %overlay;
+
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+.overlay-parent-right {
+  @extend %overlay;
+
+  right: 0;
+  height: 100%;
+}
+
+.overlay-parent-left {
+  @extend %overlay;
+
+  left: 0;
+  height: 100%;
+}
+
+.content {
+  max-width: 650px;
+  width: 650px;
+  height: 100%;
+  background: white;
+  display: flex;
+  flex-direction: column;
+  box-shadow: -2px 2px 1px 0 rgba(221, 221, 221, 0.5);
+
+  &:focus {
+    outline: none;
+  }
+}
+
+.show-right {
+  animation: animate-show-right .3s ease;
+}
+
+.hide-right {
+  animation: animate-hide-right .3s ease;
+}
+
+.show-left {
+  animation: animate-show-left .3s ease;
+}
+
+.hide-left {
+  animation: animate-hide-left .3s ease;
+}
+
+@keyframes animate-show-right {
+  from { transform: translateX(100%); }
+  to { transform: translateX(0); }
+}
+
+@keyframes animate-hide-right {
+   from { transform: translateX(0); }
+   to { transform: translateX(100%); }
+ }
+
+@keyframes animate-show-left {
+  from { transform: translateX(-100%); }
+  to { transform: translateX(0); }
+}
+
+@keyframes animate-hide-left {
+  from { transform: translateX(0); }
+  to { transform: translateX(-100%); }
+}
+
+.sidebar-position-right {
+  justify-content: flex-end;
+}
+
+.sidebar-position-left {
+  justify-content: flex-start;
+}

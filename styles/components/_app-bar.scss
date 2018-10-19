@@ -1,0 +1,229 @@
+/* Application bar styles -- deprecated in favor of bootstrap */
+
+$appbar-height: 36px;
+$appbar-border: 1px solid lighten( $black, 15% );
+
+.cn-appbar {
+  color: $graylight;
+  background-color: $black;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: $appbar-height;
+
+  .cn-field {
+    width: auto;
+  }
+  .cn-field__searchinput {
+    background-color: inherit;
+    border-radius: 0;
+    border: 0;
+    height: $appbar-height - 4;
+    font-size: $size13;
+    padding-left: 15px;
+    &:focus {
+      background-color: $white;
+    }
+    &:focus + .cn-field__icon {
+      fill: $gray;
+    }
+  }
+  .cn-field--search .cn-field__icon {
+    height: $appbar-height;
+    fill: $graylight;
+  }
+  .cn-appbar__subtitle,
+  .cn-appbar__hdr .cn-filter__link,
+  > .cn-filter__link .cn-filter__label {
+    border-left: $appbar-border;
+    padding-left: 15px;
+  }
+  .cn-filter__link {
+    padding: 0 15px;
+    white-space: nowrap;
+    margin-right: 0;
+    margin-left: auto;
+  }
+  .cn-filter__label {
+    color: $white;
+    @include webfontNormal;
+    text-transform: none;
+    line-height: $appbar-height;
+  }
+}
+.cn-appbar__hdr {
+  flex: 0 0 316px;
+}
+.cn-appbar__logo {
+  display: inline-block;
+  padding: 0 0 0 20px;
+  vertical-align: middle;
+}
+.cn-appbar__title {
+  display: inline-block;
+  font-size: $size13;
+  @include webfontBold;
+  text-transform: uppercase;
+  white-space: nowrap;
+  color: $white;
+}
+.cn-appbar__subtitle {
+  display: inline-block;
+  font-size: $size13;
+  @include webfontNormal;
+  margin: 0;
+}
+.cn-appbar__title,
+.cn-appbar__nav {
+  padding: 0 20px;
+}
+.cn-appbar__nav,
+.cn-appbar__tabs {
+  flex-shrink: 0;
+  flex-grow: 2;
+}
+.cn-appbar__tabs {
+  padding: 0 15px 0 0;
+
+  .cn-appbar__subtitle {
+    padding-left: 15px;
+  }
+  .cn-tabs {
+    display: inline-block;
+    margin-left: 10px;
+  }
+  .cn-tabs + .cn-btn {
+    margin-left: .7em;
+    height: 26px;
+    line-height: 26px;
+  }
+  .cn-tab {
+    padding: 0;
+    border: 3px solid $black;
+    border-width: 3px 0;
+    margin: 0;
+    @include webfontSemibold;
+    background-color: lighten( $black, 10% );
+  }
+  .cn-tab--active {
+    border-top-color: $orange;
+    border-bottom-color: transparent;
+    background-color: transparent;
+    .cn-tab__link {
+      color: $white;
+    }
+  }
+  .cn-tab:not( .cn-tab--active ) .cn-badge {
+    background-color: darken( $gray, 10% );
+  }
+  .cn-tab__link {
+    font-size: $size13;
+    text-transform: none;
+    color: $graylight;
+    height: $appbar-height - 6;
+    line-height: $appbar-height - 6;
+    display: block;
+    padding: 0 5px;
+
+    .cn-text {
+      display: inline-block;
+      max-width: 8em;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      vertical-align: middle;
+    }
+  }
+  .cn-badge--timer {
+    font-size: 1em;
+    line-height: normal;
+    margin-top: -2px;
+  }
+  .cn-badge--chat {
+    vertical-align: middle;
+  }
+  .cn-link {
+    text-transform: uppercase;
+    font-size: $size12;
+    color: $graylight;
+    margin: 0 .5em;
+    .cn-icon {
+      fill: $graylight;
+    }
+  }
+}
+.cn-appbar__nav {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+}
+.cn-appbar__nav-item {
+  border-top: 2px solid transparent;
+  font-size: $size13;
+  color: $graylight;
+  white-space: nowrap;
+  display: block;
+  height: $appbar-height;
+  line-height: $appbar-height - 4;
+  margin: 0 15px;
+  &:hover {
+    color: $white;
+    border-color: $graylight;
+  }
+}
+.cn-appbar__nav--active {
+  color: $white;
+  @include webfontSemibold;
+  border-color: $orange;
+}
+.cn-appbar__tool {
+  width: 35px;
+  text-align: center;
+  margin-left: auto; /* right aligns */
+
+  .cn-icon {
+    width: 16px;
+    height: 30px;
+    fill: $graylight;
+    vertical-align: middle;
+  }
+}
+
+/** Bootstrap navbar overrides */
+.navbar {
+    border: 0;
+    border-radius: 0;
+    font-size: 13px;
+    margin: 0;
+    min-height: 0;
+
+    & .navbar-nav > li {
+        border-bottom: solid 2px transparent;
+        border-top: solid 2px transparent;
+
+        & > a {
+            padding: 7px 15px;
+        }
+
+        &.active {
+            border-top: solid 2px $orange;
+        }
+
+        &:hover {
+            border-top: solid 2px $graylight;
+        }
+    }
+}
+
+.navbar-brand {
+    font-size: 13px;
+    font-weight: 700;
+    height: 38px;
+    padding: 9px 15px;
+    text-transform: uppercase;
+}
+
+.navbar-inverse .navbar-brand {
+    color: $white;
+}

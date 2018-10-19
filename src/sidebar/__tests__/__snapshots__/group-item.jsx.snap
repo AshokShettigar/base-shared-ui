@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`sidebar/group-item should render the group item component 1`] = `
+<li
+  className="cn-sidebar-group__item"
+  data-component="Item"
+>
+  Item 1
+</li>
+`;
+
+exports[`sidebar/group-item should render the group item with custom item class name 1`] = `
+<li
+  className="cn-sidebar-group__item my-class"
+  data-component="Item"
+>
+  Item 1
+</li>
+`;

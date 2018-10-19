@@ -1,0 +1,148 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`button should render a disabled button 1`] = `
+<button
+  className="cn-btn cn-btn--disabled cn-btn--medium"
+  data-component="Button"
+  disabled={true}
+  form={undefined}
+  onClick={[Function]}
+  type="button"
+>
+  MyButton
+</button>
+`;
+
+exports[`button should render a large size button 1`] = `
+<button
+  className="cn-btn cn-btn--large"
+  data-component="Button"
+  disabled={false}
+  form={undefined}
+  onClick={[Function]}
+  type="button"
+>
+  MyButton
+</button>
+`;
+
+exports[`button should render a lighter button for dark background 1`] = `
+<button
+  className="cn-btn cn-btn--dark cn-btn--medium"
+  data-component="Button"
+  disabled={false}
+  form={undefined}
+  onClick={[Function]}
+  type="button"
+>
+  MyButton
+</button>
+`;
+
+exports[`button should render a loading button 1`] = `
+<button
+  className="cn-btn cn-btn--disabled cn-btn--medium"
+  data-component="Button"
+  disabled={true}
+  onClick={[Function]}
+  type="button"
+>
+  <Spinner
+    className="cn-modal-controls__button-spinner"
+    size="extra-small"
+  />
+</button>
+`;
+
+exports[`button should render a medium size button 1`] = `
+<button
+  className="cn-btn cn-btn--medium"
+  data-component="Button"
+  disabled={false}
+  form={undefined}
+  onClick={[Function]}
+  type="button"
+>
+  MyButton
+</button>
+`;
+
+exports[`button should render a primary button 1`] = `
+<button
+  className="cn-btn cn-btn--medium cn-btn--primary"
+  data-component="Button"
+  disabled={false}
+  form={undefined}
+  onClick={[Function]}
+  type="button"
+>
+  MyButton
+</button>
+`;
+
+exports[`button should render a secondary button 1`] = `
+<button
+  className="cn-btn cn-btn--medium cn-btn--secondary"
+  data-component="Button"
+  disabled={false}
+  form={undefined}
+  onClick={[Function]}
+  type="button"
+>
+  MyButton
+</button>
+`;
+
+exports[`button should render a small size button 1`] = `
+<button
+  className="cn-btn cn-btn--small"
+  data-component="Button"
+  disabled={false}
+  form={undefined}
+  onClick={[Function]}
+  type="button"
+>
+  MyButton
+</button>
+`;
+
+exports[`button should render the button 1`] = `
+<button
+  className="cn-btn cn-btn--medium"
+  data-component="Button"
+  disabled={false}
+  form={undefined}
+  onClick={[Function]}
+  type="button"
+>
+  MyButton
+</button>
+`;
+
+exports[`button should render the button with any element 1`] = `
+<button
+  className="cn-btn cn-btn--medium"
+  data-component="Button"
+  disabled={false}
+  form={undefined}
+  onClick={[Function]}
+  type="button"
+>
+  <div>
+    My Custom Label
+  </div>
+</button>
+`;
+
+exports[`button should render with a custom class name 1`] = `
+<button
+  className="cn-btn cn-btn--medium my-class"
+  data-component="Button"
+  disabled={false}
+  form={undefined}
+  onClick={[Function]}
+  type="button"
+>
+  MyButton
+</button>
+`;

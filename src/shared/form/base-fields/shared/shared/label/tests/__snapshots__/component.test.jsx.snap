@@ -1,0 +1,81 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Label component should render component with class names props 1`] = `
+<LabelField
+  className="className"
+  descriptionClassName="descriptionClassName"
+  hidden={false}
+  required={false}
+>
+  <span>
+    children
+  </span>
+</LabelField>
+`;
+
+exports[`Label component should render component with default props 1`] = `
+<LabelField
+  hidden={false}
+  required={false}
+>
+  <span>
+    children
+  </span>
+</LabelField>
+`;
+
+exports[`Label component should render component with description prop 1`] = `
+<LabelField
+  description={
+    <div>
+      description
+    </div>
+  }
+  hidden={false}
+  required={false}
+>
+  <span>
+    children
+  </span>
+</LabelField>
+`;
+
+exports[`Label component should render component with hidden prop 1`] = `
+<div
+  hidden={true}
+>
+  <LabelField
+    hidden={true}
+    required={false}
+  >
+    <span>
+      children
+    </span>
+  </LabelField>
+</div>
+`;
+
+exports[`Label component should render component with id prop 1`] = `
+<LabelField
+  hidden={false}
+  id="id"
+  required={false}
+>
+  <span>
+    children
+  </span>
+</LabelField>
+`;
+
+exports[`Label component should render component with required prop 1`] = `
+<LabelField
+  hidden={false}
+  required={true}
+>
+  <span>
+    children
+  </span>
+</LabelField>
+`;
+
+exports[`Label component shouldn't render component 1`] = `null`;

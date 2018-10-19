@@ -1,0 +1,124 @@
+.react-toggle {
+    background-color: transparent;
+    border: 0;
+    cursor: pointer;
+    display: inline-block;
+    padding: 0;
+    position: relative;
+    user-select: none;
+}
+
+.react-toggle-screenreader-only {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+.react-toggle--disabled {
+    cursor: not-allowed;
+    opacity: 0.5;
+    transition: opacity 0.25s;
+}
+
+.react-toggle-track {
+    background-color: #f2f2f2;
+    border-radius: 30px;
+    border: 1px solid #ddd;
+    height: 30px;
+    padding: 0;
+    transition: all 0.2s ease;
+    width: 60px;
+}
+
+.react-toggle--checked .react-toggle-track {
+    background-color: $blue;
+}
+
+.react-toggle--checked:hover:not(.react-toggle--disabled) .react-toggle-track {
+    background-color: $blue;
+}
+
+.react-toggle-track-check {
+    bottom: 0px;
+    height: 10px;
+    left: 8px;
+    line-height: 0;
+    margin-bottom: auto;
+    margin-top: auto;
+    opacity: 0;
+    padding-right: 40px;
+    position: absolute;
+    text-align: center;
+    top: 0px;
+    transition: opacity 0.25s ease;
+    width: 100%;
+
+    span {
+        color: #fff;
+        display: block;
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 10px;
+        text-transform: uppercase;
+    }
+}
+
+.react-toggle--checked .react-toggle-track-check {
+    opacity: 1;
+    text-align: center;
+    transition: opacity 0.25s ease;
+}
+
+.react-toggle-track-x {
+    bottom: 0px;
+    height: 10px;
+    line-height: 0;
+    margin-bottom: auto;
+    margin-top: auto;
+    opacity: 1;
+    padding-left: 40px;
+    position: absolute;
+    right: 10px;
+    text-align: center;
+    top: 0px;
+    transition: opacity 0.25s ease;
+    width: 100%;
+
+    span {
+        color: $gray;
+        display: block;
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 10px;
+        text-transform: uppercase;
+    }
+}
+
+.react-toggle--checked .react-toggle-track-x {
+    opacity: 0;
+}
+
+.react-toggle-thumb {
+    background-color: #fff;
+    border-radius: 50%;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 3px 0 rgba(0,0,0,.5);
+    box-sizing: border-box;
+    height: 30px;
+    left: 0px;
+    position: absolute;
+    top: 0px;
+    transition: all 0.25s ease;
+    transition: all 0.5s cubic-bezier(0.23, 1, 0.32, 1) 0ms;
+    width: 30px;
+}
+
+.react-toggle--checked .react-toggle-thumb {
+    border-color: #ddd;
+    left: 30px;
+}

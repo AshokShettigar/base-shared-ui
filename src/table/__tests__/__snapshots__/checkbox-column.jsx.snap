@@ -1,0 +1,46 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`table/checkbox-column should render the component 1`] = `
+<TableColumn
+  id="checkbox_col"
+  isSortable={false}
+  onClick={[Function]}
+  width="38px"
+>
+  <Icon
+    className="cn-table__header-icon"
+    icon="check-none"
+    size="extra-small"
+  />
+</TableColumn>
+`;
+
+exports[`table/checkbox-column should render the component with is all selected flag 1`] = `
+<TableColumn
+  id="checkbox_col"
+  isSortable={false}
+  onClick={[Function]}
+  width="38px"
+>
+  <Icon
+    className="cn-table__header-icon"
+    icon="check-all"
+    size="extra-small"
+  />
+</TableColumn>
+`;
+
+exports[`table/checkbox-column should render with custom id 1`] = `
+<TableColumn
+  id="new_id"
+  isSortable={false}
+  onClick={[Function]}
+  width="38px"
+>
+  <Icon
+    className="cn-table__header-icon"
+    icon="check-none"
+    size="extra-small"
+  />
+</TableColumn>
+`;

@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render component 1`] = `
+<div
+  className="root"
+  data-component="SidebarHeaderSection"
+>
+  <div
+    className="title"
+  />
+  <div
+    className="icons"
+  >
+    <Icon
+      className="iconClose"
+      icon="close"
+      onClick={[Function]}
+      size="extra-small"
+    />
+  </div>
+</div>
+`;

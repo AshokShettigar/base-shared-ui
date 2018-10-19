@@ -1,0 +1,107 @@
+
+@mixin themer( $property, $value, $themes ) {
+	@each $theme, $map in $themes {
+    &.cn-#{$theme},
+		.cn-#{$theme} & {
+			#{$property}: map-get( $map, $value );
+		}
+	}
+}
+
+$themes: (
+
+block--dark: (
+  block-bg: lighten( $black, 5% ),
+  block-text: $white,
+  block-border: lighten( $black, 5% )
+),
+
+btn--dark: (
+  btn-standard-bg: transparent,
+  btn-standard-text: $graylight,
+  btn-standard-border: $gray,
+  btn-standard-hover-text: $white,
+  btn-standard-hover-border: $graylight,
+  btn-primary-bg: $white,
+  btn-primary-text: $textdefault,
+  btn-primary-border: $white,
+  btn-primary-hover-bg: lighten( $blue, 10% ),
+  btn-primary-hover-text: $white,
+  btn-primary-hover-border: $blue,
+  btn-primary-hover-icon-fill: $white,
+  btn-primary-icon-fill: $gray,
+  btn-secondary-text: $white,
+  btn-secondary-border: rgba( $white, .7 ),
+  btn-secondary-hover-text: $white,
+  btn-secondary-hover-border: $white,
+  btn-secondary-icon-fill: $white
+),
+
+link--dark: (
+  link-text: $white,
+  link-icon-fill: lighten( $bluelight, 20% ),
+  link-hover-icon-fill: $white
+),
+
+field--medium: (
+  input-search-text: $white,
+  input-search-empty-bg: lighten( $navy, 5% ),
+  input-search-border: lighten( $navy, 5% ),
+  input-search-fill: $white
+),
+
+field--dark: (
+  field-text: $graylight,
+  field-focus-border: $white,
+  field-text-invalid: $red * 1.2,
+  field-border-invalid: $red * 1.2,
+  input-empty-bg: $black * 1.8,
+  input-border: $black * 1.8,
+  input-text: $gray * 1.2,
+  select-arrow: $graylight,
+  checkradio-border: $white,
+  checkradio-text: $graylightest
+),
+
+tabs--dark: (
+  tabs-link-text: $bluelightest,
+  tabs-link-hover-text: $white,
+),
+
+toolbar--dark: (
+  toolbar-border: 0,
+  toolbar-text: $white,
+  toolbar-text-secondary: $bluelightest,
+  toolbar-bg: darken( $blue, 5% ),
+  toolbar-link-text: $graylightest,
+  toolbar-link-hover-text: $white,
+  toolbar-link-active-text: $white,
+  toolbar-link-active-border: $white,
+  toolbar-icon-fill: $graylightest,
+  toolbar-icon-hover-fill: $white,
+  toolbar-search-bg: $navy,
+  toolbar-search-text: $blue,
+  toolbar-search-border: $navy
+),
+
+table--dark: (
+  table-bg: $navy,
+  table-row-border: $blue,
+  table-row-hover: lighten( $navy, 5% ),
+  table-row-selected: darken( $blue, 5% ),
+  table-row-selected-border: darken( $blue, 5% ),
+  table-hdr-text: $graylightest,
+  table-hdr-sorted: $white,
+  table-hdr-sorted-icon-fill: $bluelight,
+  table-cell-text: $white,
+  table-cell-link: $white,
+  table-cell-link-secondary: lighten( $bluelight, 20% ),
+  table-icon-fill: $white
+),
+
+script--dark: (
+  script-title-text: $white,
+  script-bubble-text: $textdefault,
+)
+
+)

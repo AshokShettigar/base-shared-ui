@@ -1,0 +1,44 @@
+/* TODO */
+.cn-sidebar-group {
+    &__title {
+
+    }
+
+    &__list {
+
+    }
+
+    &__item {
+
+    }
+}
+
+.cn-sidebar {
+    background: $white;
+    border-right: 1px solid $graylight;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    transition: width 300ms ease-in-out;
+    width: 300px;
+
+    &--closed {
+        width: 30px;
+    }
+
+    &__content {
+        overflow-y: auto;
+    }
+
+    &__controls {
+        border-bottom: 1px solid $graylight;
+        display: flex;
+        justify-content: flex-end;
+        padding: 8px;
+    }
+
+    &__close-btn {
+        cursor: pointer;
+        fill: $gray;
+    }
+}

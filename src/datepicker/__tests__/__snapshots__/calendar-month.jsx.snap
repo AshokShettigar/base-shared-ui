@@ -1,0 +1,42 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`datepicker/calendar-month should render the component 1`] = `
+<div
+  className="cn-calendar-month"
+  data-component="CalendarMonth"
+  onMouseDown={[Function]}
+  role="button"
+>
+  <Icon
+    className="cn-calendar-month__nav-month-btn"
+    icon="triangle-left"
+    onClick={[Function]}
+    size="extra-small"
+  />
+  <div
+    className="cn-calendar-month__animation-container"
+  >
+    <CSSTransitionGroup
+      className="cn-calendar-month__animation"
+      transitionAppear={false}
+      transitionEnter={true}
+      transitionEnterTimeout={150}
+      transitionLeave={true}
+      transitionLeaveTimeout={150}
+      transitionName="month-next"
+    >
+      <div
+        className="cn-calendar-month__text"
+      >
+        March 2017
+      </div>
+    </CSSTransitionGroup>
+  </div>
+  <Icon
+    className="cn-calendar-month__nav-month-btn"
+    icon="triangle-right"
+    onClick={[Function]}
+    size="extra-small"
+  />
+</div>
+`;

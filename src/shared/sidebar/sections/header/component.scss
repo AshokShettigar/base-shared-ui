@@ -1,0 +1,47 @@
+@import '../../../scss/variables.scss';
+
+.root {
+  display: flex;
+  align-items: center;
+  background: $c-raisin-black;
+  font-size: $fs-tiny;
+  padding: 20px 15px;
+}
+
+.icons {
+  margin-left: auto;
+}
+
+.icon {
+  fill: $c-white;
+  margin-left: auto;
+  cursor: pointer;
+  width: 18px;
+  height: 18px;
+
+  svg {
+    width: 18px;
+    height: 18px;
+  }
+}
+
+.iconClose {
+  composes: icon;
+  margin-left: 10px;
+}
+
+.iconNavigatePrevious {
+  composes: icon;
+  transform: rotate(90deg);
+}
+.iconNavigateNext {
+  composes: icon;
+  transform: rotate(-90deg);
+  margin-left: 5px;
+}
+
+.title {
+  text-transform: uppercase;
+  font-weight: bold;
+  color: $c-white;
+}

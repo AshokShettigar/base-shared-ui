@@ -1,0 +1,360 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`datepicker/index should render the component 1`] = `
+<div
+  className="cn-date-picker"
+  data-component="DatePicker"
+  onClick={[Function]}
+  onMouseUp={[Function]}
+>
+  <Input
+    className="cn-date-picker__input"
+    hasError={false}
+    hideLabel={false}
+    id="date1"
+    isDisabled={false}
+    isFocusOnMount={false}
+    isRequired={false}
+    label="date picker"
+    labelClassName="cn-date-picker__label"
+    onChange={[Function]}
+    onKeyDown={[Function]}
+    placeholder="mm/dd/yyyy"
+    type="text"
+    value=""
+  >
+    <Icon
+      className="cn-date-picker__icon"
+      icon="calendar"
+      size="extra-small"
+    />
+  </Input>
+  <Connect(HigherOrderPopupComponent)
+    closePopup={[Function]}
+    getRect={[Function]}
+    highlightedDate={2017-01-01T00:00:00.000Z}
+    id="date1"
+    month={0}
+    offset={3}
+    onChange={[Function]}
+    onChangeMonthAndYear={[Function]}
+    popupClassName="cn-date-picker__popup"
+    year={2017}
+  />
+</div>
+`;
+
+exports[`datepicker/index should render the component with custom classname 1`] = `
+<div
+  className="cn-date-picker my-class"
+  data-component="DatePicker"
+  onClick={[Function]}
+  onMouseUp={[Function]}
+>
+  <Input
+    className="cn-date-picker__input"
+    hasError={false}
+    hideLabel={false}
+    id="date1"
+    isDisabled={false}
+    isFocusOnMount={false}
+    isRequired={false}
+    label="date picker"
+    labelClassName="cn-date-picker__label"
+    onChange={[Function]}
+    onKeyDown={[Function]}
+    placeholder="mm/dd/yyyy"
+    type="text"
+    value="07/08/2017"
+  >
+    <Icon
+      className="cn-date-picker__icon"
+      icon="calendar"
+      size="extra-small"
+    />
+  </Input>
+  <Connect(HigherOrderPopupComponent)
+    closePopup={[Function]}
+    getRect={[Function]}
+    highlightedDate={2017-07-08T11:22:33.000Z}
+    id="date1"
+    month={6}
+    offset={3}
+    onChange={[Function]}
+    onChangeMonthAndYear={[Function]}
+    popupClassName="cn-date-picker__popup"
+    selectedDate={2017-07-08T11:22:33.000Z}
+    year={2017}
+  />
+</div>
+`;
+
+exports[`datepicker/index should render the component with disabled 1`] = `
+<div
+  className="cn-date-picker"
+  data-component="DatePicker"
+  onClick={[Function]}
+  onMouseUp={[Function]}
+>
+  <Input
+    className="cn-date-picker__input"
+    hasError={false}
+    hideLabel={false}
+    id="date1"
+    isDisabled={true}
+    isFocusOnMount={false}
+    isRequired={false}
+    label="date picker"
+    labelClassName="cn-date-picker__label"
+    onChange={[Function]}
+    onKeyDown={[Function]}
+    placeholder="mm/dd/yyyy"
+    type="text"
+    value="07/08/2017"
+  >
+    <Icon
+      className="cn-date-picker__icon"
+      icon="calendar"
+      size="extra-small"
+    />
+  </Input>
+  <Connect(HigherOrderPopupComponent)
+    closePopup={[Function]}
+    getRect={[Function]}
+    highlightedDate={2017-07-08T11:22:33.000Z}
+    id="date1"
+    month={6}
+    offset={3}
+    onChange={[Function]}
+    onChangeMonthAndYear={[Function]}
+    popupClassName="cn-date-picker__popup"
+    selectedDate={2017-07-08T11:22:33.000Z}
+    year={2017}
+  />
+</div>
+`;
+
+exports[`datepicker/index should render the component with hasError 1`] = `
+<div
+  className="cn-date-picker"
+  data-component="DatePicker"
+  onClick={[Function]}
+  onMouseUp={[Function]}
+>
+  <Input
+    className="cn-date-picker__input"
+    hasError={true}
+    hideLabel={false}
+    id="date1"
+    isDisabled={false}
+    isFocusOnMount={false}
+    isRequired={false}
+    label="date picker"
+    labelClassName="cn-date-picker__label"
+    onChange={[Function]}
+    onKeyDown={[Function]}
+    placeholder="mm/dd/yyyy"
+    type="text"
+    value="07/08/2017"
+  >
+    <Icon
+      className="cn-date-picker__icon"
+      icon="calendar"
+      size="extra-small"
+    />
+  </Input>
+  <Connect(HigherOrderPopupComponent)
+    closePopup={[Function]}
+    getRect={[Function]}
+    highlightedDate={2017-07-08T11:22:33.000Z}
+    id="date1"
+    month={6}
+    offset={3}
+    onChange={[Function]}
+    onChangeMonthAndYear={[Function]}
+    popupClassName="cn-date-picker__popup"
+    selectedDate={2017-07-08T11:22:33.000Z}
+    year={2017}
+  />
+</div>
+`;
+
+exports[`datepicker/index should render the component with hideLabel 1`] = `
+<div
+  className="cn-date-picker"
+  data-component="DatePicker"
+  onClick={[Function]}
+  onMouseUp={[Function]}
+>
+  <Input
+    className="cn-date-picker__input"
+    hasError={false}
+    hideLabel={true}
+    id="date1"
+    isDisabled={false}
+    isFocusOnMount={false}
+    isRequired={false}
+    label="date picker"
+    labelClassName="cn-date-picker__label"
+    onChange={[Function]}
+    onKeyDown={[Function]}
+    placeholder="mm/dd/yyyy"
+    type="text"
+    value="07/08/2017"
+  >
+    <Icon
+      className="cn-date-picker__icon"
+      icon="calendar"
+      size="extra-small"
+    />
+  </Input>
+  <Connect(HigherOrderPopupComponent)
+    closePopup={[Function]}
+    getRect={[Function]}
+    highlightedDate={2017-07-08T11:22:33.000Z}
+    id="date1"
+    month={6}
+    offset={3}
+    onChange={[Function]}
+    onChangeMonthAndYear={[Function]}
+    popupClassName="cn-date-picker__popup"
+    selectedDate={2017-07-08T11:22:33.000Z}
+    year={2017}
+  />
+</div>
+`;
+
+exports[`datepicker/index should render the component with isRequired 1`] = `
+<div
+  className="cn-date-picker"
+  data-component="DatePicker"
+  onClick={[Function]}
+  onMouseUp={[Function]}
+>
+  <Input
+    className="cn-date-picker__input"
+    hasError={false}
+    hideLabel={false}
+    id="date1"
+    isDisabled={false}
+    isFocusOnMount={false}
+    isRequired={true}
+    label="date picker"
+    labelClassName="cn-date-picker__label"
+    onChange={[Function]}
+    onKeyDown={[Function]}
+    placeholder="mm/dd/yyyy"
+    type="text"
+    value="07/08/2017"
+  >
+    <Icon
+      className="cn-date-picker__icon"
+      icon="calendar"
+      size="extra-small"
+    />
+  </Input>
+  <Connect(HigherOrderPopupComponent)
+    closePopup={[Function]}
+    getRect={[Function]}
+    highlightedDate={2017-07-08T11:22:33.000Z}
+    id="date1"
+    month={6}
+    offset={3}
+    onChange={[Function]}
+    onChangeMonthAndYear={[Function]}
+    popupClassName="cn-date-picker__popup"
+    selectedDate={2017-07-08T11:22:33.000Z}
+    year={2017}
+  />
+</div>
+`;
+
+exports[`datepicker/index should render the component with placeholder 1`] = `
+<div
+  className="cn-date-picker"
+  data-component="DatePicker"
+  onClick={[Function]}
+  onMouseUp={[Function]}
+>
+  <Input
+    className="cn-date-picker__input"
+    hasError={false}
+    hideLabel={false}
+    id="date1"
+    isDisabled={false}
+    isFocusOnMount={false}
+    isRequired={false}
+    label="date picker"
+    labelClassName="cn-date-picker__label"
+    onChange={[Function]}
+    onKeyDown={[Function]}
+    placeholder="My Placeholder"
+    type="text"
+    value="07/08/2017"
+  >
+    <Icon
+      className="cn-date-picker__icon"
+      icon="calendar"
+      size="extra-small"
+    />
+  </Input>
+  <Connect(HigherOrderPopupComponent)
+    closePopup={[Function]}
+    getRect={[Function]}
+    highlightedDate={2017-07-08T11:22:33.000Z}
+    id="date1"
+    month={6}
+    offset={3}
+    onChange={[Function]}
+    onChangeMonthAndYear={[Function]}
+    popupClassName="cn-date-picker__popup"
+    selectedDate={2017-07-08T11:22:33.000Z}
+    year={2017}
+  />
+</div>
+`;
+
+exports[`datepicker/index should render the component with value 1`] = `
+<div
+  className="cn-date-picker"
+  data-component="DatePicker"
+  onClick={[Function]}
+  onMouseUp={[Function]}
+>
+  <Input
+    className="cn-date-picker__input"
+    hasError={false}
+    hideLabel={false}
+    id="date1"
+    isDisabled={false}
+    isFocusOnMount={false}
+    isRequired={false}
+    label="date picker"
+    labelClassName="cn-date-picker__label"
+    onChange={[Function]}
+    onKeyDown={[Function]}
+    placeholder="mm/dd/yyyy"
+    type="text"
+    value="07/08/2017"
+  >
+    <Icon
+      className="cn-date-picker__icon"
+      icon="calendar"
+      size="extra-small"
+    />
+  </Input>
+  <Connect(HigherOrderPopupComponent)
+    closePopup={[Function]}
+    getRect={[Function]}
+    highlightedDate={2017-07-08T11:22:33.000Z}
+    id="date1"
+    month={6}
+    offset={3}
+    onChange={[Function]}
+    onChangeMonthAndYear={[Function]}
+    popupClassName="cn-date-picker__popup"
+    selectedDate={2017-07-08T11:22:33.000Z}
+    year={2017}
+  />
+</div>
+`;

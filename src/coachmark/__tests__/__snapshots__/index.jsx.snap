@@ -1,0 +1,101 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`coachmark should render the coachmark tour 1`] = `
+<Coachmark
+  handleDocumentClick={[Function]}
+  onDocumentClick={[Function]}
+  onStepNext={[Function]}
+  onTourEnd={[Function]}
+  onTourStart={[Function]}
+  showCoachmark={true}
+  steps={
+    Array [
+      Object {
+        "arrowOffset": 60,
+        "content": "Hey there! This is an example CoachMarks tour.",
+        "placement": "bottom",
+        "target": "coachmark-step1",
+        "title": "Welcome to CoachMarks!",
+      },
+      Object {
+        "content": "Content for step 2 goes here",
+        "placement": "left",
+        "showPrevButton": true,
+        "target": "coachmark-step2",
+        "title": "This is the title for step 2",
+        "width": 235,
+        "yOffset": 10,
+      },
+      Object {
+        "arrowColor": "#0D3560",
+        "content": "Content for step 3 goes here",
+        "placement": "bottom",
+        "showPrevButton": true,
+        "target": "coachmark-step3",
+        "title": "This is the title for step 3",
+      },
+      Object {
+        "content": "If you want to say anything, here is your last chance",
+        "placement": "right",
+        "showPrevButton": true,
+        "target": "coachmark-step4",
+        "title": "Tour ends here",
+      },
+    ]
+  }
+  tour={
+    Object {
+      "arrowWidth": 10,
+      "bubblePadding": 0,
+      "customRenderer": "rmm_bubble",
+      "i18n": Object {
+        "closeTooltip": "Close",
+        "doneBtn": "Close",
+        "nextBtn": "Next",
+        "prevBtn": "Back",
+      },
+      "id": "desktop-summary-tour",
+      "onClose": [Function],
+      "onEnd": [Function],
+      "onNext": [Function],
+      "onStart": [Function],
+      "scrollTopMargin": 100,
+      "steps": Array [
+        Object {
+          "arrowOffset": 60,
+          "content": "Hey there! This is an example CoachMarks tour.",
+          "placement": "bottom",
+          "target": "coachmark-step1",
+          "title": "Welcome to CoachMarks!",
+        },
+        Object {
+          "content": "Content for step 2 goes here",
+          "placement": "left",
+          "showPrevButton": true,
+          "target": "coachmark-step2",
+          "title": "This is the title for step 2",
+          "width": 235,
+          "yOffset": 10,
+        },
+        Object {
+          "arrowColor": "#0D3560",
+          "content": "Content for step 3 goes here",
+          "placement": "bottom",
+          "showPrevButton": true,
+          "target": "coachmark-step3",
+          "title": "This is the title for step 3",
+        },
+        Object {
+          "content": "If you want to say anything, here is your last chance",
+          "placement": "right",
+          "showPrevButton": true,
+          "target": "coachmark-step4",
+          "title": "Tour ends here",
+        },
+      ],
+      "wrapperClass": "rmm-hopscotch",
+    }
+  }
+  type="tour"
+/>
+`;

@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Decorated Toast default renders 1`] = `
+<InlineNotification
+  isOpen={true}
+  onClose={[Function]}
+  type="message"
+>
+  <InlineNotificationMessage>
+    Toast Message
+  </InlineNotificationMessage>
+</InlineNotification>
+`;
+
+exports[`Decorated Toast renders with props title 1`] = `
+<InlineNotification
+  isOpen={true}
+  onClose={[Function]}
+  type="message"
+>
+  <InlineNotificationTitle>
+    Toast Title
+  </InlineNotificationTitle>
+  <InlineNotificationMessage>
+    Toast Message
+  </InlineNotificationMessage>
+</InlineNotification>
+`;

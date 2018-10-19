@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`utils should get the default sprite url 1`] = `
+<i
+  className="cn-icon cn-icon--size-extra-small"
+  data-component="Icon"
+>
+  <svg>
+    <use
+      xlinkHref="sprites.svg#icon1"
+    />
+  </svg>
+</i>
+`;
+
+exports[`utils should set the custom sprite url 1`] = `
+<i
+  className="cn-icon cn-icon--size-extra-small"
+  data-component="Icon"
+>
+  <svg>
+    <use
+      xlinkHref="someUrl/sprite1.svg#icon1"
+    />
+  </svg>
+</i>
+`;

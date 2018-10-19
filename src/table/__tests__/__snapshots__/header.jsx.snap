@@ -1,0 +1,94 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`table/header should render the component 1`] = `
+<table
+  className="cn-table__header"
+  data-component="Header"
+  style={
+    Object {
+      "left": 0,
+    }
+  }
+>
+  <thead>
+    <tr>
+      <TableColumn
+        id="1"
+        isSortable={false}
+        width="100px"
+      >
+        Head 1
+      </TableColumn>
+      <TableColumn
+        id="2"
+        isSortable={false}
+        width="100px"
+      >
+        Head 2
+      </TableColumn>
+    </tr>
+  </thead>
+</table>
+`;
+
+exports[`table/header should render the component with scrollLeft 1`] = `
+<table
+  className="cn-table__header"
+  data-component="Header"
+  style={
+    Object {
+      "left": 100,
+    }
+  }
+>
+  <thead>
+    <tr>
+      <TableColumn
+        id="1"
+        isSortable={false}
+        width="100px"
+      >
+        Head 1
+      </TableColumn>
+      <TableColumn
+        id="2"
+        isSortable={false}
+        width="100px"
+      >
+        Head 2
+      </TableColumn>
+    </tr>
+  </thead>
+</table>
+`;
+
+exports[`table/header should render the component with widths 1`] = `
+<table
+  className="cn-table__header"
+  data-component="Header"
+  style={
+    Object {
+      "left": 0,
+    }
+  }
+>
+  <thead>
+    <tr>
+      <TableColumn
+        id="1"
+        isSortable={false}
+        width="80px"
+      >
+        Head 1
+      </TableColumn>
+      <TableColumn
+        id="2"
+        isSortable={false}
+        width="120px"
+      >
+        Head 2
+      </TableColumn>
+    </tr>
+  </thead>
+</table>
+`;

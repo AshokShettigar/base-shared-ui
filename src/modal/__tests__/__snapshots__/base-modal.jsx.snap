@@ -1,0 +1,105 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`modal/base-modal should render the component 1`] = `
+<div
+  className="cn-modal__container"
+  data-component="BaseModal"
+  style={
+    Object {
+      "height": "450px",
+      "width": "600px",
+    }
+  }
+>
+  <Navbar
+    className="cn-modal__navbar"
+    color="dark"
+    full={true}
+    tag="nav"
+    toggleable={false}
+  >
+    <NavbarBrand
+      tag="a"
+    >
+      Modal Title
+    </NavbarBrand>
+  </Navbar>
+  Some content
+</div>
+`;
+
+exports[`modal/base-modal should render the component with onClose function 1`] = `
+<div
+  className="cn-modal__container"
+  data-component="BaseModal"
+  style={
+    Object {
+      "height": "450px",
+      "width": "600px",
+    }
+  }
+>
+  <Navbar
+    className="cn-modal__navbar"
+    color="dark"
+    full={true}
+    tag="nav"
+    toggleable={false}
+  >
+    <NavbarBrand
+      tag="a"
+    >
+      Modal Title
+    </NavbarBrand>
+    <Nav
+      tag="ul"
+    >
+      <NavItem
+        className="cn-modal__navbar__close"
+        onClick={[Function]}
+        tag="li"
+      >
+        <span
+          className="a11y"
+        >
+          Close
+        </span>
+        <Icon
+          className="cn-modal__navbar__icon"
+          icon="close"
+          size="extra-small"
+        />
+      </NavItem>
+    </Nav>
+  </Navbar>
+  Some content
+</div>
+`;
+
+exports[`modal/base-modal should render the component with width and height 1`] = `
+<div
+  className="cn-modal__container"
+  data-component="BaseModal"
+  style={
+    Object {
+      "height": "200px",
+      "width": "240px",
+    }
+  }
+>
+  <Navbar
+    className="cn-modal__navbar"
+    color="dark"
+    full={true}
+    tag="nav"
+    toggleable={false}
+  >
+    <NavbarBrand
+      tag="a"
+    >
+      Modal Title
+    </NavbarBrand>
+  </Navbar>
+  Some content
+</div>
+`;

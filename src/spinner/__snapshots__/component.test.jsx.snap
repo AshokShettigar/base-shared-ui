@@ -1,0 +1,57 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Spinner renders 1`] = `
+<i
+  className="spinner spinner--size-extra-large"
+  data-component="Spinner"
+/>
+`;
+
+exports[`Spinner renders extra-large size 1`] = `
+<i
+  className="spinner spinner--size-extra-large"
+  data-component="Spinner"
+/>
+`;
+
+exports[`Spinner renders extra-small size 1`] = `
+<i
+  className="spinner spinner--size-extra-large"
+  data-component="Spinner"
+/>
+`;
+
+exports[`Spinner renders large size 1`] = `
+<i
+  className="spinner spinner--size-extra-large"
+  data-component="Spinner"
+/>
+`;
+
+exports[`Spinner renders medium size 1`] = `
+<i
+  className="spinner spinner--size-extra-large"
+  data-component="Spinner"
+/>
+`;
+
+exports[`Spinner renders small size 1`] = `
+<i
+  className="spinner spinner--size-extra-large"
+  data-component="Spinner"
+/>
+`;
+
+exports[`Spinner renders with azure radiance 1`] = `
+<i
+  className="spinner spinner--color-azure-radiance spinner--size-extra-large"
+  data-component="Spinner"
+/>
+`;
+
+exports[`Spinner renders with className 1`] = `
+<i
+  className="spinner className spinner--size-extra-large"
+  data-component="Spinner"
+/>
+`;

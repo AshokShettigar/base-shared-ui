@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`icon should render the component 1`] = `
+<i
+  className="cn-icon cn-icon--size-extra-small"
+  data-component="Icon"
+>
+  <svg>
+    <use
+      xlinkHref="sprites.svg#some-icon"
+    />
+  </svg>
+</i>
+`;
+
+exports[`icon should render the component with class name 1`] = `
+<i
+  className="cn-icon my-class cn-icon--size-extra-small"
+  data-component="Icon"
+>
+  <svg>
+    <use
+      xlinkHref="sprites.svg#some-icon"
+    />
+  </svg>
+</i>
+`;
+
+exports[`icon should set custom spriteUrl 1`] = `
+<i
+  className="cn-icon cn-icon--size-extra-small"
+  data-component="Icon"
+>
+  <svg>
+    <use
+      xlinkHref="diff_url/sprite.svg#some-icon"
+    />
+  </svg>
+</i>
+`;

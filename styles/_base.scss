@@ -1,0 +1,34 @@
+* {
+	box-sizing: inherit;
+}
+
+@media only all {
+    body {
+        max-width: none;
+    }
+}
+
+html, body {
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+
+.cn-body,
+.fonts-loaded {
+    @include webfontNormal;
+    background-color: $graylightest;
+    box-sizing: border-box;
+    color: $black;
+    flex-grow: 1;
+    font-family: Open Sans, sans-serif;
+    margin: 0 auto;
+}
+
+/* fluid images */
+img {
+    /* prevent IE from setting attributes on src swap */
+    width: auto;
+    height: auto;
+    max-width: 100%;
+}

@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`table/cell should render the cell 1`] = `
+<td
+  className="cn-table__cell"
+  data-component="Cell"
+/>
+`;
+
+exports[`table/cell should render the cell with class name 1`] = `
+<td
+  className="cn-table__cell my-class"
+  data-component="Cell"
+>
+  Some data
+</td>
+`;
+
+exports[`table/cell should render the cell with data 1`] = `
+<td
+  className="cn-table__cell"
+  data-component="Cell"
+>
+  Some data
+</td>
+`;

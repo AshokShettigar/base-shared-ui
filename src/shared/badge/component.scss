@@ -1,0 +1,49 @@
+@import '../scss/variables';
+
+.root {
+  text-transform: uppercase;
+  border-radius: 3px;
+  font-size: 10px;
+  font-weight: bold;
+  min-width: 10px;
+  letter-spacing: 0.4px;
+  display: inline-block;
+  padding: 2px 6px 1px;
+  margin-right: 5px;
+  text-align: center;
+}
+
+.primary{
+  color: $c-white;
+  background: $c-vivid-cerulean;
+}
+
+.secondary{
+  color: $c-raisin-black;
+  background: $c-gainsboro;
+}
+
+.success {
+  color: $c-white;
+  background: $c-middle-green;
+}
+
+.badge-danger {
+  color: $c-white;
+  background: $c-upsdell-red;
+}
+
+.warning {
+  color: $c-raisin-black;
+  background: $c-mikado-yellow;
+}
+
+.light{
+  color: $c-dim-grey;
+  background: $c-white;
+}
+
+.dark{
+  color: $c-white;
+  background: $c-dim-grey;
+}

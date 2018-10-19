@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="13px" height="16px" viewBox="0 0 13 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>Icons</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Icons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g transform="translate(-966.000000, -236.000000)" fill="#1173BD" id="Status">
+            <g transform="translate(25.000000, 139.000000)">
+                <g id="Pending-Resolution" transform="translate(941.000000, 67.000000)">
+                    <g id="Icons" transform="translate(0.000000, 30.000000)">
+                        <path d="M9.2565,0.6046 L9.2565,0.6536 L1.8975,0.7436 L1.8975,5.6746 L3.3665,7.7836 L1.8975,9.5646 L1.8975,15.2046 L3.1165,15.2046 L9.4375,15.3646 L9.2565,15.0646 L10.4665,15.0646 L10.4665,9.4146 L8.9965,7.6446 L10.4665,5.5336 L10.4665,0.8946 L10.5275,0.6346 L10.4665,0.6346 L10.4665,0.6046 L9.2565,0.6046 Z M3.9165,5.0946 L8.5065,5.0946 L6.2675,7.8636 L3.9165,5.0946 Z M6.2565,8.3646 L8.6075,11.1346 L4.0175,11.1346 L6.2565,8.3646 Z" id="Fill-1"></path>
+                        <polygon id="Fill-2" points="0 1.494 12.427 1.494 12.427 0 0 0"></polygon>
+                        <polygon id="Fill-3" points="0 16 12.427 16 12.427 14.506 0 14.506"></polygon>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,78 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`tab should render the default tab 1`] = `
+<li
+  className="cn-tab"
+>
+  <Component
+    className="cn-tab__link"
+    href="#"
+    isActive={false}
+    label="Tab1"
+  />
+</li>
+`;
+
+exports[`tab should render the default tab with active 1`] = `
+<li
+  className="cn-tab cn-tab--active"
+>
+  <Component
+    className="cn-tab__link"
+    href="#"
+    isActive={true}
+    label="Tab1"
+  />
+</li>
+`;
+
+exports[`tab should render the default tab with custom class name 1`] = `
+<li
+  className="cn-tab"
+>
+  <Component
+    className="cn-tab__link my-class"
+    href="#"
+    isActive={false}
+    label="Tab1"
+  />
+</li>
+`;
+
+exports[`tab should render the default tab with custom tab class name 1`] = `
+<li
+  className="cn-tab my-tab-class"
+>
+  <Component
+    className="cn-tab__link"
+    href="#"
+    isActive={false}
+    label="Tab1"
+    tabClassName="my-tab-class"
+  />
+</li>
+`;
+
+exports[`tab should render with higher order component 1`] = `
+<li
+  className="cn-tab"
+>
+  <Component
+    className="cn-tab__link"
+    isActive={false}
+    label="Tab1"
+  />
+</li>
+`;
+
+exports[`tab should render with higher order component and custom class name 1`] = `
+<li
+  className="cn-tab"
+>
+  <Component
+    className="cn-tab__link my-class"
+    isActive={false}
+    label="Tab1"
+  />
+</li>
+`;

@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`table/select-row-cell should render the component 1`] = `
+<table
+  data-component="TableWrapper"
+>
+  <tbody>
+    <tr>
+      <SelectRowCell
+        id="ck"
+        isSelected={false}
+        onChange={[Function]}
+      />
+    </tr>
+  </tbody>
+</table>
+`;
+
+exports[`table/select-row-cell should render the component with selected flag 1`] = `
+<table
+  data-component="TableWrapper"
+>
+  <tbody>
+    <tr>
+      <SelectRowCell
+        id="ck"
+        isSelected={true}
+        onChange={[Function]}
+      />
+    </tr>
+  </tbody>
+</table>
+`;

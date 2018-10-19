@@ -1,0 +1,67 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Spinner component should render component with centered prop 1`] = `
+<Spinner
+  centered={true}
+  hidden={false}
+  size="medium"
+/>
+`;
+
+exports[`Spinner component should render component with class names props 1`] = `
+<Spinner
+  centered={false}
+  className="className"
+  hidden={false}
+  size="medium"
+  spinnerClassName="spinnerClassName"
+/>
+`;
+
+exports[`Spinner component should render component with color prop 1`] = `
+<Spinner
+  centered={false}
+  color="azure"
+  hidden={false}
+  size="medium"
+/>
+`;
+
+exports[`Spinner component should render component with default props 1`] = `
+<Spinner
+  centered={false}
+  hidden={false}
+  size="medium"
+/>
+`;
+
+exports[`Spinner component should render component with required prop 1`] = `
+<Spinner
+  centered={false}
+  hidden={false}
+  required={true}
+  size="medium"
+/>
+`;
+
+exports[`Spinner component should render component with size prop 1`] = `
+<Spinner
+  centered={false}
+  hidden={false}
+  size="small"
+/>
+`;
+
+exports[`Spinner component should render hidden component 1`] = `
+<div
+  hidden={true}
+>
+  <Spinner
+    centered={false}
+    hidden={true}
+    size="medium"
+  />
+</div>
+`;
+
+exports[`Spinner component shouldn't render component 1`] = `null`;

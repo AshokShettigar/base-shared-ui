@@ -1,0 +1,59 @@
+.ag-grid-signal-cell-placement-popup {
+    z-index: 1001;
+    display: block;
+}
+
+.signal-popup-wrapper__styled-tabled-cell {
+    display: inline-block;
+    position: relative;
+    margin-left: -5px;
+    .signal-cell__container{
+        .signal-cell__cell{
+            padding: 4px;
+            display: flex;
+            align-items: center;
+        }
+        .signal-cell__tab-active {
+            border: 1px solid $graylight;
+            border-radius: 3px;
+            background: $white;
+            z-index: 11;
+            position: relative;
+            padding: 4px 3px;
+            box-shadow: -2px 1px 1px 0 $gray-shadow;
+        }
+        .signal-cell__display-label{
+            margin-left: 3px;
+        }
+        .signal-cell__spinner{
+            font-size: 15px;
+        }
+    }
+    &:focus {
+        outline: none;
+    }
+
+    &:hover {
+        cursor: pointer;
+    }
+}
+
+.signal-popup-joiner {
+    height: 1px;
+    background-color: $white;
+    position: absolute;
+    z-index: 1006;
+}
+
+.signal-popup-contanier {
+    background-color: $white;
+    padding: 10px;
+    width: 490px;
+    z-index: 1001;
+    border: 1px solid $graylight;
+    border-radius: 3px;
+    max-height: 340px !important;
+    overflow: hidden;
+    overflow-y: auto;
+    box-shadow: -2px 1px 1px 0 $gray-shadow;
+} 

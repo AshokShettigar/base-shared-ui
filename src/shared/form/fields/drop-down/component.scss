@@ -1,0 +1,73 @@
+@import '../../../scss/variables';
+
+.root {
+  :global {
+    .icon,
+    .dropDown,
+    .error {
+      &__control {
+        width: 280px;
+
+        color: $c-raisin-black;
+        background: $c-white;
+        box-shadow: 1px 1px 1px #eee inset;
+        min-height: 30px;
+        height: 30px;
+        cursor: pointer;
+      }
+
+      &__--is-disabled {
+        opacity: .8;
+      }
+    }
+
+    .error__control {
+      border-color: $c-upsdell-red;
+
+      &-is-focused,
+      &:hover {
+        border-color: $c-upsdell-red;
+      }
+    }
+
+    .icon__control {
+      color: $c-raisin-black;
+      border-color: $c-gainsboro;
+
+      &-is-focused,
+      &:hover {
+        border-color: #ccc;
+      }
+
+      &-is-focused {
+        outline: none;
+        box-shadow: 0 0 2px 1px $c-fresh-air;
+      }
+    }
+
+    .dropDown {
+      font-family: $ff-open-sans;
+      font-size: $fs-tiny;
+
+      &__clear-indicator,
+      &__dropdown-indicator {
+        padding: 4px 2px;
+      }
+
+      &__control {
+        border-color: $c-gainsboro;
+
+        &-is-focused,
+        &:hover {
+          border-color: #ccc;
+        }
+
+        &-is-focused {
+          outline: none;
+          box-shadow: 0 0 2px 1px $c-fresh-air;
+        }
+      }
+    }
+  }
+}
+

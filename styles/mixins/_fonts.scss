@@ -1,0 +1,22 @@
+@mixin webfontNormal {
+    font-weight: 400;
+}
+@mixin webfontSemibold {
+    font-weight: 600;
+}
+@mixin webfontBold {
+    font-weight: 700;
+}
+@mixin webfontMonospace {
+    font-family: "Roboto Mono", Courier, monospace;
+}
+
+/* monospace font - for data values that require clear distinctions between similar characters, like zero vs capital O in visible passwords */
+@font-face {
+    font-family: 'Roboto Mono';
+    src:    url('./fonts/robotomono-medium-webfont.woff2') format('woff2'),
+            url('./fonts/robotomono-medium-webfont.woff') format('woff'),
+            url('./fonts/robotomono-medium-webfont.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}

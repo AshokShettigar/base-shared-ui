@@ -1,0 +1,241 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`textarea should render cols 1`] = `
+<label
+  className="cn-field"
+  data-component="Textarea"
+  htmlFor="textareaundefined"
+>
+  <span
+    className="cn-field__label"
+  >
+    textarea
+  </span>
+  <textarea
+    className="cn-field__input"
+    cols={3}
+    disabled={false}
+    id="textareaundefined"
+    onChange={[Function]}
+    placeholder={undefined}
+    rows={undefined}
+    value={undefined}
+  />
+</label>
+`;
+
+exports[`textarea should render rows 1`] = `
+<label
+  className="cn-field"
+  data-component="Textarea"
+  htmlFor="textareaundefined"
+>
+  <span
+    className="cn-field__label"
+  >
+    textarea
+  </span>
+  <textarea
+    className="cn-field__input"
+    cols={undefined}
+    disabled={false}
+    id="textareaundefined"
+    onChange={[Function]}
+    placeholder={undefined}
+    rows={2}
+    value={undefined}
+  />
+</label>
+`;
+
+exports[`textarea should render the textarea 1`] = `
+<label
+  className="cn-field"
+  data-component="Textarea"
+  htmlFor="textareaundefined"
+>
+  <span
+    className="cn-field__label"
+  >
+    textarea
+  </span>
+  <textarea
+    className="cn-field__input"
+    cols={undefined}
+    disabled={false}
+    id="textareaundefined"
+    onChange={[Function]}
+    placeholder={undefined}
+    rows={undefined}
+    value={undefined}
+  />
+</label>
+`;
+
+exports[`textarea should render the textarea with className 1`] = `
+<label
+  className="cn-field my-class-name"
+  data-component="Textarea"
+  htmlFor="textareaundefined"
+>
+  <span
+    className="cn-field__label"
+  >
+    textarea
+  </span>
+  <textarea
+    className="cn-field__input"
+    cols={undefined}
+    disabled={false}
+    id="textareaundefined"
+    onChange={[Function]}
+    placeholder={undefined}
+    rows={undefined}
+    value={undefined}
+  />
+</label>
+`;
+
+exports[`textarea should render the textarea with error 1`] = `
+<label
+  className="cn-field cn-field--invalid"
+  data-component="Textarea"
+  htmlFor="textareaundefined"
+>
+  <span
+    className="cn-field__label"
+  >
+    textarea
+  </span>
+  <textarea
+    className="cn-field__input"
+    cols={undefined}
+    disabled={false}
+    id="textareaundefined"
+    onChange={[Function]}
+    placeholder={undefined}
+    rows={undefined}
+    value={undefined}
+  />
+</label>
+`;
+
+exports[`textarea should render the textarea with value 1`] = `
+<label
+  className="cn-field"
+  data-component="Textarea"
+  htmlFor="textareamyValue"
+>
+  <span
+    className="cn-field__label"
+  >
+    textarea
+  </span>
+  <textarea
+    className="cn-field__input"
+    cols={undefined}
+    disabled={false}
+    id="textareamyValue"
+    onChange={[Function]}
+    placeholder={undefined}
+    rows={undefined}
+    value="myValue"
+  />
+</label>
+`;
+
+exports[`textarea should render with disabled 1`] = `
+<label
+  className="cn-field cn-field--disabled"
+  data-component="Textarea"
+  htmlFor="textareaundefined"
+>
+  <span
+    className="cn-field__label"
+  >
+    textarea
+  </span>
+  <textarea
+    className="cn-field__input"
+    cols={undefined}
+    disabled={true}
+    id="textareaundefined"
+    onChange={[Function]}
+    placeholder={undefined}
+    rows={undefined}
+    value={undefined}
+  />
+</label>
+`;
+
+exports[`textarea should render with no label 1`] = `
+<label
+  className="cn-field"
+  data-component="Textarea"
+  htmlFor="textareaundefined"
+>
+  <span
+    className="a11y cn-field__label"
+  >
+    textarea
+  </span>
+  <textarea
+    className="cn-field__input"
+    cols={undefined}
+    disabled={false}
+    id="textareaundefined"
+    onChange={[Function]}
+    placeholder={undefined}
+    rows={undefined}
+    value={undefined}
+  />
+</label>
+`;
+
+exports[`textarea should render with placeholder 1`] = `
+<label
+  className="cn-field"
+  data-component="Textarea"
+  htmlFor="textareaundefined"
+>
+  <span
+    className="cn-field__label"
+  >
+    textarea
+  </span>
+  <textarea
+    className="cn-field__input"
+    cols={undefined}
+    disabled={false}
+    id="textareaundefined"
+    onChange={[Function]}
+    placeholder="abc"
+    rows={undefined}
+    value={undefined}
+  />
+</label>
+`;
+
+exports[`textarea should render with textarea required 1`] = `
+<label
+  className="cn-field cn-field--required"
+  data-component="Textarea"
+  htmlFor="textareaundefined"
+>
+  <span
+    className="cn-field__label"
+  >
+    textarea
+  </span>
+  <textarea
+    className="cn-field__input"
+    cols={undefined}
+    disabled={false}
+    id="textareaundefined"
+    onChange={[Function]}
+    placeholder={undefined}
+    rows={undefined}
+    value={undefined}
+  />
+</label>
+`;

@@ -1,0 +1,220 @@
+.cn-date-picker {
+    width: 130px;
+
+    &__icon {
+        fill: $graylight;
+        height: 16px;
+        width: 16px;
+        position: absolute;
+        right: 12px;
+        bottom: 13px;
+
+        &--is-active {
+            border-color: $gray;
+            fill: $gray;
+        }
+    }
+
+    &__input {
+        display: flex;
+        flex-wrap: wrap;
+
+        & .cn-field__input {
+            width: 125px;
+        }
+    }
+
+    &__popup {
+        background-color: $white;
+        border: 1px solid $graylight;
+        border-radius: 3px;
+        padding: 10px;
+        position: absolute;
+
+        &.popup-enter {
+            opacity: 0.01;
+        }
+
+        &.popup-enter-active {
+            opacity: 1;
+            transition: opacity 100ms;
+        }
+
+        &.popup-leave {
+            opacity: 1;
+        }
+
+        &.popup-leave-active {
+            opacity: 0.01;
+            transition: opacity 100ms;
+        }
+    }
+}
+
+.cn-calendar {
+    align-items: center;
+    cursor: default;
+    display: flex;
+    flex-direction: column;
+    font-size: 12px;
+    user-select: none;
+    width: 224px;
+
+    &__column {
+        margin: 1px;
+        max-width: 30px;
+        min-width: 30px;
+        text-align: center;
+    }
+
+    &__day {
+        padding: 6px 0;
+
+        &:hover {
+            background-color: $bluelightest;
+        }
+
+        &--is-disabled {
+            color: $graylight;
+
+            &:hover {
+                background-color: $white;
+            }
+        }
+
+        &--is-highlighted {
+            background-color: $graylight;
+        }
+
+        &--is-selected {
+            background-color: $blue;
+            color: $white;
+
+            &:hover {
+                background-color: $blue;
+            }
+        }
+    }
+}
+
+.cn-calendar-body {
+    min-height: 120px;
+    overflow: hidden;
+    transition: height 150ms;
+    width: 100%;
+
+    &__month {
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+
+        &.month-next-enter {
+            transform: translateY(100%);
+        }
+
+        &.month-next-enter-active {
+            transform: translateY(0);
+            transition: transform 150ms;
+        }
+
+        &.month-next-leave {
+            transform: translateY(-100%);
+        }
+
+        &.month-next-leave-active {
+            transform: translateY(-200%);
+            transition: transform 150ms;
+        }
+
+        &.month-prev-enter {
+            transform: translateY(-100%);
+        }
+
+        &.month-prev-enter-active {
+            transform: translateY(0);
+            transition: transform 150ms;
+        }
+
+        &.month-prev-leave {
+            transform: translateY(-100%);
+        }
+
+        &.month-prev-leave-active {
+            transform: translateY(0);
+            transition: transform 150ms;
+        }
+    }
+}
+
+.cn-calendar-month {
+    align-items: center;
+    display: flex;
+    font-size: 14px;
+    padding: 0 20px 5px;
+    width: 100%;
+
+    &__animation {
+        display: flex;
+        height: 19px;
+
+        & .month-next-enter {
+            transform: translateX(100%);
+        }
+
+        & .month-next-enter-active {
+            transform: translateX(0);
+            transition: transform 150ms ease-in;
+        }
+
+        & .month-next-leave {
+            transform: translateX(-100%);
+        }
+
+        & .month-next-leave-active {
+            transform: translateX(-200%);
+            transition: transform 150ms ease-in;
+        }
+
+        & .month-prev-enter {
+            transform: translateX(-100%);
+        }
+
+        & .month-prev-enter-active {
+            transform: translateX(0);
+            transition: transform 150ms ease-in;
+        }
+
+        & .month-prev-leave {
+            transform: translateX(-100%);
+        }
+
+        & .month-prev-leave-active {
+            transform: translateX(0);
+            transition: transform 150ms ease-in;
+        }
+    }
+
+    &__animation-container {
+        height: 19px;
+        overflow: hidden;
+        width: 100%;
+    }
+
+    &__nav-month-btn {
+        cursor: pointer;
+        flex: 0 0 32px;
+        height: 14px;
+        width: 14px;
+    }
+
+    &__text {
+        flex-shrink: 0;
+        text-align: center;
+        width: 120px;
+    }
+}
+
+.cn-calendar-week-header {
+    align-self: flex-start;
+    display: flex;
+}

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100.05 89.66">
+    <g fill="none" stroke="#3b3b3b" stroke-linecap="round" stroke-linejoin="round">
+        <title>folder-with-check</title>
+        <path stroke-width="3" d="M10.29 88.16L1.5 37.3l1.57-10.44 17.33-5.14 4.79 8.38 15.11-5.23M72.28 13.8l6.79-2.35 2.9 14.95"/>
+        <path d="M67.84 30.58A16.94 16.94 0 0 0 66.23 5a16.94 16.94 0 0 0-22.7 25" stroke-width="3.02"/>
+        <path stroke-width="3.02" d="M49.42 20.59l8.69 4.23 8.12-19.87"/>
+        <path stroke-width="3" d="M32.16 34.14L27.1 46.08 10.29 88.16l82.3-26.48 5.96-40.18L52.7 35.06l-3.87-7.08-16.67 6.16z"/>
+    </g>
+</svg>

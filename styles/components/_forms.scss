@@ -1,0 +1,767 @@
+// Form validation states
+//
+// Used in _forms.scss to generate the form validation CSS for warnings, errors,
+// and successes.
+
+/* Reset for all inputs, themes */
+button,
+input,
+textarea,
+select {
+  font-family: inherit;
+  line-height: 1.3;
+  color: $body-color;
+}
+
+input,
+textarea,
+select {
+  font-size: rem(16); /* best for mobile screens */
+
+  @media ( min-width: 25em ) {
+    font-size: rem(14);
+  }
+
+  /** Fix for IE to remove the default dropdown appearance */
+  &::-ms-expand {
+    display: none;
+  }
+}
+
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-results-button,
+input[type="search"]::-webkit-search-results-decoration {
+  display: none;
+}
+// Focus 
+.form-control {
+	&.focus,
+	&:focus {
+		color: $input-color-focus;
+		border-color: $input-border-focus !important;
+		outline: none;
+		background-color: $white !important;
+		box-shadow: 0 0 2px $form-focus-shadow !important;
+	}
+}
+
+legend {
+	display:block;
+	overflow: hidden;	
+	@include webfontBold;
+	font-size: rem(11);
+	text-transform: uppercase;
+	color: $black;
+	margin: rem(5) rem(1);
+	position: relative;
+}
+
+// Label
+.col-form-label {
+	@include webfontBold;
+	font-size: rem(11);
+	text-transform: uppercase;
+	color: $black;
+	position: relative;
+
+	.form-group.required > &:after {
+		content: "";
+		@include webfontBold;
+		width: 6px;
+		height: 6px;
+		border-radius: 6px;
+		background-color: $orange;
+		position: absolute;
+		top: 3px;
+		left: -10px;
+	}
+}
+
+.form-control-label {
+  display: inline-block;
+  clear: both;
+  @include webfontBold;
+  font-size: rem(11);
+  text-transform: uppercase;
+  color: $black;
+  margin: rem(5) rem(1);
+  position: relative;
+
+  .form-group.required > &:after {
+    content: "";
+    @include webfontBold;
+    width: 6px;
+    height: 6px;
+    border-radius: 6px;
+    background-color: $orange;
+    position: absolute;
+    top: 3px;
+    left: -10px;
+  }
+}
+
+@mixin form-control-validation($color) {
+  // Color the label and help text
+  .form-control-feedback,
+  .form-control-label,
+  .col-form-label,
+  .form-check-label,
+  .custom-control {
+    color: $color;
+  }
+
+  // Set the border and box shadow on specific inputs to match
+  .form-control {
+    border-color: $color;
+  }
+
+  // Set validation states also for addons
+  .input-group-addon {
+    color: $color;
+    border-color: $color;
+    background-color: lighten($color, 40%);
+  }
+}
+
+// Form control focus state
+//
+// Generate a customized focus state and for any input with the specified color,
+// which defaults to the `@input-border-focus` variable.
+//
+// We highly encourage you to not customize the default value, but instead use
+// this to tweak colors on an as-needed basis. This aesthetic change is based on
+// WebKit's default styles, but applicable to a wider range of browsers. Its
+// usability and accessibility should be taken into account with any change.
+//
+// Example usage: change the default blue border and shadow to white for better
+// contrast against a dark gray background.
+@mixin form-control-focus() {
+  &:focus {
+    color: $input-color-focus;
+    border-color: $input-border-focus !important;
+	outline: none;
+	background-color: $white !important;
+    box-shadow: 0 0 2px $form-focus-shadow !important;
+  }
+}
+
+// Form control sizing
+//
+// Relative text size, padding, and border-radii changes for form controls. For
+// horizontal sizing, wrap controls in the predefined grid classes. `<select>`
+// element gets special love because it's special, and that's a fact!
+
+@mixin input-size($parent, $input-height, $padding-y, $padding-x, $font-size, $line-height, $border-radius) {
+  #{$parent} {
+    height: $input-height;
+    padding: $padding-y $padding-x;
+    font-size: $font-size;
+    line-height: $line-height;
+    @include border-radius($border-radius);
+  }
+
+  select#{$parent} {
+    height: $input-height;
+	line-height: $input-height;
+	min-width: rem(75);
+	position: relative;
+  }
+
+  textarea#{$parent},
+  select[multiple]#{$parent} {
+    height: auto;
+  }
+}
+
+/* Forms (cn-*) */
+
+@mixin textinput {
+  color: $textdefault;
+  background-color: $graylightest;
+  border: 1px solid $graylight;
+  @include themer( color, "input-text", $themes );
+  @include themer( background-color, "input-empty-bg", $themes );
+  @include themer( border-color, "input-border", $themes );
+  border-radius: $btnradius;
+  padding: .3em .5em;
+  margin: 3px 0;
+  &:focus {
+    background-color: $white;
+    color: $textdefault;
+  }
+}
+
+
+/* Reset for all inputs, themes */
+button,
+input,
+textarea,
+select {
+  font-family: inherit;
+  line-height: 1.3;
+  color: #222;
+}
+input,
+textarea,
+select {
+  font-size: 16px; /* best for mobile screens */
+
+  @media ( min-width: 25em ) {
+    font-size: $size14;
+  }
+
+  /** Fix for IE to remove the default dropdown appearance */
+  &::-ms-expand {
+    display: none;
+  }
+}
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-results-button,
+input[type="search"]::-webkit-search-results-decoration {
+  display: none;
+}
+
+.cn-field {
+  display: block;
+  position: relative;
+  margin: 16px 0;
+  overflow: hidden;
+  padding: 1px; // for the focus shadow
+
+  .cn-sidebartitle + & {
+    margin-top: 0;
+  }
+  &.cn-section {
+    margin: 0;
+  }
+}
+.cn-field--sub {
+  margin-top: -1em;
+
+  .cn-field__text {
+    font-size: $size12;
+  }
+}
+.cn-field__label {
+  display: block;
+  @include webfontBold;
+  font-size: $size11;
+  text-transform: uppercase;
+  @include themer( color, "field-text", $themes );
+  margin: 3px 1px;
+
+  .cn-field--required > &:after {
+    content: " *";
+    @include webfontBold;
+    color: $red;
+  }
+}
+.cn-field--disabled {
+  opacity: .6;
+}
+.cn-field__unit {
+  font-size: $size11;
+  display: inline-block;
+  padding: 0.6em .5em;
+  margin: 0;
+  vertical-align: middle;
+}
+
+/* Dependent fields */
+.cn-disclosure {
+
+}
+
+/* Text input */
+.cn-field__input {
+  @include textinput;
+  @include focus( $blue );
+  min-height: 34px;
+  padding-right: 30px;
+}
+.cn-field__searchinput {
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  @include textinput;
+  @include focus( $blue );
+  height: 30px;
+  border-radius: 30px;
+  background-color: $white;
+  padding-right: 30px;
+  padding-left: 10px;
+  margin: 0;
+  @include themer( color, "input-search-text", $themes );
+  @include themer( background-color, "input-search-empty-bg", $themes );
+  @include themer( border-color, "input-search-border", $themes );
+}
+.cn-field__clear {
+  display: none;
+  position: absolute;
+  top: 2em;
+  right: .5em;
+  background-color: $white;
+
+  .cn-icon {
+    width: 15px;
+    height: 15px;
+    fill: $gray;
+  }
+  .cn-field--updated + & {
+    display: block;
+  }
+}
+
+/* Date field (has calendar icon) */
+.cn-field--date {
+  position: relative;
+
+  .cn-field__input {
+    padding-right: 30px;
+  }
+  .cn-icon {
+    position: absolute;
+    bottom: 14px;
+    right: 10px;
+    width: 15px;
+    height: 15px;
+    fill: $linkdefault;
+  }
+}
+
+
+/* Search input & filters */
+.cn-field--search {
+  position: relative;
+  margin: 0;
+  fill: $gray;
+  @include themer( fill, "input-search-fill", $themes );
+
+  .cn-field__icon {
+    position: absolute;
+    top: 1px;
+    right: .7em;
+    width: 16px;
+    height: 30px;
+    fill: inherit;
+  }
+}
+.cn-field--search-min {
+  width: 1em;
+  overflow: hidden;
+  cursor: pointer;
+  height: 30px;
+
+  .cn-field__searchinput {
+    display: none;
+  }
+  .cn-icon {
+    position: static;
+  }
+}
+.cn-searchbar .cn-link {
+  font-size: $size13;
+  color: $gray;
+  margin: 0 1em;
+  height: 30px;
+  line-height: 30px;
+}
+
+/* Filter group, like the search input + filters */
+.cn-filter__group {
+  display: inline-block;
+  background-color: $white;
+  border: 1px solid $graylight;
+  border-radius: $btnradius;
+
+  .cn-field,
+  .cn-filter__link {
+    float: left;
+    width: auto;
+    max-width: none;
+    padding: 0 10px;
+  }
+  .cn-field--search {
+    padding: 1px;
+    height: 30px;
+  }
+  .cn-btn {
+    height: 26px;
+    margin: 2px;
+  }
+  .cn-field__searchinput {
+    height: 28px;
+  }
+  .cn-filter__link {
+    border-left: 1px solid $graylight;
+    height: 30px;
+    line-height: 30px;
+  }
+  .cn-field,
+  .cn-field__searchinput {
+    border: 0;
+    border-radius: 0;
+  }
+}
+
+
+/* Custom-styled select */
+.cn-field__select {
+  @include textinput;
+  min-height: 34px;
+  min-width: 50px;
+  position: relative;
+
+  &:after {
+    content: " ";
+    position: absolute;
+    right: .5em;
+    top: 50%;
+    width: 0;
+    height: 0;
+    border-left: 4px solid transparent;
+    border-right: 4px solid transparent;
+    border-top: 7px solid $gray;
+    @include themer( color, "select-arrow", $themes );
+    margin-top: -3px;
+    pointer-events: none;
+  }
+
+  .cn-field__icon {
+    position: absolute;
+    top: 50%;
+    left: 8px;
+    width: 16px;
+    height: 16px;
+    margin-top: -8px;
+  }
+  select {
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    @include focus( $blue );
+    appearance: none;
+    background: none;
+    border: 1px solid transparent;
+    bottom: 0;
+    color: inherit;
+    height: 100%;
+    left: 0;
+    padding: 0 1.5em 0 .5em;
+    position: absolute;
+    top: 0;
+    width: 100%;
+  }
+  .cn-field__icon + select {
+    padding-left: 30px;
+  }
+  select:focus {
+    outline: none;
+  }
+  option {
+    font-weight: normal;
+  }
+}
+
+/* Checks & radios */
+.cn-field__opt {
+    align-items: baseline;
+    display: flex;
+    padding: 0 0 .5em 0;
+    margin: 0;
+
+    &:first-of-type {
+      padding: .2em 0 .5em 0;
+    }
+
+    &--is-checked {
+        @include webfontBold;
+    }
+}
+
+.cn-field__checkradio {
+    @include themer( border-color, "checkradio-border", $themes );
+    border-color: $gray;
+    border: 1px solid transparent;
+    flex: 0 0 15px;
+    font-size: $size14;
+    margin: 0;
+}
+
+.cn-filter--autocomplete label.cn-field__opt {
+  display: block;
+}
+.cn-field__optset {
+  float: left;
+  width: 50%;
+  max-width: 20em;
+}
+.cn-field__text {
+    color: $textdefault;
+    font-size: $size14;
+    margin-left: .4em;
+    @include themer( color, "checkradio-text", $themes );
+}
+.cn-field__link {
+  font-size: $size12;
+}
+
+/* Button toggle (radio buttons) */
+.cn-field__btn-toggle {
+  display: inline-block;
+  border-radius: $btnradius;
+  border: 1px solid $graylight;
+  margin: 3px 0;
+
+  background-color: $white;
+
+  & + .cn-link {
+    color: $gray;
+    text-transform: uppercase;
+    font-size: $size12;
+    white-space: nowrap;
+    margin-left: .5em;
+  }
+}
+label.cn-field--toggle {
+  position: relative;
+  float: left;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  border-right: 1px solid $graylight;
+
+  &:last-child {
+    border-right: 0;
+    margin: 0;
+  }
+  .cn-field__checkradio {
+    position: absolute;
+    left: -2em;
+  }
+  .cn-field__text {
+    vertical-align: middle;
+    @include btn;
+    line-height: 2.5em;
+    border: 0;
+    border-radius: 0;
+    text-transform: none;
+    @include webfontNormal;
+  }
+  &.cn-field__opt--preferred .cn-field__text {
+    padding-left: 20px;
+    &:before {
+      content: " ";
+      display: block;
+      width: 6px;
+      height: 6px;
+      border-radius: 6px;
+      background-color: $green;
+      position: absolute;
+      top: 50%;
+      left: 7px;
+      margin-top: -3px;
+    }
+  }
+  :checked + .cn-field__text {
+    @include btn-primary;
+    background-color: $green;
+    @include webfontNormal;
+  }
+  :checked:hover + .cn-field__text {
+    background-color: lighten( $green, 3% );
+  }
+  &:first-child :checked + .cn-field__text {
+    border-radius: $btnradius;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+  }
+  & + .cn-btn--secondary,
+  &:last-child :checked + .cn-field__text {
+    border-radius: $btnradius;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+  }
+  & + .cn-btn--secondary {
+    height: auto;
+    margin: -1px;
+    position: relative;
+    z-index: 99;
+    height: 2.7em;
+  }
+}
+
+
+/* Textarea character counter */
+.cn-charcounter {
+  display: block;
+  margin: 0;
+  font-size: $size12;
+}
+.cn-charcounter__count {
+  font-size: 1.2em;
+  .limit & {
+    color: $red;
+  }
+}
+.cn-charcounter__singular,
+.cn-charcounter__plural {
+  display: none;
+}
+.cn-charcounter__singular {
+  .singular & {
+    display: inline;
+  }
+}
+.cn-charcounter__plural {
+  .plural & {
+    display: inline;
+  }
+}
+
+/* Combo fields (input + button) */
+.cn-fieldpair {
+  display: block;
+  position: relative;
+  padding-right: 34px;
+}
+.cn-input--fieldpair {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+.cn-btn--fieldpair {
+  @include btn-standard;
+  position: absolute;
+  right: 0;
+  top: 3px;
+  width: 35px;
+  padding: 0;
+  min-height: 34px;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+
+/* Submit buttons */
+.cn-field--submit {
+  margin-bottom: 0;
+  text-align: right;
+
+  .cn-text--fineprint {
+    float: left;
+    max-width: 50%;
+    margin: 0;
+    text-align: left;
+  }
+}
+.cn-field-btngroup {
+  margin-bottom: 1em;
+  border-top: 1px solid $graylight;
+  padding-top: 1em;
+}
+
+
+/*** Field states -- keep last ***/
+.cn-field--inline {
+  display: inline-block !important;
+  margin-right: .3em;
+
+  &:last-child {
+    margin-right: 0;
+  }
+
+  .cn-field__text {
+    padding-right: 3em;
+    vertical-align: middle;
+  }
+}
+.cn-field--singleline {
+  display: table;
+  width: 100%;
+  max-width: 30em;
+  margin: .3em 0;
+
+  .cn-field__label {
+    display: table-cell;
+    width: 20%;
+    color: $gray;
+  }
+  .cn-btn {
+    vertical-align: top;
+    height: 2.833333333em; /* 34px /12 */
+    margin: 3px 0;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-right-width: 0;
+  }
+  .cn-btn + .cn-field__input {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+  }
+  .cn-field__input {
+    display: table-cell;
+    width: 45%;
+  }
+  .cn-field__additional,
+  .cn-field__input + .cn-field__input {
+    width: 33%;
+    margin-left: 2%;
+  }
+  .cn-field__additional {
+    font-size: .75em;
+    color: $blue;
+
+    .cn-icon {
+      fill: $blue;
+    }
+  }
+}
+.cn-field--fullwidth {
+  max-width: none;
+}
+.cn-field--invalid {
+  color: $red;
+  border-color: $red;
+  @include themer( color, "field-text-invalid", $themes );
+  @include themer( border-color, "field-border-invalid", $themes );
+
+  .cn-field__label {
+    color: inherit;
+  }
+  .cn-field__input,
+  .cn-field__select {
+    border-color: inherit;
+  }
+  .cn-field__opt {
+    border-left: 2px solid;
+    margin-left: 1px;
+    padding-left: 7px;
+  }
+  .cn-field__opt .cn-field__text {
+    color: $textdefault;
+  }
+}
+
+/* Update textinput/select field style on blur/change */
+.cn-field--updated {
+  color: $textdefault !important;
+  background-color: $white !important;
+}
+
+/* Form element grouping */
+.cn-formseparator {
+  border: none;
+  border-bottom: 1px solid $graylight;
+}
+
+/* Overrides for dynamically appended classes */
+.politespace-proxy.active {
+  @include webfontNormal;
+}
+.politespace-proxy.active > :first-child {
+  font-family: inherit !important;
+  padding-top: .15em;
+}
+
+
+

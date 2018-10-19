@@ -1,0 +1,78 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Vertical Nav component should render component 1`] = `
+<VerticalNav
+  activeItem={
+    Object {
+      "id": "1",
+      "onClick": [Function],
+      "title": "Item 1",
+    }
+  }
+  items={
+    Array [
+      Object {
+        "id": "1",
+        "onClick": [Function],
+        "title": "Item 1",
+      },
+      Object {
+        "id": "2",
+        "onClick": [Function],
+        "title": "Item 2",
+      },
+    ]
+  }
+>
+  <Nav
+    className="root"
+    tag="ul"
+    vertical={true}
+  >
+    <ul
+      className="root nav flex-column"
+    >
+      <NavItem
+        tag="li"
+      >
+        <li
+          className="nav-item"
+        >
+          <NavLink
+            className=""
+            onClick={[Function]}
+            tag="a"
+          >
+            <a
+              className="nav-link"
+              onClick={[Function]}
+            >
+              Item 1
+            </a>
+          </NavLink>
+        </li>
+      </NavItem>
+      <NavItem
+        tag="li"
+      >
+        <li
+          className="nav-item"
+        >
+          <NavLink
+            className=""
+            onClick={[Function]}
+            tag="a"
+          >
+            <a
+              className="nav-link"
+              onClick={[Function]}
+            >
+              Item 2
+            </a>
+          </NavLink>
+        </li>
+      </NavItem>
+    </ul>
+  </Nav>
+</VerticalNav>
+`;

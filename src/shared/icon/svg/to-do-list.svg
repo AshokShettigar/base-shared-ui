@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 78.51 94.83">
+    <g stroke="#3b3b3b" stroke-linecap="round" stroke-linejoin="round" stroke-width="3.02">
+        <title>to-do-list</title>
+        <path d="M1.51 1.51h65.8v83.34H1.51z" fill="none"/>
+        <path d="M9.02 17.17h33.22" fill="#fff"/>
+        <path d="M49.99 14.96l3.02 3.42 7.65-7.65" fill="none"/>
+        <path d="M9.02 35.7h33.22" fill="#fff"/>
+        <path d="M49.99 33.48l3.02 3.42 7.65-7.65" fill="none"/>
+        <path d="M9.02 54.22h33.22" fill="#fff"/>
+        <path d="M49.99 52l3.02 3.43 7.65-7.65" fill="none"/>
+        <path d="M9.02 72.74h33.22" fill="#fff"/>
+        <path d="M49.99 70.53l3.02 3.42 7.65-7.65" fill="none"/>
+        <path d="M67.31 9.99H77v83.33H11.2v-8.48" fill="none"/>
+    </g>
+</svg>

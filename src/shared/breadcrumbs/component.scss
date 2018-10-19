@@ -1,0 +1,45 @@
+@import '../scss/variables';
+
+.root {
+  display: flex;
+  align-items: center;
+  margin: 10px;
+  min-height: 38px;
+  cursor: default;
+}
+
+.breadcrumb {
+  font-size: 12px;
+  font-weight: bold;
+  color: $c-french-blue;
+  cursor: pointer;
+}
+
+.currentBreadcrumb {
+  font-size: 12px;
+  color: $c-dim-grey;
+}
+
+.backLink {
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.backIcon svg {
+  height: 24px;
+  width: 24px;
+  fill: $c-dim-grey;
+}
+
+.pageHeader {
+  display: flex;
+  flex-flow: column;
+  align-self: flex-start;
+}
+
+.title {
+  color: $c-raisin-black;
+  font-size: 18px;
+  font-weight: bold;
+}
+

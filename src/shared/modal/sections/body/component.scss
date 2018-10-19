@@ -1,0 +1,15 @@
+@import '../../../scss/variables.scss';
+
+.root {
+  flex: 1 1 auto;
+  display: flex;
+  overflow-y: auto;
+}
+
+.content {
+  display: flex;
+  flex: 1 1 auto;
+  overflow-y: auto;
+  padding: 20px;
+  box-sizing: border-box;
+}

@@ -1,0 +1,112 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`WithLabelField component should render component with className prop 1`] = `
+<WithLabelField
+  className="className"
+  hidden={false}
+  required={false}
+>
+  <span>
+    children
+  </span>
+</WithLabelField>
+`;
+
+exports[`WithLabelField component should render component with default props 1`] = `
+<WithLabelField
+  hidden={false}
+  required={false}
+>
+  <span>
+    children
+  </span>
+</WithLabelField>
+`;
+
+exports[`WithLabelField component should render component with description prop 1`] = `
+<WithLabelField
+  description="description"
+  hidden={false}
+  required={false}
+>
+  <span>
+    children
+  </span>
+</WithLabelField>
+`;
+
+exports[`WithLabelField component should render component with descriptionClassName prop 1`] = `
+<WithLabelField
+  descriptionClassName="descriptionClassName"
+  hidden={false}
+  required={false}
+>
+  <span>
+    children
+  </span>
+</WithLabelField>
+`;
+
+exports[`WithLabelField component should render component with hidden prop 1`] = `
+<div
+  hidden={true}
+>
+  <WithLabelField
+    hidden={true}
+    required={false}
+  >
+    <span>
+      children
+    </span>
+  </WithLabelField>
+</div>
+`;
+
+exports[`WithLabelField component should render component with id prop 1`] = `
+<WithLabelField
+  hidden={false}
+  id="id"
+  required={false}
+>
+  <span>
+    children
+  </span>
+</WithLabelField>
+`;
+
+exports[`WithLabelField component should render component with label prop 1`] = `
+<WithLabelField
+  hidden={false}
+  label="label"
+  required={false}
+>
+  <span>
+    children
+  </span>
+</WithLabelField>
+`;
+
+exports[`WithLabelField component should render component with labelClassName prop 1`] = `
+<WithLabelField
+  hidden={false}
+  labelClassName="labelClassName"
+  required={false}
+>
+  <span>
+    children
+  </span>
+</WithLabelField>
+`;
+
+exports[`WithLabelField component should render component with required prop 1`] = `
+<WithLabelField
+  hidden={false}
+  required={true}
+>
+  <span>
+    children
+  </span>
+</WithLabelField>
+`;
+
+exports[`WithLabelField component shouldnt render component 1`] = `null`;

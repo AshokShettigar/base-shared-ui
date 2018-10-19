@@ -1,0 +1,115 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`modal/bottom-sheet should render the bottom-sheet HOC component 1`] = `
+<BaseModal
+  height="450px"
+  id="defaultBottomSheet"
+  onClosePopup={[Function]}
+  title="Title"
+  width="600px"
+>
+  <ModalComponent
+    id="defaultBottomSheet"
+    onClosePopup={[Function]}
+    title="Title"
+  />
+</BaseModal>
+`;
+
+exports[`modal/bottom-sheet should render the bottom-sheet HOC with height prop 1`] = `
+<BaseModal
+  height="400px"
+  id="defaultBottomSheet"
+  onClosePopup={[Function]}
+  title="Title"
+  width="600px"
+>
+  <ModalComponent
+    height="400px"
+    id="defaultBottomSheet"
+    onClosePopup={[Function]}
+    title="Title"
+  />
+</BaseModal>
+`;
+
+exports[`modal/bottom-sheet should render the bottom-sheet HOC with layoverClassName 1`] = `
+<BaseModal
+  height="450px"
+  id="defaultBottomSheet"
+  onClosePopup={[Function]}
+  title="Title"
+  width="600px"
+>
+  <ModalComponent
+    id="defaultBottomSheet"
+    layoverClassName="layover-classname"
+    onClosePopup={[Function]}
+    title="Title"
+  />
+</BaseModal>
+`;
+
+exports[`modal/bottom-sheet should render the bottom-sheet HOC with popupClassName 1`] = `
+<BaseModal
+  height="450px"
+  id="defaultBottomSheet"
+  onClosePopup={[Function]}
+  title="Title"
+  width="600px"
+>
+  <ModalComponent
+    id="defaultBottomSheet"
+    onClosePopup={[Function]}
+    popupClassName="popup-classname"
+    title="Title"
+  />
+</BaseModal>
+`;
+
+exports[`modal/bottom-sheet should render the bottom-sheet HOC with width prop 1`] = `
+<BaseModal
+  height="450px"
+  id="defaultBottomSheet"
+  onClosePopup={[Function]}
+  title="Title"
+  width="650px"
+>
+  <ModalComponent
+    id="defaultBottomSheet"
+    onClosePopup={[Function]}
+    title="Title"
+    width="650px"
+  />
+</BaseModal>
+`;
+
+exports[`modal/bottom-sheet should render the bottom-sheet component 1`] = `
+<Provider
+  store={
+    Object {
+      "clearActions": [Function],
+      "dispatch": [Function],
+      "getActions": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+    }
+  }
+>
+  <BottomSheetModal
+    id="defaultBottomSheet"
+    layoverClassName="cn-modal-layover"
+    onClosePopup={[Function]}
+    popupClassName="cn-modal cn-bottom-sheet"
+  >
+    <HigherOrderPopupComponent
+      id="defaultBottomSheet"
+      layoverClassName="cn-modal-layover"
+      onClosePopup={[Function]}
+      popupClassName="cn-modal cn-bottom-sheet"
+      updatePopupProps={[Function]}
+    />
+  </BottomSheetModal>
+</Provider>
+`;

@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render component 1`] = `
+<div
+  className="root"
+  data-component="ModalBodySection"
+>
+  <div
+    className="content"
+  >
+    <span>
+      children content
+    </span>
+  </div>
+  <ModalSideBarSection>
+    <span>
+      sidebar content
+    </span>
+  </ModalSideBarSection>
+</div>
+`;

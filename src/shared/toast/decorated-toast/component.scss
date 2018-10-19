@@ -1,0 +1,55 @@
+@import "~react-redux-toastr/src/styles/index";
+@import "../../scss/variables";
+
+.redux-toastr .toastr.toast {
+  min-height: inherit;
+  border-radius: 0;
+  border: none;
+
+  .rrt-left-container {
+    display: none;
+  }
+
+  .rrt-title {
+    display: none;
+  }
+
+  &.rrt-message {
+    border-radius: 5px;
+  }
+
+  .toast__inline-notification {
+    align-items: flex-start;
+    background: $gray-darker;
+    color: $white;
+    border: none;
+  }
+
+  .toast__icon-message {
+    display: none;
+  }
+
+  .toast__message {
+    border: none;
+  }
+
+  .toast__button-close {
+    background: $gray-darker;
+    margin-top: 6px;
+    margin-right: 13px;
+  }
+
+  .toast__icon-close {
+    margin-right: 0;
+    fill: $white;
+  }
+
+  &.rrt-message .rrt-text,
+  .rrt-middle-container {
+    width: auto;
+    margin: 0;
+    float: none;
+    padding: 0;
+    border: none;
+  }
+}

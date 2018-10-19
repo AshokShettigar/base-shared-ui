@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`modal/sidebar should render the component 1`] = `
+<div
+  className="cn-modal-sidebar"
+  data-component="Sidebar"
+>
+  Sidebar content
+</div>
+`;

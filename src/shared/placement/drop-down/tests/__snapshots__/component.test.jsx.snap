@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PlacementDropDown component should render component with class names 1`] = `
+<PlacementDropDown
+  className="className"
+  contentClassName="contentClassName"
+  context={null}
+  hidden={false}
+  onDismiss={[Function]}
+  position="bottom-start"
+  targetRef={<div />}
+/>
+`;
+
+exports[`PlacementDropDown component should render component with default props 1`] = `
+<PlacementDropDown
+  context={null}
+  hidden={false}
+  onDismiss={[Function]}
+  position="bottom-start"
+  targetRef={<div />}
+/>
+`;
+
+exports[`PlacementDropDown component should render hidden component 1`] = `
+<div
+  hidden={true}
+>
+  <PlacementDropDown
+    context={null}
+    hidden={true}
+    onDismiss={[Function]}
+    position="bottom-start"
+    targetRef={<div />}
+  />
+</div>
+`;
+
+exports[`PlacementDropDown component shouldn't render component 1`] = `null`;

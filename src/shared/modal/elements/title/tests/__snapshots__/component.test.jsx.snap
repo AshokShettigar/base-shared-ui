@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render component 1`] = `
+<div
+  className="root"
+  data-component="ModalTitleElement"
+>
+  <div
+    className="title"
+  />
+  <Icon
+    className="icon"
+    icon="close"
+    onClick={[Function]}
+    size="extra-small"
+  />
+</div>
+`;

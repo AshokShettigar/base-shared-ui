@@ -1,0 +1,478 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DaysOfWeek:  component should render component with class names props 1`] = `
+<div
+  className="root className"
+  data-component="DaysOfWeek"
+>
+  <WithRender
+    error={null}
+    hidden={false}
+    rendered={true}
+  >
+    <WithRender
+      className="labelClassName"
+      hidden={false}
+      rendered={true}
+      required={false}
+    >
+      <div
+        className="daysList"
+      >
+        <DayCell
+          className="dayCell cellClassName"
+          isDisabled={false}
+          label="Sun"
+          onChange={[Function]}
+          value={0}
+        />
+        <DayCell
+          className="dayCell cellClassName"
+          isDisabled={false}
+          label="Mon"
+          onChange={[Function]}
+          value={1}
+        />
+        <DayCell
+          className="dayCell cellClassName"
+          isDisabled={false}
+          label="Tue"
+          onChange={[Function]}
+          value={2}
+        />
+        <DayCell
+          className="dayCell cellClassName"
+          isDisabled={false}
+          label="Wed"
+          onChange={[Function]}
+          value={3}
+        />
+        <DayCell
+          className="dayCell cellClassName"
+          isDisabled={false}
+          label="Thu"
+          onChange={[Function]}
+          value={4}
+        />
+        <DayCell
+          className="dayCell cellClassName"
+          isDisabled={false}
+          label="Fri"
+          onChange={[Function]}
+          value={5}
+        />
+        <DayCell
+          className="dayCell cellClassName"
+          isDisabled={false}
+          label="Sat"
+          onChange={[Function]}
+          value={6}
+        />
+      </div>
+    </WithRender>
+  </WithRender>
+</div>
+`;
+
+exports[`DaysOfWeek:  component should render component with default props 1`] = `
+<div
+  className="root"
+  data-component="DaysOfWeek"
+>
+  <WithRender
+    error={null}
+    hidden={false}
+    rendered={true}
+  >
+    <WithRender
+      hidden={false}
+      rendered={true}
+      required={false}
+    >
+      <div
+        className="daysList"
+      >
+        <DayCell
+          className="dayCell"
+          isDisabled={false}
+          label="Sun"
+          onChange={[Function]}
+          value={0}
+        />
+        <DayCell
+          className="dayCell"
+          isDisabled={false}
+          label="Mon"
+          onChange={[Function]}
+          value={1}
+        />
+        <DayCell
+          className="dayCell"
+          isDisabled={false}
+          label="Tue"
+          onChange={[Function]}
+          value={2}
+        />
+        <DayCell
+          className="dayCell"
+          isDisabled={false}
+          label="Wed"
+          onChange={[Function]}
+          value={3}
+        />
+        <DayCell
+          className="dayCell"
+          isDisabled={false}
+          label="Thu"
+          onChange={[Function]}
+          value={4}
+        />
+        <DayCell
+          className="dayCell"
+          isDisabled={false}
+          label="Fri"
+          onChange={[Function]}
+          value={5}
+        />
+        <DayCell
+          className="dayCell"
+          isDisabled={false}
+          label="Sat"
+          onChange={[Function]}
+          value={6}
+        />
+      </div>
+    </WithRender>
+  </WithRender>
+</div>
+`;
+
+exports[`DaysOfWeek:  component should render component with full names of days 1`] = `
+<div
+  className="root"
+  data-component="DaysOfWeek"
+>
+  <WithRender
+    error={null}
+    hidden={false}
+    rendered={true}
+  >
+    <WithRender
+      hidden={false}
+      rendered={true}
+      required={false}
+    >
+      <div
+        className="daysList"
+      >
+        <DayCell
+          className="dayCell"
+          isDisabled={false}
+          label="Sunday"
+          onChange={[Function]}
+          value={0}
+        />
+        <DayCell
+          className="dayCell"
+          isDisabled={false}
+          label="Monday"
+          onChange={[Function]}
+          value={1}
+        />
+        <DayCell
+          className="dayCell"
+          isDisabled={false}
+          label="Tuesday"
+          onChange={[Function]}
+          value={2}
+        />
+        <DayCell
+          className="dayCell"
+          isDisabled={false}
+          label="Wednesday"
+          onChange={[Function]}
+          value={3}
+        />
+        <DayCell
+          className="dayCell"
+          isDisabled={false}
+          label="Thursday"
+          onChange={[Function]}
+          value={4}
+        />
+        <DayCell
+          className="dayCell"
+          isDisabled={false}
+          label="Friday"
+          onChange={[Function]}
+          value={5}
+        />
+        <DayCell
+          className="dayCell"
+          isDisabled={false}
+          label="Saturday"
+          onChange={[Function]}
+          value={6}
+        />
+      </div>
+    </WithRender>
+  </WithRender>
+</div>
+`;
+
+exports[`DaysOfWeek:  component should render component with id prop 1`] = `
+<DaysOfWeek
+  error={null}
+  format="short"
+  hidden={false}
+  id="id"
+  isDisabled={false}
+  isRequired={false}
+  onChange={[Function]}
+  value={Array []}
+/>
+`;
+
+exports[`DaysOfWeek:  component should render component with isDisabled prop 1`] = `
+<div
+  className="root"
+  data-component="DaysOfWeek"
+>
+  <WithRender
+    error={null}
+    hidden={false}
+    rendered={true}
+  >
+    <WithRender
+      hidden={false}
+      rendered={true}
+      required={false}
+    >
+      <div
+        className="daysList"
+      >
+        <DayCell
+          className="dayCell"
+          isDisabled={true}
+          label="Sun"
+          onChange={[Function]}
+          value={0}
+        />
+        <DayCell
+          className="dayCell"
+          isDisabled={true}
+          label="Mon"
+          onChange={[Function]}
+          value={1}
+        />
+        <DayCell
+          className="dayCell"
+          isDisabled={true}
+          label="Tue"
+          onChange={[Function]}
+          value={2}
+        />
+        <DayCell
+          className="dayCell"
+          isDisabled={true}
+          label="Wed"
+          onChange={[Function]}
+          value={3}
+        />
+        <DayCell
+          className="dayCell"
+          isDisabled={true}
+          label="Thu"
+          onChange={[Function]}
+          value={4}
+        />
+        <DayCell
+          className="dayCell"
+          isDisabled={true}
+          label="Fri"
+          onChange={[Function]}
+          value={5}
+        />
+        <DayCell
+          className="dayCell"
+          isDisabled={true}
+          label="Sat"
+          onChange={[Function]}
+          value={6}
+        />
+      </div>
+    </WithRender>
+  </WithRender>
+</div>
+`;
+
+exports[`DaysOfWeek:  component should render component with label prop 1`] = `
+<DaysOfWeek
+  error={null}
+  format="short"
+  hidden={false}
+  isDisabled={false}
+  isRequired={false}
+  label="label"
+  onChange={[Function]}
+  value={Array []}
+/>
+`;
+
+exports[`DaysOfWeek:  component should render component with name prop 1`] = `
+<div
+  className="root"
+  data-component="DaysOfWeek"
+>
+  <WithRender
+    error={null}
+    hidden={false}
+    rendered={true}
+  >
+    <WithRender
+      hidden={false}
+      rendered={true}
+      required={false}
+    >
+      <div
+        className="daysList"
+      >
+        <DayCell
+          className="dayCell"
+          isDisabled={false}
+          label="Sun"
+          onChange={[Function]}
+          value={0}
+        />
+        <DayCell
+          className="dayCell"
+          isDisabled={false}
+          label="Mon"
+          onChange={[Function]}
+          value={1}
+        />
+        <DayCell
+          className="dayCell"
+          isDisabled={false}
+          label="Tue"
+          onChange={[Function]}
+          value={2}
+        />
+        <DayCell
+          className="dayCell"
+          isDisabled={false}
+          label="Wed"
+          onChange={[Function]}
+          value={3}
+        />
+        <DayCell
+          className="dayCell"
+          isDisabled={false}
+          label="Thu"
+          onChange={[Function]}
+          value={4}
+        />
+        <DayCell
+          className="dayCell"
+          isDisabled={false}
+          label="Fri"
+          onChange={[Function]}
+          value={5}
+        />
+        <DayCell
+          className="dayCell"
+          isDisabled={false}
+          label="Sat"
+          onChange={[Function]}
+          value={6}
+        />
+      </div>
+    </WithRender>
+  </WithRender>
+</div>
+`;
+
+exports[`DaysOfWeek:  component should render component with required prop 1`] = `
+<DaysOfWeek
+  error={null}
+  format="short"
+  hidden={false}
+  isDisabled={false}
+  isRequired={true}
+  onChange={[Function]}
+  value={Array []}
+/>
+`;
+
+exports[`DaysOfWeek:  component should render component with selected days 1`] = `
+<div
+  className="root"
+  data-component="DaysOfWeek"
+>
+  <WithRender
+    error={null}
+    hidden={false}
+    rendered={true}
+  >
+    <WithRender
+      hidden={false}
+      rendered={true}
+      required={false}
+    >
+      <div
+        className="daysList"
+      >
+        <DayCell
+          className="dayCell"
+          isDisabled={false}
+          label="Sun"
+          onChange={[Function]}
+          value={0}
+        />
+        <DayCell
+          className="dayCell selected"
+          isDisabled={false}
+          label="Mon"
+          onChange={[Function]}
+          value={1}
+        />
+        <DayCell
+          className="dayCell selected"
+          isDisabled={false}
+          label="Tue"
+          onChange={[Function]}
+          value={2}
+        />
+        <DayCell
+          className="dayCell selected"
+          isDisabled={false}
+          label="Wed"
+          onChange={[Function]}
+          value={3}
+        />
+        <DayCell
+          className="dayCell"
+          isDisabled={false}
+          label="Thu"
+          onChange={[Function]}
+          value={4}
+        />
+        <DayCell
+          className="dayCell"
+          isDisabled={false}
+          label="Fri"
+          onChange={[Function]}
+          value={5}
+        />
+        <DayCell
+          className="dayCell"
+          isDisabled={false}
+          label="Sat"
+          onChange={[Function]}
+          value={6}
+        />
+      </div>
+    </WithRender>
+  </WithRender>
+</div>
+`;

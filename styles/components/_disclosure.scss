@@ -1,0 +1,25 @@
+/* Disclosures */
+
+.cn-disclosure {
+  margin: 20px 0;
+}
+.cn-disclosure__title {
+  color: $linkdefault;
+  font-size: $size13;
+  @include webfontBold;
+  text-transform: uppercase;
+
+  .cn-icon {
+    width: 15px;
+    height: 15px;
+    vertical-align: middle;
+    fill: $linkdefault;
+  }
+}
+.cn-disclosure__content {
+  display: none;
+
+  .cn-text {
+    font-size: $size13;
+  }
+}

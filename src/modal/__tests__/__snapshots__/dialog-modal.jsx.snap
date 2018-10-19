@@ -1,0 +1,130 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`modal/dialog-modal should render the component 1`] = `
+<BaseModal
+  height="150px"
+  id="alert1"
+  title="Alert"
+  width="450px"
+>
+  <div
+    className="cn-modal__content"
+    data-component="Dialog"
+  >
+    Alert description
+  </div>
+  <ModalControls
+    controls={
+      Array [
+        Object {
+          "label": "OK",
+          "onClick": [Function],
+          "variation": 1,
+        },
+      ]
+    }
+  />
+</BaseModal>
+`;
+
+exports[`modal/dialog-modal should render the component 2`] = `
+<Provider
+  store={
+    Object {
+      "clearActions": [Function],
+      "dispatch": [Function],
+      "getActions": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+    }
+  }
+>
+  <Connect(HigherOrderPopupComponent)
+    formControls={
+      Array [
+        Object {
+          "label": "OK",
+          "onClick": [Function],
+          "variation": 1,
+        },
+      ]
+    }
+    id="alert1"
+    layoverClassName="cn-modal-layover"
+    popupClassName="cn-modal cn-alert-modal"
+    title="Alert title"
+  >
+    <HigherOrderPopupComponent
+      formControls={
+        Array [
+          Object {
+            "label": "OK",
+            "onClick": [Function],
+            "variation": 1,
+          },
+        ]
+      }
+      id="alert1"
+      layoverClassName="cn-modal-layover"
+      popupClassName="cn-modal cn-alert-modal"
+      title="Alert title"
+      updatePopupProps={[Function]}
+    />
+  </Connect(HigherOrderPopupComponent)>
+</Provider>
+`;
+
+exports[`modal/dialog-modal should render the component with height and width 1`] = `
+<BaseModal
+  height="100px"
+  id="alert1"
+  title="Alert"
+  width="100px"
+>
+  <div
+    className="cn-modal__content"
+    data-component="Dialog"
+  >
+    Alert description
+  </div>
+  <ModalControls
+    controls={
+      Array [
+        Object {
+          "label": "OK",
+          "onClick": [Function],
+          "variation": 1,
+        },
+      ]
+    }
+  />
+</BaseModal>
+`;
+
+exports[`modal/dialog-modal should render the component with title 1`] = `
+<BaseModal
+  height="150px"
+  id="alert1"
+  title="Alert title"
+  width="450px"
+>
+  <div
+    className="cn-modal__content"
+    data-component="Dialog"
+  >
+    Alert description
+  </div>
+  <ModalControls
+    controls={
+      Array [
+        Object {
+          "label": "OK",
+          "onClick": [Function],
+          "variation": 1,
+        },
+      ]
+    }
+  />
+</BaseModal>
+`;

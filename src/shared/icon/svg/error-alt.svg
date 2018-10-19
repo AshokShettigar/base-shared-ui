@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 14">
+    <title>error-alt</title>
+    <path d="M-291.13,2808.81a7,7,0,0,1-7,7h0a7,7,0,0,1-7-7h0a7,7,0,0,1,7-7h0a7,7,0,0,1,7,7h0Z" transform="translate(305.13 -2801.81)" fill="#b61b28"/>
+    <line x1="4.17" y1="4.17" x2="9.83" y2="9.83" stroke-miterlimit="10" stroke-width="2px" stroke="#fff"/>
+    <line x1="9.83" y1="4.17" x2="4.17" y2="9.83" stroke-miterlimit="10" stroke-width="2px" stroke="#fff" />
+</svg>

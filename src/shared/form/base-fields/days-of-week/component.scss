@@ -1,0 +1,46 @@
+@import '../../../scss/variables';
+
+.root {
+  display: inline-block;
+  white-space: nowrap;
+
+  .dayCell {
+    width: 45px;
+    height: 30px;
+
+    + .dayCell {
+      border-left: none;
+    }
+
+    &:first-child {
+      border-radius: 3px 0 0 3px;
+    }
+
+    &:last-child {
+      border-radius: 0 3px 3px 0;
+    }
+
+    &.selected {
+      background-color: $c-north-texas-green;
+      border-color: $c-north-texas-green;
+      color: $c-white;
+
+      + .selected {
+        border-left: 1px solid $c-white;
+      }
+    }
+
+    &.error {
+      border-color: $c-upsdell-red;
+
+      &:not(:last-child) {
+        border-right-color: $c-gainsboro;
+      }
+    }
+
+    &:focus {
+      outline: none;
+      box-shadow: 0 0 2px 1px $c-fresh-air;
+    }
+  }
+}

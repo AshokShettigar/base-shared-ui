@@ -1,0 +1,71 @@
+@import '../../scss/theme';
+
+@mixin button-kind(
+  $c-default: inherit,
+  $bg-default: inherit,
+  $bc-default: $bg-default,
+
+  $c-disabled: $c-default,
+  $bg-disabled: $bg-default,
+  $bc-disabled: $bg-disabled,
+
+  $c-active: $c-default,
+  $bg-active: $bg-default,
+  $bc-active: $bg-active,
+
+  $c-loading: $c-default,
+  $bg-loading: $bg-default,
+  $bc-loading: $bg-loading
+) {
+  cursor: pointer;
+  color: $c-default;
+  background: $bg-default;
+  border: 1px solid $bc-default;
+
+  &:hover {
+    cursor: pointer;
+  }
+
+  &:hover,
+  &.active {
+    color: $c-active;
+    background: $bg-active;
+    border-color: $bc-active;
+  }
+
+  &.active {
+    cursor: default;
+
+    &:hover, &:active {
+      color: $c-active;
+      background: $bg-active;
+      border-color: $bc-active;
+    }
+  }
+
+  &.disabled {
+    cursor: default;
+    color: $c-disabled;
+    background: $bg-disabled;
+    border-color: $bc-disabled;
+
+    &:hover, &:active {
+      color: $c-disabled;
+      background: $bg-disabled;
+      border-color: $bc-disabled;
+    }
+  }
+
+  &.loading {
+    cursor: default;
+    color: $c-loading;
+    background: $bg-loading;
+    border-color: $bc-loading;
+
+    &:hover, &:active {
+      color: $c-loading;
+      background: $bg-loading;
+      border-color: $bc-loading;
+    }
+  }
+}

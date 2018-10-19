@@ -1,0 +1,281 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`table/index should render the component 1`] = `
+<div
+  className="cn-table"
+  data-component="Table"
+>
+  <TableHeader
+    columns={
+      Array [
+        <TableColumn
+          id="1"
+          isSortable={false}
+      >
+          Head 1
+      </TableColumn>,
+        <TableColumn
+          id="2"
+          isSortable={false}
+      >
+          Head 2
+      </TableColumn>,
+      ]
+    }
+    scrollLeft={0}
+    widths={Array []}
+  />
+  <div
+    className="cn-table__body"
+    onScroll={[Function]}
+    style={
+      Object {
+        "height": 300,
+      }
+    }
+  >
+    <div
+      className="cn-table__body__container"
+    >
+      <table
+        className="cn-table__rows"
+        style={
+          Object {
+            "top": -36,
+          }
+        }
+      >
+        <thead
+          className="cn-table__header"
+        >
+          <tr>
+            <TableColumn
+              id="1"
+              isSortable={false}
+            >
+              Head 1
+            </TableColumn>
+            <TableColumn
+              id="2"
+              isSortable={false}
+            >
+              Head 2
+            </TableColumn>
+          </tr>
+        </thead>
+        <tbody>
+          <TableRow
+            isSelected={false}
+          >
+            <TableCell>
+              Data 1-1
+            </TableCell>
+            <TableCell>
+              Data 1-2
+            </TableCell>
+          </TableRow>
+          <TableRow
+            isSelected={false}
+          >
+            <TableCell>
+              Data 2-1
+            </TableCell>
+            <TableCell>
+              Data 2-2
+            </TableCell>
+          </TableRow>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`table/index should render the component with footer 1`] = `
+<div
+  className="cn-table"
+  data-component="Table"
+>
+  <TableHeader
+    columns={
+      Array [
+        <TableColumn
+          id="1"
+          isSortable={false}
+      >
+          Head 1
+      </TableColumn>,
+        <TableColumn
+          id="2"
+          isSortable={false}
+      >
+          Head 2
+      </TableColumn>,
+      ]
+    }
+    scrollLeft={0}
+    widths={Array []}
+  />
+  <div
+    className="cn-table__body"
+    onScroll={[Function]}
+    style={
+      Object {
+        "height": 300,
+      }
+    }
+  >
+    <div
+      className="cn-table__body__container"
+    >
+      <table
+        className="cn-table__rows"
+        style={
+          Object {
+            "top": -36,
+          }
+        }
+      >
+        <thead
+          className="cn-table__header"
+        >
+          <tr>
+            <TableColumn
+              id="1"
+              isSortable={false}
+            >
+              Head 1
+            </TableColumn>
+            <TableColumn
+              id="2"
+              isSortable={false}
+            >
+              Head 2
+            </TableColumn>
+          </tr>
+        </thead>
+        <tbody>
+          <TableRow
+            isSelected={false}
+          >
+            <TableCell>
+              Data 1-1
+            </TableCell>
+            <TableCell>
+              Data 1-2
+            </TableCell>
+          </TableRow>
+          <TableRow
+            isSelected={false}
+          >
+            <TableCell>
+              Data 2-1
+            </TableCell>
+            <TableCell>
+              Data 2-2
+            </TableCell>
+          </TableRow>
+        </tbody>
+      </table>
+    </div>
+  </div>
+  <div
+    className="cn-table__footer"
+  >
+    <div>
+      Footer
+    </div>
+  </div>
+</div>
+`;
+
+exports[`table/index should render the component with height 1`] = `
+<div
+  className="cn-table"
+  data-component="Table"
+>
+  <TableHeader
+    columns={
+      Array [
+        <TableColumn
+          id="1"
+          isSortable={false}
+      >
+          Head 1
+      </TableColumn>,
+        <TableColumn
+          id="2"
+          isSortable={false}
+      >
+          Head 2
+      </TableColumn>,
+      ]
+    }
+    scrollLeft={0}
+    widths={Array []}
+  />
+  <div
+    className="cn-table__body"
+    onScroll={[Function]}
+    style={
+      Object {
+        "height": 300,
+      }
+    }
+  >
+    <div
+      className="cn-table__body__container"
+    >
+      <table
+        className="cn-table__rows"
+        style={
+          Object {
+            "top": -36,
+          }
+        }
+      >
+        <thead
+          className="cn-table__header"
+        >
+          <tr>
+            <TableColumn
+              id="1"
+              isSortable={false}
+            >
+              Head 1
+            </TableColumn>
+            <TableColumn
+              id="2"
+              isSortable={false}
+            >
+              Head 2
+            </TableColumn>
+          </tr>
+        </thead>
+        <tbody>
+          <TableRow
+            isSelected={false}
+          >
+            <TableCell>
+              Data 1-1
+            </TableCell>
+            <TableCell>
+              Data 1-2
+            </TableCell>
+          </TableRow>
+          <TableRow
+            isSelected={false}
+          >
+            <TableCell>
+              Data 2-1
+            </TableCell>
+            <TableCell>
+              Data 2-2
+            </TableCell>
+          </TableRow>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
+`;

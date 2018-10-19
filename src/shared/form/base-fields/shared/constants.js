@@ -1,0 +1,29 @@
+export const DAYS_OF_WEEK = [{
+    shortName: 'Sun',
+    name: 'Sunday',
+    number: 0
+}, {
+    shortName: 'Mon',
+    name: 'Monday',
+    number: 1
+}, {
+    shortName: 'Tue',
+    name: 'Tuesday',
+    number: 2
+}, {
+    shortName: 'Wed',
+    name: 'Wednesday',
+    number: 3
+}, {
+    shortName: 'Thu',
+    name: 'Thursday',
+    number: 4
+}, {
+    shortName: 'Fri',
+    name: 'Friday',
+    number: 5
+}, {
+    shortName: 'Sat',
+    name: 'Saturday',
+    number: 6
+}];

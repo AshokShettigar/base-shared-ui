@@ -1,0 +1,121 @@
+@import "../scss/theme";
+
+@mixin spinner-size($size) {
+  width: $size;
+  height: $size;
+
+  &::after {
+    font-size: $size / 8;
+  }
+}
+
+@mixin spinner-color($color: currentColor) {
+  &::after {
+    color: $color;
+  }
+}
+
+.root {
+  display: inline-flex;
+}
+
+.centered {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+
+.spinner {
+  display: inline-flex;
+  vertical-align: middle;
+
+  &::after {
+    content: '';
+    width: 1em;
+    height: 1em;
+    display: block;
+    border-radius: 100%;
+    transform: translateZ(0);
+    animation: load 1.3s infinite linear;
+    margin: auto;
+  }
+}
+
+.mini {
+  @include spinner-size($gs-mini);
+}
+
+.tiny {
+  @include spinner-size($gs-tiny);
+}
+
+.small {
+  @include spinner-size($gs-small);
+}
+
+.medium {
+  @include spinner-size($gs-medium);
+}
+
+.large {
+  @include spinner-size($gs-large);
+}
+
+.big {
+  @include spinner-size($gs-big);
+}
+
+.huge {
+  @include spinner-size($gs-huge);
+}
+
+.massive {
+  @include spinner-size($gs-massive);
+}
+
+.banner {
+  @include spinner-size($gs-banner);
+}
+
+.azure {
+  @include spinner-color($c-vivid-cerulean);
+}
+
+.white {
+  @include spinner-color($c-white);
+}
+
+.black {
+  @include spinner-color($c-raisin-black);
+}
+
+// https://github.com/lukehaas/css-loaders
+@keyframes load {
+  0%,
+  100% {
+    box-shadow: 0 -3em 0 0.2em, 2em -2em 0 0em, 3em 0 0 -1em, 2em 2em 0 -1em, 0 3em 0 -1em, -2em 2em 0 -1em, -3em 0 0 -1em, -2em -2em 0 0;
+  }
+  12.5% {
+    box-shadow: 0 -3em 0 0, 2em -2em 0 0.2em, 3em 0 0 0, 2em 2em 0 -1em, 0 3em 0 -1em, -2em 2em 0 -1em, -3em 0 0 -1em, -2em -2em 0 -1em;
+  }
+  25% {
+    box-shadow: 0 -3em 0 -0.5em, 2em -2em 0 0, 3em 0 0 0.2em, 2em 2em 0 0, 0 3em 0 -1em, -2em 2em 0 -1em, -3em 0 0 -1em, -2em -2em 0 -1em;
+  }
+  37.5% {
+    box-shadow: 0 -3em 0 -1em, 2em -2em 0 -1em, 3em 0em 0 0, 2em 2em 0 0.2em, 0 3em 0 0em, -2em 2em 0 -1em, -3em 0em 0 -1em, -2em -2em 0 -1em;
+  }
+  50% {
+    box-shadow: 0 -3em 0 -1em, 2em -2em 0 -1em, 3em 0 0 -1em, 2em 2em 0 0em, 0 3em 0 0.2em, -2em 2em 0 0, -3em 0em 0 -1em, -2em -2em 0 -1em;
+  }
+  62.5% {
+    box-shadow: 0 -3em 0 -1em, 2em -2em 0 -1em, 3em 0 0 -1em, 2em 2em 0 -1em, 0 3em 0 0, -2em 2em 0 0.2em, -3em 0 0 0, -2em -2em 0 -1em;
+  }
+  75% {
+    box-shadow: 0em -3em 0 -1em, 2em -2em 0 -1em, 3em 0em 0 -1em, 2em 2em 0 -1em, 0 3em 0 -1em, -2em 2em 0 0, -3em 0em 0 0.2em, -2em -2em 0 0;
+  }
+  87.5% {
+    box-shadow: 0em -3em 0 0, 2em -2em 0 -1em, 3em 0 0 -1em, 2em 2em 0 -1em, 0 3em 0 -1em, -2em 2em 0 0, -3em 0em 0 0, -2em -2em 0 0.2em;
+  }
+}

@@ -1,0 +1,65 @@
+@mixin focus( $color ) {
+    &:focus {
+        outline: none;
+        box-shadow: 0 0 2px ( $color * 1.5 );
+    }
+}
+
+@mixin overlay-box {
+    background-color: #fff;
+    color: $textdefault;
+    border: 1px solid $graylight;
+    box-shadow: -2px 2px 1px rgba( $graylight, .5 );
+    margin: 2px; // for box shadow
+
+    .cn-field__text {
+        color: $textdefault;
+    }
+}
+
+@mixin breadcrumb-carat {
+    position: relative;
+
+    &:before,
+    &:after {
+        display: block;
+        content: " ";
+        position: absolute;
+        left: -16px;
+        width: 1px;
+    }
+    &:before {
+        top: 0;
+        border-bottom: 55px solid transparent;
+        border-right: 15px solid currentColor;
+        z-index: 3;
+    }
+    &:after {
+        bottom: 0;
+        border-top: 55px solid transparent;
+        border-right: 15px solid currentColor;
+        z-index: 5;
+    }
+}
+
+// Based on http://www.alistapart.com/articles/getting-started-with-sass/
+// http://nicolasgallagher.com/micro-clearfix-hack/
+// Clearfix usage:
+// .selector {
+//   @extend clearfix;
+// }
+clearfix {
+    // For modern browsers
+    &:before,
+    &:after {
+        content: " ";
+        display: table;
+    }
+    &:after {
+        clear: both;
+    }
+    // For IE 6/7 (trigger hasLayout)
+    & {
+        *zoom: 1;
+    }
+}

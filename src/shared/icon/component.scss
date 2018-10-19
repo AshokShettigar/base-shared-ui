@@ -1,0 +1,70 @@
+@import '../scss/theme';
+
+.root {
+  display: inline-flex;
+}
+
+.glyph {
+  fill: currentColor;
+
+  &:hover:not(.controlled) {
+    fill: $c-french-blue;
+  }
+}
+
+.clickable {
+  cursor: pointer;
+}
+
+.active {
+  fill: $c-french-blue;
+}
+
+.disabled {
+  color: $c-pastel-gray;
+}
+
+.mini {
+  width: $gs-mini;
+  height: $gs-mini;
+}
+
+.tiny {
+  width: $gs-tiny;
+  height: $gs-tiny;
+}
+
+.small {
+  width: $gs-small;
+  height: $gs-small;
+}
+
+.medium {
+  width: $gs-medium;
+  height: $gs-medium;
+}
+
+.large {
+  width: $gs-large;
+  height: $gs-large;
+}
+
+.big {
+  width: $gs-big;
+  height: $gs-big;
+}
+
+.huge {
+  width: $gs-huge;
+  height: $gs-huge;
+}
+
+.massive {
+  width: $gs-massive;
+  height: $gs-massive;
+}
+
+.banner {
+  width: $gs-banner;
+  height: $gs-banner;
+}

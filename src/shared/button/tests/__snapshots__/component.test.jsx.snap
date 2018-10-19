@@ -1,0 +1,144 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button component should render component with active prop 1`] = `
+<Button
+  active={true}
+  disabled={false}
+  hidden={false}
+  kind="primary"
+  loading={false}
+  onClick={[Function]}
+  size="small"
+  type="submit"
+>
+  children
+</Button>
+`;
+
+exports[`Button component should render component with class size prop 1`] = `
+<Button
+  active={false}
+  disabled={false}
+  hidden={false}
+  kind="primary"
+  loading={false}
+  onClick={[Function]}
+  size="tiny"
+  type="submit"
+>
+  children
+</Button>
+`;
+
+exports[`Button component should render component with className prop 1`] = `
+<Button
+  active={false}
+  className="className"
+  disabled={false}
+  hidden={false}
+  kind="primary"
+  loading={false}
+  onClick={[Function]}
+  size="small"
+  type="submit"
+>
+  children
+</Button>
+`;
+
+exports[`Button component should render component with default props 1`] = `
+<Button
+  active={false}
+  disabled={false}
+  hidden={false}
+  kind="primary"
+  loading={false}
+  onClick={[Function]}
+  size="small"
+  type="submit"
+>
+  children
+</Button>
+`;
+
+exports[`Button component should render component with disabled prop 1`] = `
+<Button
+  active={false}
+  disabled={true}
+  hidden={false}
+  kind="primary"
+  loading={false}
+  onClick={[Function]}
+  size="small"
+  type="submit"
+>
+  children
+</Button>
+`;
+
+exports[`Button component should render component with icon prop 1`] = `
+<Button
+  active={false}
+  disabled={false}
+  hidden={false}
+  icon="calendar"
+  kind="primary"
+  loading={false}
+  onClick={[Function]}
+  size="small"
+  type="submit"
+>
+  children
+</Button>
+`;
+
+exports[`Button component should render component with kind prop 1`] = `
+<Button
+  active={false}
+  disabled={false}
+  hidden={false}
+  kind="secondary"
+  loading={false}
+  onClick={[Function]}
+  size="small"
+  type="submit"
+>
+  children
+</Button>
+`;
+
+exports[`Button component should render component with loading prop 1`] = `
+<Button
+  active={false}
+  disabled={false}
+  hidden={false}
+  kind="primary"
+  loading={true}
+  onClick={[Function]}
+  size="small"
+  type="submit"
+>
+  children
+</Button>
+`;
+
+exports[`Button component should render hidden component 1`] = `
+<div
+  hidden={true}
+>
+  <Button
+    active={false}
+    disabled={false}
+    hidden={true}
+    kind="primary"
+    loading={false}
+    onClick={[Function]}
+    size="small"
+    type="submit"
+  >
+    children
+  </Button>
+</div>
+`;
+
+exports[`Button component shouldn't render component 1`] = `null`;

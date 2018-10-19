@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`table/row should render the row 1`] = `
+<tr
+  className="cn-table__row"
+  data-component="Row"
+>
+  <TableCell>
+    Data 1
+  </TableCell>
+  <TableCell>
+    Data 2
+  </TableCell>
+</tr>
+`;
+
+exports[`table/row should render the row with class name 1`] = `
+<tr
+  className="cn-table__row my-class"
+  data-component="Row"
+>
+  <TableCell>
+    Data 1
+  </TableCell>
+  <TableCell>
+    Data 2
+  </TableCell>
+</tr>
+`;
+
+exports[`table/row should render the row with isSelected 1`] = `
+<tr
+  className="cn-table__row cn-table__row--selected"
+  data-component="Row"
+>
+  <TableCell>
+    Data 1
+  </TableCell>
+  <TableCell>
+    Data 2
+  </TableCell>
+</tr>
+`;

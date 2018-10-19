@@ -1,0 +1,44 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`datepicker/calendar-week-header should render the component 1`] = `
+<div
+  className="cn-calendar-week-header"
+  data-component="calendar-week-header"
+>
+  <div
+    className="cn-calendar__column"
+  >
+    Sun
+  </div>
+  <div
+    className="cn-calendar__column"
+  >
+    Mon
+  </div>
+  <div
+    className="cn-calendar__column"
+  >
+    Tue
+  </div>
+  <div
+    className="cn-calendar__column"
+  >
+    Wed
+  </div>
+  <div
+    className="cn-calendar__column"
+  >
+    Thu
+  </div>
+  <div
+    className="cn-calendar__column"
+  >
+    Fri
+  </div>
+  <div
+    className="cn-calendar__column"
+  >
+    Sat
+  </div>
+</div>
+`;

@@ -1,0 +1,116 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`radio should render the checkbox with no label 1`] = `
+<label
+  className="cn-field__opt"
+  data-component="CheckBox"
+  htmlFor="rd1"
+>
+  <input
+    checked={false}
+    className="cn-field__checkradio"
+    disabled={false}
+    id="rd1"
+    onChange={[Function]}
+    type="radio"
+    value="rd1_value"
+  />
+  <span
+    className="cn-field__text a11y"
+  >
+    Check me!
+  </span>
+</label>
+`;
+
+exports[`radio should render the radio 1`] = `
+<label
+  className="cn-field__opt"
+  data-component="CheckBox"
+  htmlFor="rd1"
+>
+  <input
+    checked={false}
+    className="cn-field__checkradio"
+    disabled={false}
+    id="rd1"
+    onChange={[Function]}
+    type="radio"
+    value="rd1_value"
+  />
+  <span
+    className="cn-field__text"
+  >
+    Check me!
+  </span>
+</label>
+`;
+
+exports[`radio should render the radio with checked 1`] = `
+<label
+  className="cn-field__opt cn-field__opt--is-checked"
+  data-component="CheckBox"
+  htmlFor="rd1"
+>
+  <input
+    checked={true}
+    className="cn-field__checkradio"
+    disabled={false}
+    id="rd1"
+    onChange={[Function]}
+    type="radio"
+    value="rd1_value"
+  />
+  <span
+    className="cn-field__text"
+  >
+    Check me!
+  </span>
+</label>
+`;
+
+exports[`radio should render the radio with classname 1`] = `
+<label
+  className="cn-field__opt my-class"
+  data-component="CheckBox"
+  htmlFor="rd1"
+>
+  <input
+    checked={false}
+    className="cn-field__checkradio"
+    disabled={false}
+    id="rd1"
+    onChange={[Function]}
+    type="radio"
+    value="rd1_value"
+  />
+  <span
+    className="cn-field__text"
+  >
+    Check me!
+  </span>
+</label>
+`;
+
+exports[`radio should render the radio with disabled 1`] = `
+<label
+  className="cn-field__opt"
+  data-component="CheckBox"
+  htmlFor="rd1"
+>
+  <input
+    checked={false}
+    className="cn-field__checkradio"
+    disabled={true}
+    id="rd1"
+    onChange={[Function]}
+    type="radio"
+    value="rd1_value"
+  />
+  <span
+    className="cn-field__text"
+  >
+    Check me!
+  </span>
+</label>
+`;

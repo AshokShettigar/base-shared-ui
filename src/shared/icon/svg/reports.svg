@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>reports/standard</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Icons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g transform="translate(-1175.000000, -1731.000000)" id="Objects" stroke="#626E70" stroke-width="0.744">
+            <g transform="translate(25.000000, 1496.000000)">
+                <g id="Reports" transform="translate(1150.000000, 205.000000)">
+                    <g id="reports/standard" transform="translate(0.000000, 30.000000)">
+                        <path d="M8.68498824,7.12687059 L15.4351059,7.12687059 C15.4351059,3.39887059 12.4129882,0.376752941 8.68498824,0.376752941 L8.68498824,7.12687059 Z" id="Stroke-1"></path>
+                        <path d="M7.12705882,8.6848 L7.12705882,1.93468235 C3.39905882,1.93468235 0.376941176,4.9568 0.376941176,8.6848 C0.376941176,12.4128 3.39905882,15.4349176 7.12705882,15.4349176 C8.99058824,15.4349176 10.6781176,14.6800941 11.9007059,13.4584471 L7.12705882,8.6848 Z" id="Stroke-3"></path>
+                        <path d="M13.4579765,12.9389176 C14.6796235,11.7172706 15.4353882,10.0297412 15.4353882,8.16527059 L8.68527059,8.16527059 L13.4579765,12.9389176 Z" id="Stroke-5"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

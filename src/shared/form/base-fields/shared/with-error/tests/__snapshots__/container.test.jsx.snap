@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`withError Component  should render component with default props 1`] = `
+<WithErrorField
+  hidden={false}
+  hideErrorMessages={false}
+>
+  <div>
+     Children 
+  </div>
+</WithErrorField>
+`;
+
+exports[`withError Component  should render with error 1`] = `
+<WithErrorField
+  error="some error"
+  hidden={false}
+  hideErrorMessages={false}
+>
+  <div>
+     Children 
+  </div>
+</WithErrorField>
+`;
+
+exports[`withError Component  should render with hidden error 1`] = `
+<WithErrorField
+  error="some error"
+  hidden={false}
+  hideErrorMessages={true}
+>
+  <div>
+     Children 
+  </div>
+</WithErrorField>
+`;

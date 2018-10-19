@@ -1,0 +1,85 @@
+@import '../scss/variables';
+
+$sideBarWidth: 400px;
+
+.root {
+  display: flex;
+  flex-flow: column;
+  background-color: $c-white;
+  position: relative;
+
+  height: 100%;
+  overflow: hidden;
+  flex: 0 0 auto;
+  border-left: 1px solid $c-gainsboro;
+  border-bottom: 1px solid $c-gainsboro;
+  border-right: 1px solid $c-gainsboro;
+  transition: width 0.2s ease-in;
+  box-shadow: -2px 2px 1px 0 rgba(221,221,221,0.5);
+}
+
+.expanded {
+  composes: root;
+  width: $sideBarWidth;
+}
+
+.collapsed {
+  composes: root;
+  width: 50px;
+}
+
+.header {
+  flex: 0 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  border-bottom: 1px solid $c-gainsboro;
+}
+
+.title {
+  height: 18px;
+  max-height: 18px;
+  overflow: hidden;
+  cursor: default;
+  color: $c-raisin-black;
+  margin: 0 0 0 15px;
+}
+
+.icon {
+  color: $c-dim-grey;
+  cursor: pointer;
+}
+
+.backIcon {
+  composes: icon;
+  margin: 15px;
+}
+
+.hiddenBack {
+  composes: icon;
+  opacity: 0;
+  pointer-events: none;
+  cursor: default;
+}
+
+.close {
+  composes: icon;
+  margin: 15px 15px 15px auto;
+}
+
+.content {
+  width: $sideBarWidth;
+  display: flex;
+  flex-flow: column;
+  padding: 15px;
+  word-wrap: break-word;
+  overflow: auto;
+  opacity: 1;
+  transition-property: opacity;
+  transition-duration: 0.2s;
+}
+
+.contentCollapsed {
+  opacity: 0;
+}

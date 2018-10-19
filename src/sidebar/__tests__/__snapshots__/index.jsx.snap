@@ -1,0 +1,44 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`sidebar should render the sidebar with closed state 1`] = `
+<div
+  className="cn-sidebar cn-sidebar--closed"
+  data-component="Sidebar"
+>
+  <div
+    className="cn-sidebar__controls"
+  >
+    <Icon
+      className="cn-sidebar__close-btn"
+      icon="carat-right"
+      onClick={[Function]}
+      size="extra-small"
+    />
+  </div>
+</div>
+`;
+
+exports[`sidebar should render the sidebar with open state 1`] = `
+<div
+  className="cn-sidebar"
+  data-component="Sidebar"
+>
+  <div
+    className="cn-sidebar__controls"
+  >
+    <Icon
+      className="cn-sidebar__close-btn"
+      icon="close"
+      onClick={[Function]}
+      size="extra-small"
+    />
+  </div>
+  <div
+    className="cn-sidebar__content"
+  >
+    <div>
+      content
+    </div>
+  </div>
+</div>
+`;

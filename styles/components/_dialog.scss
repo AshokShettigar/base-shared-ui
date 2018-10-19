@@ -1,0 +1,17 @@
+/* Dialogs */
+
+.cn-dialog {
+  @include overlay-box;
+  min-width: 220px;
+  max-width: 260px;
+  padding: 15px 20px;
+
+  .cn-field:first-child {
+    margin-top: 0;
+  }
+}
+.cn-dialog__footer {
+  text-align: right;
+  padding: 0 1px;
+}
+

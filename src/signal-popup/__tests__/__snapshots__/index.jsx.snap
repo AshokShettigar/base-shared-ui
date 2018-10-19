@@ -1,0 +1,76 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`signal-popup/signal-popup-wrapper WHEN the toggle button is clicked showPopup should be true 1`] = `
+<div
+  className="signal-popup-wrapper__styled-tabled-cell"
+  data-component="SignalPopupWrapper"
+>
+  <div
+    className="signal-cell__container"
+    data-component="signal-popup"
+    onClick={[Function]}
+    role="presentation"
+  >
+    <undefined
+      data={
+        Object {
+          "ticketsCnt": "10",
+        }
+      }
+      popupConfig={
+        Object {
+          "Component": "",
+        }
+      }
+      showPopup={true}
+    />
+  </div>
+  <WithRender
+    className="ag-grid-signal-cell-placement-popup"
+    hidden={false}
+    isOpen={true}
+    isPortal={true}
+    modifiers={
+      Object {
+        "hide": Object {
+          "enabled": false,
+        },
+        "preventOverflow": Object {
+          "enabled": false,
+        },
+      }
+    }
+    onDismiss={[Function]}
+    position="bottom-end"
+    rendered={true}
+  />
+</div>
+`;
+
+exports[`signal-popup/signal-popup-wrapper WHEN the toggle button is rendered and Popup is not open 1`] = `
+<div
+  className="signal-popup-wrapper__styled-tabled-cell"
+  data-component="SignalPopupWrapper"
+>
+  <div
+    className="signal-cell__container"
+    data-component="signal-popup"
+    onClick={[Function]}
+    role="presentation"
+  >
+    <undefined
+      data={
+        Object {
+          "ticketsCnt": "10",
+        }
+      }
+      popupConfig={
+        Object {
+          "Component": "",
+        }
+      }
+      showPopup={false}
+    />
+  </div>
+</div>
+`;

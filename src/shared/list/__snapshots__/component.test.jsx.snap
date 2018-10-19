@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render component 1`] = `
+<div
+  className="root"
+  data-component="List"
+  data-id="list"
+>
+  <span
+    className="title"
+  >
+    test
+  </span>
+  <ul
+    className="list"
+  >
+    <li
+      className="enabledItem"
+      data-id="item"
+      id="id"
+      onClick={[Function]}
+      role="presentation"
+      tabIndex="0"
+    >
+      <WithRender
+        className="bullet"
+        glyph="test"
+        glyphClassName="iconGlyph"
+        hidden={false}
+        rendered={true}
+      />
+      <span
+        className="nameContainer"
+      >
+        <span
+          className=""
+          title="test"
+        >
+          test
+        </span>
+      </span>
+    </li>
+  </ul>
+</div>
+`;

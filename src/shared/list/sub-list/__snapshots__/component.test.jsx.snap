@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render component 1`] = `
+<List
+  className="toRight"
+  isCountShown={true}
+  isSubList={true}
+  list={
+    Array [
+      Object {
+        "icon": "test",
+        "name": "test",
+      },
+    ]
+  }
+  listClassName="list"
+  onSelect={[Function]}
+  showSublistTitle={true}
+  title="test"
+/>
+`;

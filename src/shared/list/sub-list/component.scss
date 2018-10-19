@@ -1,0 +1,59 @@
+@import '../../scss/variables';
+
+.root {
+  position: absolute;
+  padding: 10px 0;
+  background: $c-white;
+  border-top: 1px solid $c-x11-gray;
+  border-bottom: 1px solid $c-x11-gray;
+  min-width: 200px;
+  top: 0;
+  height: 100%;
+  display: none;
+  flex-flow: column;
+
+  .truncate {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+
+  .title {
+    text-transform: uppercase;
+    font-size: $fs-mini;
+    margin-top: 18px;
+    margin-bottom: 8px;
+    padding: 0 15px;
+    color: $c-dim-grey;
+    font-weight: bold;
+  }
+
+  .itemLabel {
+    @extend .truncate;
+
+    display: inline-block;
+    width: 115px;
+    color: $c-raisin-black;
+  }
+}
+
+.toRight {
+  composes: root;
+
+  box-shadow: 1px 1px 10px $c-gainsboro;
+  left: 100%;
+  border-right: 1px solid $c-x11-gray;
+}
+
+.toLeft {
+  composes: root;
+
+  box-shadow: -2px 1px 10px $c-gainsboro;
+  right: 100%;
+  border-left: 1px solid $c-x11-gray;
+}
+
+.list {
+  overflow-y: auto;
+  height: 100%;
+}

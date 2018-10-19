@@ -1,0 +1,14 @@
+// https://developer.mozilla.org/en-US/docs/Web/CSS/overflow-wrap
+
+.wordBreak {
+  overflow-wrap: break-word;
+  word-break: break-all;
+  hyphens: auto;
+}
+
+%truncateText {
+  white-space: nowrap;
+  flex-wrap: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}

@@ -1,0 +1,64 @@
+.ag-rmm {
+    border: 1px solid $graylight;
+}
+
+.ag-header-container {
+    border-bottom: 1px solid $graylight;
+}
+
+.ag-header-cell {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    font-size: 12px;
+    padding: 0 15px 2px !important;
+    text-transform: uppercase;
+}
+
+.ag-header-cell-label {
+    display: block;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.ag-row {
+    border-bottom: 1px solid #ddd;
+    &:last-child {
+        border-bottom: none;
+    }
+}
+
+.ag-cell {
+    padding: 10px 15px !important;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    font-size: 12px;
+    &:focus {
+        border: none !important;
+        box-shadow: none !important;
+    }
+}
+
+.ag-cell-focus {
+    color: #222 !important;
+    box-shadow: none !important;
+}
+
+.ag-rmm .ag-cell-focus {
+    border: none !important;
+    color: $graylight;
+}
+
+.ag-header-icon {
+    margin: 0 4px 6px;
+}
+
+.ag-cell-inline-editing .ag-react-container input {
+    font-size: 0.75rem;
+}

@@ -1,0 +1,32 @@
+@import '../../../../scss/variables';
+
+.withError {
+  position: relative;
+
+  input:hover,
+  input:focus,
+  input {
+    border: 1px solid $c-upsdell-red;
+  }
+
+  label {
+    color: $c-upsdell-red;
+  }
+}
+
+.withErrorMessage {
+  composes: withError;
+  padding-bottom: 25px;
+}
+
+.error {
+  left: 0;
+  top: 100%;
+  font-family: $ff-open-sans;
+  font-size: $fs-tiny;
+  font-weight: bold;
+  color: $c-upsdell-red;
+  margin-top: -20px;
+  display: inline-block;
+  position: absolute;
+}

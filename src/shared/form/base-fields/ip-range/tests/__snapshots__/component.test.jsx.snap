@@ -1,0 +1,56 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`IPv4RangeField Component should render component with default props 1`] = `
+<WithRender
+  className="root"
+  hidden={false}
+  hideErrorMessages={false}
+  rendered={true}
+>
+  <WithRender
+    hidden={false}
+    label="label"
+    rendered={true}
+    required={false}
+  >
+    <div
+      className="fields"
+      data-component="IPv4RangeField"
+    >
+      <IPv4Field
+        autoFocus={false}
+        disabled={false}
+        fieldClassName=""
+        hidden={false}
+        hideErrorMessages={false}
+        innerRef={[Function]}
+        onBlur={[Function]}
+        onChange={[Function]}
+        onKeyDown={[Function]}
+        readOnly={false}
+        required={false}
+        value={null}
+      />
+      <span
+        className="separator"
+      >
+        -
+      </span>
+      <IPv4Field
+        autoFocus={false}
+        disabled={false}
+        fieldClassName=""
+        hidden={false}
+        hideErrorMessages={false}
+        innerRef={[Function]}
+        onBlur={[Function]}
+        onChange={[Function]}
+        onKeyDown={[Function]}
+        readOnly={false}
+        required={false}
+        value={null}
+      />
+    </div>
+  </WithRender>
+</WithRender>
+`;

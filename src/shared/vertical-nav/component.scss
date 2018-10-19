@@ -1,0 +1,47 @@
+@import '../scss/variables.scss';
+
+.root {
+    border-bottom: 1px solid $c-gainsboro;
+    padding: 0.625rem;
+
+    :global {
+        .nav-item {
+            padding-left: 1rem;
+        }
+        a.nav-link {
+            padding: 0.5rem 0.25em;
+            border: none;
+            cursor: pointer;
+            color: $c-dim-grey;
+
+            &:hover, &:focus {
+                background-color: $c-white;
+            }
+
+            &.active {
+                font-weight: bold;
+                color: $c-raisin-black;
+                border: none;
+                position: relative;
+                background-color: $c-white;
+
+                &:before {
+                    background-color: $c-giants-orange;
+                    content: '';
+                    height: 1.375rem;
+                    left: -0.5625rem;
+                    position: absolute;
+                    top: 50%;
+                    transform: translateY(-50%);
+                    width: 0.25rem;
+                }
+            }
+        }
+    }
+}
+
+.title {
+    font-weight: bold;
+    color: $c-dim-grey;
+    padding: 0.625em;
+}

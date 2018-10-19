@@ -1,0 +1,165 @@
+/* Type styles */
+
+/* Resets/defaults */
+p, li {
+	max-width: 620px; /* set max line length, just in case */
+}
+a {
+	text-decoration: none;
+  color: $linkdefault;
+}
+b, strong {	
+	@include webfontBold;
+}
+
+@mixin sidebartitle {
+  @include webfontSemibold;
+  font-size: $size16;
+  margin: 10px 0;
+}
+
+.cn-pgtitle,
+.cn-pgsubtitle {
+  margin: 0; /* temp */
+}
+.cn-pgtitle {
+  font-size: $size18;
+  line-height: $size22;
+  @include webfontSemibold;
+}
+.cn-pgsubtitle {
+  font-size: $size13;
+  line-height: $size16;
+  @include webfontBold;
+  text-transform: uppercase;
+}
+.cn-sidebartitle {
+  @include sidebartitle;
+}
+
+
+.cn-text--intro {
+	font-size: $size18;
+}
+.cn-text--fineprint {
+	font-size: $size12;
+  color: $gray;
+  strong, b {
+    @include webfontSemibold;
+  }
+}
+.cn-text--quiet {
+  @include webfontNormal;
+}
+.cn-text--empty {
+  color: $gray;
+  font-style: italic;
+}
+
+
+.cn-tel, 
+[itemprop="telephone"] {
+  white-space: nowrap;
+}
+.cn-ratio > span + span:before {
+  content: " / ";
+  color: $bluelightest;
+}
+
+
+dt {
+  font-size: $size11;
+  text-transform: uppercase;
+  @include webfontBold;
+}
+dd {
+  font-size: $size12;
+  margin: .2em 0 .8em
+}
+.cn-data-list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  font-size: $size13;
+
+  .cn-data-label {
+    display: block;
+    font-size: .846154em; // 11/13
+    margin: 0 0 3px;
+  }
+  #icon-remove {
+    fill: $red;
+  }
+}
+.cn-data-label {
+  text-transform: uppercase;
+  @include webfontBold;
+  font-size: $size10;
+}
+.cn-data-label + .cn-resource {
+  display: inline-block;
+  width: 80%;
+  margin: 3px 0 0;
+  font-size: 1.15em;
+
+  .cn-data-label {
+    vertical-align: middle;
+  }
+}
+.cn-data-list__item {
+  padding: 5px 0;
+
+  .cn-badge {
+    font-size: $size10;
+    text-transform: uppercase;
+    height: 14px;
+    line-height: 12px;
+    @include webfontSemibold;
+  }
+}
+.cn-data-list--pairs > .cn-data-list__item {
+  border-top: 1px solid $graylight;
+
+  .cn-summary &:first-child {
+    border: 0;
+  }
+  &:last-child {
+    border-bottom: 1px solid $graylight;
+  }
+  > .cn-data-label {
+    display: inline-block;
+    width: 14em;
+    margin: 2px 0 0;
+    vertical-align: top;
+  }
+  .cn-summary & > .cn-data-label {    
+    width: 10em;    
+  }
+}
+.cn-data-list--wrap .cn-data-list__item {
+  display: inline-block;
+  padding: 0 1em 20px 0;
+  min-width: 8em;
+}
+.cn-data-value--truncate {
+  display: inline-block;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+
+blockquote {
+  display: inline-block;
+  margin: 1em 0;
+  padding: 1em 0;
+  border: 1px solid $graylight;
+  border-width: 1px 0;
+}
+cite {
+  font-size: $size12;
+  font-style: normal;
+  display: block;
+  margin: 1em 0 0;
+  text-align: right;
+}

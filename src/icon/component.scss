@@ -1,0 +1,59 @@
+@import '../../styles/variables';
+
+.cn-icon {
+  display: inline-flex;
+  fill: $black;
+
+  &--size {
+    &-ultra-small svg {
+      width: $icon-size-ultra-small;
+      height: $icon-size-ultra-small;
+    }
+
+    &-extra-small svg {
+      width: $icon-size-extra-small;
+      height: $icon-size-extra-small;
+    }
+
+    &-small svg {
+      width: $icon-size-small;
+      height: $icon-size-small;
+    }
+
+    &-medium svg {
+      width: $icon-size-medium;
+      height: $icon-size-medium;
+    }
+
+    &-large svg {
+      width: $icon-size-large;
+      height: $icon-size-large;
+    }
+
+    &-extra-large svg {
+      width: $icon-size-extra-large;
+      height: $icon-size-extra-large;
+    }
+  }
+
+  &.disabled svg {
+    fill: $gray;
+    cursor: default;
+  } 
+
+  &.active svg {
+    fill: $blue;
+  } 
+
+  &.white {
+    height: 22px;
+    width: 22px;
+    border-radius: 3px;
+    background-color: $blue;
+
+    & svg {
+      fill: $white;
+      margin: auto auto;
+    }
+  }
+}

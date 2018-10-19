@@ -1,0 +1,604 @@
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  font-weight: $btn-font-weight;
+  line-height: $btn-line-height;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  user-select: none;
+  text-transform: uppercase;
+  border: $input-btn-border-width solid transparent;
+  border-color: $graylight;
+  @include button-size($btn-padding-y, $btn-padding-x, $btn-font-size-base, $btn-border-radius);
+  @include transition($btn-transition);
+  font-size: rem(12);
+  height: rem(30);
+  line-height: rem(30);
+
+  // Share hover and focus styles
+  @include hover-focus {
+    text-decoration: none;
+  }
+  @include focus( $blue );
+
+  .cn-icon {
+    width: rem(16);
+    height: rem(16);
+    margin: -1px -3px 0;
+    &--wide {
+      width: rem(21);
+    }
+  }
+  
+  .cn-icon + .btn-text,
+  .btn-text + .cn-icon {
+    margin-left: .7em;
+  }
+
+  // Disabled comes first so active can properly restyle
+  &.disabled,
+  &:disabled {
+    pointer-events: none;
+    cursor: $cursor-disabled;
+    opacity: .65;
+    @include box-shadow(none);
+  }
+
+  &:active,
+  &.active {
+    background-image: none;
+    box-shadow: none;
+    outline: none;
+  }
+}
+
+.btn-text--secondary {
+  text-transform: none;
+  @include webfontNormal;
+}
+
+// Future-proof disabling of clicks on `<a>` elements
+a.btn.disabled,
+fieldset[disabled] a.btn {
+  pointer-events: none;
+}
+
+
+//
+// Alternate buttons
+//
+.btn-standard {
+  @include button-variant($btn-standard-color, $btn-standard-bg, $btn-standard-border);
+  &:hover {
+    background: $white;
+    color: $body-color;
+    border-color: lighten( $gray, 25% );
+    .cn-icon {
+      fill: $blue;
+    }
+  }
+}
+.btn-primary {
+  @include button-variant($btn-primary-color, $btn-primary-bg, $btn-primary-border);
+  .cn-icon {
+    fill: $white;
+  }
+  &:hover {
+    background-color: $navy * 1.4;    
+    color: $white;
+    border-color: $navy * 1.4;    
+    .cn-icon {
+      fill: $white;
+    }
+  }
+}
+.btn-secondary {
+  @include button-variant($btn-secondary-color, $btn-secondary-bg, $btn-secondary-border);
+  .cn-icon {
+    fill: $blue;
+  }
+  &:hover {
+    background-color: $white;    
+    color: $body-color;
+    border-color: $blue;    
+    .cn-icon {
+      fill: $gray;
+    }
+  }
+}
+.btn-info {
+  @include button-variant($btn-info-color, $btn-info-bg, $btn-info-border);
+  .cn-icon {
+    fill: $white;
+  }
+  &:hover {
+    .cn-icon {
+      fill: $white;
+    }
+  }
+}
+.btn-success {
+  @include button-variant($btn-success-color, $btn-success-bg, $btn-success-border);
+  .cn-icon {
+    fill: $white;
+  }
+  &:hover {
+    .cn-icon {
+      fill: $white;
+    }
+  }
+}
+.btn-warning {
+  @include button-variant($btn-warning-color, $btn-warning-bg, $btn-warning-border);
+  .cn-icon {
+    fill: $white;
+  }
+  &:hover {
+    .cn-icon {
+      fill: $white;
+    }
+  }
+}
+.btn-danger {
+  @include button-variant($btn-danger-color, $btn-danger-bg, $btn-danger-border);
+  .cn-icon {
+    fill: $white;
+  }
+  &:hover {
+    .cn-icon {
+      fill: $white;
+    }
+  }
+}
+
+// Remove all backgrounds
+.btn-outline-primary {
+  @include button-outline-variant($btn-primary-bg);
+}
+.btn-outline-secondary {
+  @include button-outline-variant($btn-secondary-border);
+}
+.btn-outline-info {
+  @include button-outline-variant($btn-info-bg);
+}
+.btn-outline-success {
+  @include button-outline-variant($btn-success-bg);
+}
+.btn-outline-warning {
+  @include button-outline-variant($btn-warning-bg);
+}
+.btn-outline-danger {
+  @include button-outline-variant($btn-danger-bg);
+}
+
+
+//
+// Link buttons
+//
+
+// Make a button look and behave like a link
+.btn-link {
+  font-weight: $font-weight-normal;
+  color: $link-color;
+  border-radius: 0 !important;
+  border: none !important;
+  box-shadow: none !important;
+  
+  span {
+    font-weight: $font-weight-normal;
+  }
+
+  &,
+  &:active,
+  &.active,
+  &:disabled {
+    background-color: transparent;
+    @include box-shadow(none);
+  }
+  &,
+  &:focus,
+  &:active {
+    border-color: transparent;
+  }
+  @include hover {
+    border-color: transparent;
+  }
+  @include hover-focus {
+    color: $link-hover-color;
+    text-decoration: $link-hover-decoration;
+    background-color: transparent;
+  }
+  &:disabled {
+    color: $btn-link-disabled-color;
+
+    @include hover-focus {
+      text-decoration: none;
+    }
+  }
+}
+
+
+//
+// Button Sizes
+//
+
+.btn-lg {
+  // line-height: ensure even-numbered height of button next to large input
+  @include button-size($btn-padding-y-lg, $btn-padding-x-lg, $font-size-lg, $btn-border-radius-lg);
+  font-size: rem(14);
+  height: rem(36);
+  line-height: rem(36);
+  .cn-icon, 
+  .btn-icon {
+    width: rem(18);
+    height: rem(18);
+  }
+}
+.btn-sm {
+  // line-height: ensure proper height of button next to small input
+  @include button-size($btn-padding-y-sm, $btn-padding-x-sm, $font-size-sm, $btn-border-radius-sm);
+  font-size: rem(11);
+  height: rem(24);
+  line-height: rem(24);
+  .cn-icon, 
+  .btn-icon {
+    width: rem(14);
+    height: rem(14);
+  }
+}
+
+
+//
+// Block button
+//
+
+.btn-block {
+  display: block;
+  width: 100%;
+}
+
+// Vertically space out multiple block buttons
+.btn-block + .btn-block {
+  margin-top: $btn-block-spacing-y;
+}
+
+// Specificity overrides
+input[type="submit"],
+input[type="reset"],
+input[type="button"] {
+  &.btn-block {
+    width: 100%;
+  }
+}
+
+/* * * * Buttons (cn-*) * * * */
+button {
+  cursor: pointer;
+}
+
+$btnradius: 3px;
+
+@mixin btn-small {
+  font-size: $size11;
+  height: 2.168em; // 24px
+  line-height: 2em; // 24px
+}
+@mixin btn-medium {
+  font-size: $size12;
+  height: 2.5em; // 30px
+  line-height: 2.5em; // 30px
+}
+@mixin btn-large {
+  font-size: $size14;
+  height: 2.5714em; // 36px
+  line-height: 2.5714em; // 36px
+}
+@mixin btn-custom {
+  height: auto;
+  line-height: inherit;
+}
+
+@mixin btn {
+  @include webfontSemibold;
+  @include btn-medium;
+  display: inline-block;
+  text-transform: uppercase;
+  padding: 0 1.1em;
+  border: 1px solid transparent;
+  border-color: $graylight;
+  @include themer( border-color, "btn-standard-border", $themes );
+  border-radius: $btnradius;
+  @include focus( $blue );
+  &:disabled {
+    pointer-events: none;
+    opacity: .5;
+  }
+}
+@mixin btn-standard {
+  background-color: $white;
+  color: $gray;
+  @include themer( background-color, "btn-standard-bg", $themes );
+  @include themer( color, "btn-standard-text", $themes );
+  &:hover {
+    color: $textdefault;
+    border-color: lighten( $gray, 25% );
+    @include themer( color, "btn-standard-hover-text", $themes );
+    @include themer( border-color, "btn-standard-hover-border", $themes );
+  }
+  /* for icons: */
+  fill: $linkdefault;
+  @include themer( fill, "btn-secondary-icon-fill", $themes );
+}
+@mixin btn-primary {
+  @include webfontBold;
+  background-color: $blue;
+  color: $white;
+  border-color: $blue;
+  @include themer( background-color, "btn-primary-bg", $themes );
+  @include themer( color, "btn-primary-text", $themes );
+  @include themer( border-color, "btn-primary-border", $themes );
+  &:hover {
+    color: $white;
+    background-color: $navy * 1.4;
+    border-color: $navy * 1.4;
+    @include themer( background-color, "btn-primary-hover-bg", $themes );
+    @include themer( color, "btn-primary-hover-text", $themes );
+    @include themer( border-color, "btn-primary-hover-border", $themes );
+    @include themer( fill, "btn-primary-hover-icon-fill", $themes );
+  }
+  /* for icons: */
+  fill: $white;
+  @include themer( fill, "btn-primary-icon-fill", $themes );
+}
+@mixin btn-secondary {
+  @include webfontBold;
+  background-color: $white;
+  color: $blue;
+  @include themer( color, "btn-secondary-text", $themes );
+  @include themer( border-color, "btn-secondary-border", $themes );
+  &:hover {
+    color: $textdefault;
+    border-color: $blue;
+    @include themer( border-color, "btn-secondary-hover-border", $themes );
+    @include themer( color, "btn-secondary-hover-text", $themes );
+  }
+  /* for icons: */
+  fill: $gray;
+  @include themer( fill, "btn-secondary-icon-fill", $themes );
+}
+
+.cn-btn {
+  @include btn;
+  @include btn-standard;
+}
+.cn-btn__icon,
+.cn-link__icon {
+  width: 13px;
+  height: 13px;
+  vertical-align: middle;
+}
+.cn-link {
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  background-color: inherit;
+  border: 0;
+  padding: 0;
+  @include themer( color, "link-text", $themes );
+
+  /* for icons: */
+  fill: $gray;
+  @include themer( fill, "link-icon-fill", $themes );
+  &:hover {
+    fill: $blue;
+    @include themer( fill, "link-hover-icon-fill", $themes );
+  }
+}
+
+.cn-btn__icon {
+  margin: 0 1em;
+}
+[class*=btn] .cn-btn__icon {
+  width: 16px;
+  height: 16px;
+  margin: -3px -3px 0;
+
+  &.cn-icon--wide {
+    width: 21px;
+  }
+}
+.cn-btn__icon + .cn-btn__text,
+.cn-btn__text + .cn-btn__icon {
+  margin-left: .7em;
+}
+.cn-btn__text--secondary {
+  text-transform: none;
+  @include webfontNormal;
+}
+.cn-btn__text--secondary + .cn-btn__text {
+  margin-left: 1em;
+}
+
+.cn-btn--confirm,
+.cn-btn--primary {
+  @include btn-primary;
+}
+.cn-btn--confirm {
+  background-color: $green;
+  &:hover {
+    background-color: darken( $green, 5% );
+  }
+}
+.cn-btn--secondary {
+  @include btn-secondary;
+}
+
+.cn-btn--small {
+  @include btn-small;
+}
+.cn-btn--medium {
+  @include btn-medium;
+}
+.cn-btn--large {
+  @include btn-large;
+}
+
+/* Custom styles */
+.cn-link--alerts {
+  display: inline-block;
+  color: $white;
+  padding: 4px 7px;
+
+  img {
+    vertical-align: middle;
+    margin: -2px 7px 0 0;
+    max-height: 18px;
+  }
+  .cn-menu--active > & {
+    background-color: $white;
+    color: $linkdefault;
+  }
+}
+
+.cn-link--edit {
+  display: inline-block;
+  margin: 1em 0;
+  font-size: $size12;
+  @include webfontBold;
+  text-transform: uppercase;
+  color: $textdefault;
+
+  .cn-icon {
+    fill: $linkdefault;
+  }
+}
+
+.cn-btn--call {
+  @include btn-custom;
+  font-size: $size13;
+  text-transform: none;
+  @include webfontNormal;
+  text-align: left;
+  display: flex;
+
+  .cn-icon {
+    flex: 0 0 25px;
+    height: 25px;
+    border: 1px solid $linkdefault;
+    border-radius: 25px;
+    margin: 0;
+    padding: 3px;
+    align-self: center;
+  }
+  .cn-btn__text {
+    padding: 8px;
+  }
+  .cn-tel {
+    display: block;
+    @include webfontBold;
+    color: $linkdefault;
+  }
+}
+
+.cn-btn--delete {
+  background-color: $red;
+  border-radius: 0;
+
+  &, &:hover {
+    color: $white;
+  }
+  &:hover {
+    background-color: darken( $red, 5% );
+  }
+  .cn-btn__icon {
+    fill: $white;
+  }
+}
+
+
+/* Combo button */
+.cn-combo-btn {
+  display: flex;
+  width: 100%;
+}
+
+
+/* List (stacked buttons) */
+.cn-btn-list {
+  .cn-icon {
+    fill: $linkdefault;
+    margin-left: -.5em;
+  }
+  .cn-btn {
+    display: block;
+    width: 100%;
+    text-transform: none;
+    @include webfontNormal;
+    text-align: left;
+    position: relative;
+    z-index: 1;
+
+    &:first-child {
+      border-bottom-right-radius: 0;
+      border-bottom-left-radius: 0;
+    }
+    &:last-child {
+      border-top-right-radius: 0;
+      border-top-left-radius: 0;
+    }
+    &:not( :first-child ):not( :last-child ) {
+      border-radius: 0;
+      margin: -1px 0;
+    }
+    &:hover {
+      z-index: 9;
+      border-color: $graylight;
+      background-color: lighten( $bluelightest, 9% )
+    }
+  }
+}
+
+/* Menu Button */
+.cn-menu-button {
+    align-items: center;
+    background: transparent;
+    border: none;
+    color: $gray;
+    display: flex;
+    font-size: .75rem;
+    line-height: 16px;
+    padding: 0 10px;
+    padding: 8px;
+    text-transform: uppercase;
+
+    &:focus {
+        outline: none;
+    }
+
+    &:hover {
+        color: $linkdefault;
+        cursor: pointer;
+    }
+
+    &__icon {
+        fill: $gray;
+        margin-right: .4em;
+        height: 15px;
+        width: 15px;
+
+        .cn-menu-button:hover & {
+            fill: $linkdefault;
+        }
+
+        &:last-child {
+            margin-right: 0;
+        }
+    }
+
+    &--is-disabled {
+        opacity: .5;
+        pointer-events: none;
+    }
+}

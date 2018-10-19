@@ -1,0 +1,63 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Static side bar component should render component when its closed 1`] = `
+<div
+  className="collapsed"
+  data-component="StaticSidebar"
+>
+  <div
+    className="header"
+  >
+    <WithRender
+      className="backIcon"
+      glyph="caret-left"
+      hidden={false}
+      onClick={[Function]}
+      rendered={true}
+      size="large"
+    />
+    <span
+      className="title"
+      hidden={true}
+    >
+      default title
+    </span>
+  </div>
+  <div
+    className="contentCollapsed content"
+  />
+</div>
+`;
+
+exports[`Static side bar component should render component when its open 1`] = `
+<div
+  className="expanded"
+  data-component="StaticSidebar"
+>
+  <div
+    className="header"
+  >
+    <span
+      className="title"
+      hidden={false}
+    >
+      default title
+    </span>
+    <WithRender
+      className="close"
+      glyph="close"
+      hidden={false}
+      onClick={[Function]}
+      rendered={true}
+      size="large"
+    />
+  </div>
+  <div
+    className="content"
+  >
+    <div>
+      Children
+    </div>
+  </div>
+</div>
+`;

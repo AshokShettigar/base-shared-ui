@@ -1,0 +1,10 @@
+@import '../scss/theme';
+
+.root {
+  padding: 10px;
+  border: 1px solid $c-pastel-gray;
+  background-color: $c-white;
+  box-shadow: -2px 2px 2px 0 rgba(187, 189, 191, 0.5);
+
+  @extend .wordBreak;
+}

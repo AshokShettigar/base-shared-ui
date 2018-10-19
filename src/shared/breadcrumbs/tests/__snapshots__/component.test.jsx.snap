@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Page breadcrumb renders with default props 1`] = `
+<div
+  className="root"
+  data-component="Breadcrumbs"
+>
+  <Link
+    className="backLink"
+    replace={false}
+    to="/link"
+  >
+    <Icon
+      className="backIcon"
+      icon="caret-left"
+      size="extra-small"
+    />
+  </Link>
+  <div
+    className="pageHeader"
+  >
+    <span
+      className="breadcrumbs"
+    >
+      <Link
+        className="breadcrumb"
+        replace={false}
+        to="/link"
+      >
+        PREVIOUS BREADCRUMB TITLE
+      </Link>
+      <span
+        className="currentBreadcrumb"
+      >
+         / CURRENT BREADCRUMB TITLE
+      </span>
+    </span>
+    <div
+      className="title"
+    >
+      current breadcrumb title
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,623 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Checkbox component should render component with autoFocus prop 1`] = `
+<span
+  className="root"
+  data-component="Checkbox"
+>
+  <WithRender
+    hidden={false}
+    rendered={true}
+  >
+    <label
+      className="label"
+    >
+      <input
+        autoFocus={true}
+        checked={false}
+        disabled={false}
+        hidden={true}
+        onChange={[Function]}
+        type="checkbox"
+      />
+      <span
+        className="checkbox"
+      />
+    </label>
+  </WithRender>
+</span>
+`;
+
+exports[`Checkbox component should render component with checked prop 1`] = `
+<span
+  className="root checked"
+  data-component="Checkbox"
+>
+  <WithRender
+    hidden={false}
+    rendered={true}
+  >
+    <label
+      className="label"
+    >
+      <input
+        autoFocus={false}
+        checked={true}
+        disabled={false}
+        hidden={true}
+        onChange={[Function]}
+        type="checkbox"
+      />
+      <span
+        className="checkbox"
+      >
+        <span
+          className="checkmarkGlyph"
+        >
+          <WithRender
+            className="icon"
+            glyph="checkmark"
+            hidden={false}
+            rendered={true}
+            size="mini"
+          />
+        </span>
+      </span>
+    </label>
+  </WithRender>
+</span>
+`;
+
+exports[`Checkbox component should render component with children prop 1`] = `
+<span
+  className="root"
+  data-component="Checkbox"
+>
+  <WithRender
+    hidden={false}
+    rendered={true}
+  >
+    <label
+      className="label"
+    >
+      <input
+        autoFocus={false}
+        checked={false}
+        disabled={false}
+        hidden={true}
+        onChange={[Function]}
+        type="checkbox"
+      />
+      <span
+        className="checkbox"
+      />
+      <span
+        aria-checked={false}
+        className="labelText"
+        role="radio"
+        tabIndex={-1}
+      >
+        Children
+      </span>
+    </label>
+  </WithRender>
+</span>
+`;
+
+exports[`Checkbox component should render component with class names 1`] = `
+<span
+  className="root className"
+  data-component="Checkbox"
+>
+  <WithRender
+    hidden={false}
+    rendered={true}
+  >
+    <label
+      className="label"
+    >
+      <input
+        autoFocus={false}
+        checked={false}
+        disabled={false}
+        hidden={true}
+        onChange={[Function]}
+        type="checkbox"
+      />
+      <span
+        className="checkbox"
+      />
+    </label>
+  </WithRender>
+</span>
+`;
+
+exports[`Checkbox component should render component with default props 1`] = `
+<Checkbox
+  autoFocus={false}
+  checked={false}
+  disabled={false}
+  hidden={false}
+  indeterminate={false}
+  multiple={false}
+  readOnly={false}
+/>
+`;
+
+exports[`Checkbox component should render component with disabled and checked props 1`] = `
+<span
+  className="root disabled checked"
+  data-component="Checkbox"
+>
+  <WithRender
+    hidden={false}
+    rendered={true}
+  >
+    <label
+      className="label"
+    >
+      <input
+        autoFocus={false}
+        checked={true}
+        disabled={true}
+        hidden={true}
+        onChange={[Function]}
+        type="checkbox"
+      />
+      <span
+        className="checkbox"
+      >
+        <span
+          className="checkmarkGlyph"
+        >
+          <WithRender
+            className="icon"
+            glyph="checkmark"
+            hidden={false}
+            rendered={true}
+            size="mini"
+          />
+        </span>
+      </span>
+    </label>
+  </WithRender>
+</span>
+`;
+
+exports[`Checkbox component should render component with disabled prop 1`] = `
+<span
+  className="root disabled"
+  data-component="Checkbox"
+>
+  <WithRender
+    hidden={false}
+    rendered={true}
+  >
+    <label
+      className="label"
+    >
+      <input
+        autoFocus={false}
+        checked={false}
+        disabled={true}
+        hidden={true}
+        onChange={[Function]}
+        type="checkbox"
+      />
+      <span
+        className="checkbox"
+      />
+    </label>
+  </WithRender>
+</span>
+`;
+
+exports[`Checkbox component should render component with error prop 1`] = `
+<span
+  className="root"
+  data-component="Checkbox"
+>
+  <WithRender
+    error="error"
+    hidden={false}
+    rendered={true}
+  >
+    <label
+      className="label"
+    >
+      <input
+        autoFocus={false}
+        checked={false}
+        disabled={false}
+        hidden={true}
+        onChange={[Function]}
+        type="checkbox"
+      />
+      <span
+        className="checkbox"
+      />
+    </label>
+  </WithRender>
+</span>
+`;
+
+exports[`Checkbox component should render component with hidden component 1`] = `
+<div
+  hidden={true}
+>
+  <Checkbox
+    autoFocus={false}
+    checked={false}
+    disabled={false}
+    hidden={true}
+    indeterminate={false}
+    multiple={false}
+    readOnly={false}
+  />
+</div>
+`;
+
+exports[`Checkbox component should render component with id prop 1`] = `
+<span
+  className="root"
+  data-component="Checkbox"
+>
+  <WithRender
+    hidden={false}
+    rendered={true}
+  >
+    <label
+      className="label"
+      htmlFor="id"
+    >
+      <input
+        autoFocus={false}
+        checked={false}
+        disabled={false}
+        hidden={true}
+        onChange={[Function]}
+        type="checkbox"
+      />
+      <span
+        className="checkbox"
+      />
+    </label>
+  </WithRender>
+</span>
+`;
+
+exports[`Checkbox component should render component with indeterminate and disabled prop 1`] = `
+<span
+  className="root disabled indeterminate"
+  data-component="Checkbox"
+>
+  <WithRender
+    hidden={false}
+    rendered={true}
+  >
+    <label
+      className="label"
+    >
+      <input
+        autoFocus={false}
+        checked={false}
+        disabled={true}
+        hidden={true}
+        onChange={[Function]}
+        type="checkbox"
+      />
+      <span
+        className="checkbox"
+      >
+        <i
+          className="indeterminateGlyph"
+        />
+      </span>
+    </label>
+  </WithRender>
+</span>
+`;
+
+exports[`Checkbox component should render component with indeterminate prop 1`] = `
+<span
+  className="root indeterminate"
+  data-component="Checkbox"
+>
+  <WithRender
+    hidden={false}
+    rendered={true}
+  >
+    <label
+      className="label"
+    >
+      <input
+        autoFocus={false}
+        checked={false}
+        disabled={false}
+        hidden={true}
+        onChange={[Function]}
+        type="checkbox"
+      />
+      <span
+        className="checkbox"
+      >
+        <i
+          className="indeterminateGlyph"
+        />
+      </span>
+    </label>
+  </WithRender>
+</span>
+`;
+
+exports[`Checkbox component should render component with multiple and checked props 1`] = `
+<span
+  className="root multiple checked"
+  data-component="Checkbox"
+>
+  <WithRender
+    hidden={false}
+    rendered={true}
+  >
+    <label
+      className="label"
+    >
+      <input
+        autoFocus={false}
+        checked={true}
+        disabled={false}
+        hidden={true}
+        onChange={[Function]}
+        type="checkbox"
+      />
+      <span
+        className="checkbox"
+      >
+        <span
+          className="checkmarkGlyph"
+        >
+          <WithRender
+            className="icon"
+            glyph="checkmark"
+            hidden={false}
+            rendered={true}
+            size="mini"
+          />
+        </span>
+      </span>
+    </label>
+  </WithRender>
+</span>
+`;
+
+exports[`Checkbox component should render component with multiple and disabled props 1`] = `
+<span
+  className="root multiple disabled"
+  data-component="Checkbox"
+>
+  <WithRender
+    hidden={false}
+    rendered={true}
+  >
+    <label
+      className="label"
+    >
+      <input
+        autoFocus={false}
+        checked={false}
+        disabled={true}
+        hidden={true}
+        onChange={[Function]}
+        type="checkbox"
+      />
+      <span
+        className="checkbox"
+      />
+    </label>
+  </WithRender>
+</span>
+`;
+
+exports[`Checkbox component should render component with multiple and indeterminate props 1`] = `
+<span
+  className="root multiple indeterminate"
+  data-component="Checkbox"
+>
+  <WithRender
+    hidden={false}
+    rendered={true}
+  >
+    <label
+      className="label"
+    >
+      <input
+        autoFocus={false}
+        checked={false}
+        disabled={false}
+        hidden={true}
+        onChange={[Function]}
+        type="checkbox"
+      />
+      <span
+        className="checkbox"
+      >
+        <i
+          className="indeterminateGlyph"
+        />
+      </span>
+    </label>
+  </WithRender>
+</span>
+`;
+
+exports[`Checkbox component should render component with multiple prop 1`] = `
+<span
+  className="root multiple"
+  data-component="Checkbox"
+>
+  <WithRender
+    hidden={false}
+    rendered={true}
+  >
+    <label
+      className="label"
+    >
+      <input
+        autoFocus={false}
+        checked={false}
+        disabled={false}
+        hidden={true}
+        onChange={[Function]}
+        type="checkbox"
+      />
+      <span
+        className="checkbox"
+      />
+    </label>
+  </WithRender>
+</span>
+`;
+
+exports[`Checkbox component should render component with name prop 1`] = `
+<span
+  className="root"
+  data-component="Checkbox"
+>
+  <WithRender
+    hidden={false}
+    rendered={true}
+  >
+    <label
+      className="label"
+    >
+      <input
+        autoFocus={false}
+        checked={false}
+        disabled={false}
+        hidden={true}
+        name="name"
+        onChange={[Function]}
+        type="checkbox"
+      />
+      <span
+        className="checkbox"
+      />
+    </label>
+  </WithRender>
+</span>
+`;
+
+exports[`Checkbox component should render component with onChange prop 1`] = `
+<span
+  className="root"
+  data-component="Checkbox"
+>
+  <WithRender
+    hidden={false}
+    rendered={true}
+  >
+    <label
+      className="label"
+    >
+      <input
+        autoFocus={false}
+        checked={false}
+        disabled={false}
+        hidden={true}
+        onChange={[Function]}
+        type="checkbox"
+      />
+      <span
+        className="checkbox"
+      />
+    </label>
+  </WithRender>
+</span>
+`;
+
+exports[`Checkbox component should render component with readOnly prop 1`] = `
+<span
+  className="root readOnly"
+  data-component="Checkbox"
+>
+  <WithRender
+    hidden={false}
+    rendered={true}
+  >
+    <label
+      className="label"
+    >
+      <input
+        autoFocus={false}
+        checked={false}
+        disabled={false}
+        hidden={true}
+        onChange={[Function]}
+        type="checkbox"
+      />
+      <span
+        className="checkbox"
+      />
+    </label>
+  </WithRender>
+</span>
+`;
+
+exports[`Checkbox component should render component with refField prop 1`] = `
+<span
+  className="root"
+  data-component="Checkbox"
+>
+  <WithRender
+    hidden={false}
+    rendered={true}
+  >
+    <label
+      className="label"
+    >
+      <input
+        autoFocus={false}
+        checked={false}
+        disabled={false}
+        hidden={true}
+        onChange={[Function]}
+        type="checkbox"
+      />
+      <span
+        className="checkbox"
+      />
+    </label>
+  </WithRender>
+</span>
+`;
+
+exports[`Checkbox component should render component with value prop 1`] = `
+<span
+  className="root"
+  data-component="Checkbox"
+>
+  <WithRender
+    hidden={false}
+    rendered={true}
+  >
+    <label
+      className="label"
+    >
+      <input
+        autoFocus={false}
+        checked={false}
+        disabled={false}
+        hidden={true}
+        onChange={[Function]}
+        type="checkbox"
+        value="value"
+      />
+      <span
+        className="checkbox"
+      />
+    </label>
+  </WithRender>
+</span>
+`;
+
+exports[`Checkbox component shouldn't render component 1`] = `null`;

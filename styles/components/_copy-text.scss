@@ -1,0 +1,11 @@
+/* Copy text indicator */
+
+.copy-text {
+  border-bottom: 1px dashed $bluelight;
+}
+.copy-text:hover {
+  border-color: $orange;
+  cursor: -moz-grab;
+  cursor: -webkit-grab;
+  cursor: grab;
+} 

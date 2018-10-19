@@ -1,0 +1,85 @@
+.cn-table {
+    background-color: $white;
+    border: 1px solid $graylight;
+    font-size: 0.8125rem;
+    overflow: hidden;
+
+    &__header {
+        border-left: transparent 3px solid;
+        position: relative;
+        width: 100%;
+    }
+
+    &__header-icon {
+        height: 13px;
+        width: 13px;
+    }
+
+    &__column {
+        min-height: 35px;
+        overflow: hidden;
+        padding: 10px 12px;
+        white-space: nowrap;
+
+        &--is-sortable {
+            cursor: pointer;
+        }
+
+        &__sort-icon {
+            fill: $blue;
+            height: 12px;
+            margin-left: 3px;
+            width: 12px;
+        }
+    }
+
+    &__body {
+        border-top: 1px solid $graylight;
+        overflow: auto;
+    }
+
+    &__rows {
+        margin: 0;
+        overflow: auto;
+        padding: 0;
+        position: relative;
+        width: 100%;
+    }
+
+    &__row {
+        border-left: transparent 3px solid;
+        height: 39px;
+
+        &:hover {
+            background-color: $graylightest;
+        }
+
+        &--selected {
+            background-color: $graylightest;
+            border-left: $blue 3px solid;
+        }
+    }
+
+    &__cell {
+        align-items: center;
+        background-color: inherit;
+        border-bottom: 1px solid $graylight;
+        cursor: default;
+        overflow: hidden;
+        padding: 0 12px;
+
+        &--centered {
+            justify-content: center;
+        }
+    }
+
+    &__footer {
+        align-items: center;
+        border-top: 1px solid $graylight;
+        display: flex;
+        min-height: 45px;
+        padding: 0 12px;
+        position: relative;
+        top: -1px;
+    }
+}

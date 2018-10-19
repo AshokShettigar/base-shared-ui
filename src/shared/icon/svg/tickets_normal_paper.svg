@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>tickets_normal_paper</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Icons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g transform="translate(-965.000000, -306.000000)" id="Status">
+            <g transform="translate(25.000000, 139.000000)">
+                <g id="Tickets-(normal)" transform="translate(941.000000, 137.000000)">
+                    <g id="Icons" transform="translate(0.000000, 30.000000)">
+                        <g id="tickets_normal_paper">
+                            <g id="Group-7" transform="translate(0.000000, 0.711111)" stroke-linejoin="round" stroke-width="0.804571429">
+                                <polyline id="Stroke-1" stroke="#626E70" points="6.49094118 13.2841778 0.352411765 13.2841778 0.352411765 0.533066667 7.16858824 0.533066667 10.0891765 3.47617778 10.0891765 6.0984"></polyline>
+                                <polyline id="Stroke-3" stroke="#626E70" stroke-linecap="round" points="7.16823529 0.533333333 7.16823529 3.47555556 10.0897059 3.47555556"></polyline>
+                                <polygon id="Stroke-5" stroke="#FFC217" stroke-linecap="round" points="14.4704118 14.7555556 7.65511765 14.7555556 11.0627647 7.39911111"></polygon>
+                            </g>
+                            <path d="M11.0629412,11.0821333 L11.0629412,13.1052444" id="Stroke-8" stroke="#222222" stroke-width="0.804571429" stroke-linecap="round" stroke-linejoin="round"></path>
+                            <path d="M11.0629412,13.7501333 C10.9288235,13.7501333 10.8194118,13.8603556 10.8194118,13.9954667 C10.8194118,14.1305778 10.9288235,14.2408 11.0629412,14.2408 C11.1970588,14.2408 11.3064706,14.1305778 11.3064706,13.9954667 C11.3064706,13.8603556 11.1970588,13.7501333 11.0629412,13.7501333" id="Fill-9" fill="#222222"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

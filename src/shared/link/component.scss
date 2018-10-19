@@ -1,0 +1,21 @@
+@import '../scss/variables';
+
+:global(.btn).root {
+    text-transform: unset;
+    color: $c-french-blue;
+    font-size: 14px;
+    line-height: 19px;
+
+    &:hover {
+        color: $c-french-blue;
+    }
+
+    &:disabled {
+        color: $c-white-smoke;
+    }
+
+    &.active {
+        color: $c-french-blue;
+        text-decoration: underline;
+    }
+}

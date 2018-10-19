@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`platform-common-ui/signal-popup/styled-signal-popup should render blank div if Component is not passed 1`] = `
+<div
+  data-component="StyledSignalPopup"
+/>
+`;
+
+exports[`platform-common-ui/signal-popup/styled-signal-popup should render the StyledSignalPopup 1`] = `
+<div
+  data-component="StyledSignalPopup"
+/>
+`;

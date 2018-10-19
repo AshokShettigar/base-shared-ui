@@ -1,0 +1,53 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`WithIcon component should render component with class names props 1`] = `
+<WithIconField
+  className="className"
+  hidden={false}
+  icon=""
+  iconClassName="iconClassName"
+>
+  <span>
+    children
+  </span>
+</WithIconField>
+`;
+
+exports[`WithIcon component should render component with default props 1`] = `
+<WithIconField
+  hidden={false}
+  icon=""
+>
+  <span>
+    children
+  </span>
+</WithIconField>
+`;
+
+exports[`WithIcon component should render component with hidden prop 1`] = `
+<div
+  hidden={true}
+>
+  <WithIconField
+    hidden={true}
+    icon=""
+  >
+    <span>
+      children
+    </span>
+  </WithIconField>
+</div>
+`;
+
+exports[`WithIcon component should render component with icon prop 1`] = `
+<WithIconField
+  hidden={false}
+  icon="icon"
+>
+  <span>
+    children
+  </span>
+</WithIconField>
+`;
+
+exports[`WithIcon component shouldn't render component 1`] = `null`;

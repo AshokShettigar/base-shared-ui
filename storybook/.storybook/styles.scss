@@ -1,0 +1,119 @@
+.display-inline-block {
+    display: inline-block;
+}
+.margin-left-5 {
+    margin-left: 5px;
+}
+.margin-right-4 {
+    margin-right: 4px !important;
+}
+.margin-right-8 {
+    margin-right: 8px !important;
+}
+.margin-top-5 {
+    margin-top: 5px;
+}
+.margin-bottom-10 {
+    margin-bottom: 10px;
+}
+.margin-top-25 {
+    margin-top: 25px;
+}
+h4 {
+    margin-bottom: 15px;
+}
+.dropdown.show {
+    animation: unset;
+}
+.position-relative {
+    position: relative;
+}
+.story-title {
+    color: #000;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    text-transform: capitalize;
+    font-weight: 400;
+    font-size: 1.20rem;
+}
+.button-story {
+    display: flex;
+    margin-bottom: 8px;
+    .btn {
+        margin-right: 8px;
+    }
+    span {
+        margin-left: 15px;
+        margin-top:5px;
+        color: #666666;
+    }
+}
+.notification-story {
+    display: flex;
+    margin-bottom: 8px;
+    div {
+        margin-left: 10px;
+        margin-right: 10px
+    }
+}
+.icon-description {
+    color: #666;
+    font-weight: 400;
+    margin-bottom: 20px;
+    font-size: 14px;
+    line-height: 18px;
+}
+.icon-state {
+    display: inline-block;
+    vertical-align: top;
+    margin: -2px 0 0 20px;
+}
+.icon-col {
+    float: left;
+    width: 33%;
+    margin-bottom: 25px;
+}
+.action-icons {
+    min-height: 147px;
+}
+.active-icon {
+    fill: blue;
+}
+.icon-sub-header {
+    font-weight: bold;
+}
+.country-popup {
+    border: 1px solid #ddd;
+    height: 100px;
+    width: 250px;
+    background: #fff;
+    padding: 8px;
+}
+.country-btn {
+    padding: 2px;
+    border: 1px solid #bbb;
+    vertical-align: middle;
+    border-radius: 3px;
+    cursor: pointer;
+    &.active, &:hover {
+        background-color: #ddd;
+    }
+    & i {
+        vertical-align: middle;
+    }
+}
+
+.table {
+    td,
+    th {
+        text-align: center;
+        border: 1px solid #ddd;
+        vertical-align: middle;
+    }
+
+    th {
+        background: #f7f7f7;
+        border-bottom-width: 2px;
+    }
+}

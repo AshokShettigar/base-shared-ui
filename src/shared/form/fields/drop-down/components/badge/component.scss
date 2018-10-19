@@ -1,0 +1,11 @@
+@import '../../../../../scss/variables';
+
+.root {
+  color: $c-raisin-black;
+  line-height: inherit;
+}
+
+.badge {
+  line-height: normal;
+  margin: 0 7px;
+}

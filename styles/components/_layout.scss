@@ -1,0 +1,285 @@
+/* Layout */
+
+.cn-page {
+	background-color: $graylightest;
+}
+.cn-main {
+  overflow: hidden;
+  padding: 20px;
+}
+.cn-main + .cn-main {
+  padding-top: 0;
+}
+.cn-main--search {
+  padding-top: 30px;
+}
+
+.cn-block {
+  background-color: $white;
+  border: 1px solid $graylight;
+  border-radius: 3px;
+  box-shadow: -2px 2px 1px rgba( $graylight, .5 );
+  min-width: 260px;
+  color: $textdefault;
+  @include themer( background-color, "block-bg", $themes );
+  @include themer( border-color, "block-border", $themes );
+  @include themer( color, "block-text", $themes );
+
+  &:last-child {
+    margin: 0;
+  }
+  .cn-rows & {
+    height: auto;
+  }
+}
+.cn-block--rail {
+  padding: 0 20px;
+}
+.cn-main--rail {
+  padding: 0;
+  clear: both;
+}
+.cn-rail {
+  background-color: $lighterblue;
+  padding: 20px;
+  max-width: 20em;
+}
+.cn-block--edit {
+  padding: 10px;
+}
+
+
+.cn--multicol {
+  display: flex;
+
+  [class*="cn-col"] {
+    margin: 0 20px 0 0;
+  }
+  [class*="cn-col"]:last-child {
+    margin-right: 0;
+  }
+}
+.cn-col--2 {
+  flex-grow: 2;
+}
+.cn-col--3 {
+  flex-grow: 3;
+}
+.cn-col--4 {
+  flex-grow: 4;
+}
+
+
+
+/* Grouping classes */
+[class*="cn-group"] {
+  overflow: hidden;
+
+  > .cn-section {
+    float: left;
+  }
+}
+
+
+.cn-group--50-50 {
+  > .cn-section {
+    width: 50%;
+  }
+}
+
+.cn-group--40-60 {
+  > .cn-section:first-child {
+    width: 40%;
+  }
+  > .cn-section:last-child {
+    width: 60%;
+  }
+}
+
+.cn-group--60-40 {
+  > .cn-section:first-child {
+    width: 60%;
+  }
+  > .cn-section:last-child {
+    width: 40%;
+  }
+}
+
+.cn-group--70-30 {
+  > .cn-section:first-child {
+    width: 70%;
+  }
+  > .cn-section:last-child {
+    width: 30%;
+  }
+}
+
+.cn-group--40-40-20 {
+  > .cn-section {
+    width: 40%;
+  }
+  > .cn-section:last-child {
+    width: 20%;
+  }
+}
+
+
+/* Overlay template */
+.tmpl-overlay {
+  @include overlay-box;
+
+  .cn-banner {
+    background-color: $blue;
+    color: $white;
+    padding: 10px 20px;
+    display: flex;
+
+    .cn-icon {
+      fill: $white;
+    }
+    .cn-pgsubtitle {
+      height: 20px;
+      line-height: 20px;
+      font-size: $size14;
+      margin-right: auto;
+    }
+    .cn-banner__paging {
+      padding-right: 10px;
+    }
+    .cn-banner__paging a {
+      padding: 0 10px;
+    }
+    .cn-banner__paging .cn-icon {
+      width: 20px;
+      height: 20px;
+    }
+    .tmpl-overlay__close {
+      height: 20px;
+      overflow: hidden;
+
+      .cn-icon {
+        width: 20px;
+        height: 20px;
+      }
+    }
+  }
+
+  .cn-section .cn-pgsubtitle {
+    margin: 0 0 1.5em;
+    line-height: 1.5;
+  }
+
+  .cn-main > .cn-section {   
+    border-top: 1px solid $graylight;
+    padding: 15px 0;
+  }
+  .cn-section__header {
+    padding: 10px 8em 30px 0;
+    position: relative;
+
+    .cn-pgtitle,
+    .cn-contact__name {
+      font-size: $size20;
+    }
+    .cn-contact__name {
+      margin: 0 0 .3em;
+    }
+    .cn-contact__title {
+      display: block;
+    }
+
+    > .cn-btn {
+      position: absolute;
+      top: 10px;
+      right: 0;
+      max-width: 7.5em;
+    }
+    .cn-text {
+      font-size: $size14;
+      margin: 1em 0 0;
+    }
+    .cn-text:first-child {
+      margin: 0;      
+    }
+  }
+  .cn-footer {
+    padding: 15px 20px;
+    border-top: 1px solid $graylight;
+    background-color: $graylightest;
+
+    .cn-section {
+      padding: 5px 0;
+    }
+    .cn-pgsubtitle {
+      font-size: $size11;
+    }
+  }
+  .cn-section > .cn-text, 
+  .cn-section__content > .cn-text {
+    font-size: $size13;
+    line-height: 1.5;
+    margin: 0;
+
+    .cn-btn {
+      margin-left: 1em;
+    }
+  }
+  .cn-section--grid {
+    display: flex;
+
+    > .cn-pgsubtitle {
+      flex: 0 0 150px;
+      padding-right: 20px;
+      margin: 0;
+    }
+    .cn-section__content {
+      flex: 1 auto;
+    }
+  }
+  .cn-section__content {
+    .cn-resource {
+      margin-top: 0;
+    }
+    .cn-link--edit {
+      display: block;
+      border-top: 1px solid $graylight;
+      padding-top: 12px;
+      margin-bottom: 0;
+    }
+  }
+  .cn-section--history .cn-section:last-child {
+    .cn-pgsubtitle {
+      margin-left: 30px;
+    }
+    .cn-summary__log-item {
+      border-left: 1px solid $graylight;
+      padding-left: 20px;
+    }
+  } 
+  .cn-section--wysiwyg {
+    > * {
+      max-width: 30em; 
+    }    
+
+    p, li {
+      font-size: $size14 !important; // we want to override any inline styles that may be copied into the wysiwyg editor, so we need the important qualifier here
+      margin: 1em 0;
+    }
+  }
+
+  &.tmpl-overlay--small {
+    max-width: 600px;
+
+    .cn-main {
+      padding-top: 10px;
+      padding-bottom: 10px;
+    }
+    .cn-main > .cn-section:first-child {
+      border-top: 0;
+      padding-top: 0;
+    }
+    .cn-section--form {
+      max-width: 30em;
+    }
+  }
+}

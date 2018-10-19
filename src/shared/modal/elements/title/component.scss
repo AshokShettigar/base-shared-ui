@@ -1,0 +1,24 @@
+@import '../../../scss/variables.scss';
+
+.root {
+  display: flex;
+  align-items: center;
+  background: $c-raisin-black;
+  font-size: $fs-medium;
+  min-height: 51px;
+  padding: 0 16px;
+
+  .icon {
+    fill: $c-white;
+    margin-left: auto;
+    cursor: pointer;
+    width: 18px;
+    height: 18px;
+  }
+}
+
+.title {
+  text-transform: uppercase;
+  font-weight: bold;
+  color: $c-white;
+}

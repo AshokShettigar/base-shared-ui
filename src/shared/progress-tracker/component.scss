@@ -1,0 +1,95 @@
+@import '../scss/variables';
+
+.root {
+  display: flex;
+  justify-content: center;
+  border-bottom: 2px solid $c-gainsboro;
+  min-height: 62px;
+}
+
+.steps {
+  min-width: 80%;
+  height: 60px;
+  font-family: $ff-open-sans;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+
+  &::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    display: block;
+    height: 2px;
+    background: $c-gainsboro;
+    z-index: 0;
+    left: 0;
+  }
+}
+
+.step {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+  background: $c-white;
+  margin-right: 15px;
+  margin-left: auto;
+
+  &:first-child {
+    padding-left: 0;
+    margin-left: 0;
+  }
+
+  &:last-child {
+    padding-right: 0;
+    margin-right: 0;
+  }
+}
+
+.stepIcon {
+  display: flex;
+  font-style: normal;
+  margin-right: 15px;
+  font-size: $fs-tiny;
+  background: $c-dim-grey;
+  color: $c-white;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  min-width: 30px;
+  min-height: 30px;
+  justify-content: center;
+  border-radius: 100%;
+
+}
+
+.stepTitle {
+  font-size: $fs-medium;
+  color: $c-dim-grey;
+}
+
+.current {
+  .stepIcon {
+    background: $c-french-blue;
+  }
+
+  .stepTitle {
+    font-weight: bold;
+    color: $c-raisin-black;
+  }
+}
+
+.previous {
+  .stepIcon {
+    background: $c-french-blue;
+  }
+
+  .stepTitle {
+    color: $c-raisin-black;
+  }
+}

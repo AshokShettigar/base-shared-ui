@@ -1,0 +1,69 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`tab-group should render the tab group 1`] = `
+<div
+  data-component="TabGroup"
+>
+  <ul
+    className="cn-tabs"
+  >
+    <HOCTab
+      href="#"
+      isActive={false}
+      label="tab1"
+    />
+    <HOCTab
+      href="#"
+      isActive={false}
+      label="tab2"
+    />
+  </ul>
+</div>
+`;
+
+exports[`tab-group should render the tab group with class name 1`] = `
+<div
+  data-component="TabGroup"
+>
+  <ul
+    className="cn-tabs my-class"
+  >
+    <HOCTab
+      href="#"
+      isActive={false}
+      label="tab1"
+    />
+    <HOCTab
+      href="#"
+      isActive={false}
+      label="tab2"
+    />
+  </ul>
+</div>
+`;
+
+exports[`tab-group should render the tab group with content 1`] = `
+<div
+  data-component="TabGroup"
+>
+  <ul
+    className="cn-tabs"
+  >
+    <HOCTab
+      href="#"
+      isActive={false}
+      label="tab1"
+    />
+    <HOCTab
+      href="#"
+      isActive={false}
+      label="tab2"
+    />
+  </ul>
+  <div
+    className="cn-tabs__content"
+  >
+    Some content
+  </div>
+</div>
+`;

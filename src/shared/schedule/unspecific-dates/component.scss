@@ -1,0 +1,27 @@
+.root {
+  display: flex;
+  align-items: center;
+
+  :global {
+    .unspecificIndicatorDropdown,
+    .unspecificDayDropdown {
+      &__control {
+        height: 34px;
+        min-height: 34px;
+        margin-right: 10px;
+      }
+    }
+
+    .unspecificIndicatorDropdown {
+      &__control {
+        width: 100px;
+      }
+    }
+
+    .unspecificDayDropdown {
+      &__control {
+        width: 140px;
+      }
+    }
+  }
+}

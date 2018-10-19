@@ -1,0 +1,73 @@
+@import '../../scss/theme';
+@import './component.mixin';
+
+.root {
+  font-family: $ff-open-sans;
+  font-weight: bold;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+}
+
+.icon + .content,
+.spinner + .content {
+  margin-left: 5px;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.small {
+  height: 30px;
+  @include button-size(5px, 10px, $gs-tiny, inherit, $b-radius);
+}
+
+.medium {
+  height: 35px;
+  @include button-size(5px, 10px, $gs-small, inherit, $b-radius);
+}
+
+.large {
+  height: 42px;
+  @include button-size(6px, 12px, $gs-medium, inherit, $b-radius);
+}
+
+.primary {
+  @include button-kind(
+    $c-default: $c-white,
+    $bg-default: $c-french-blue,
+    $bg-disabled: $c-iceberg,
+    $bg-active: $c-yale-blue,
+    $bg-loading: $c-air-superiority-blue
+  );
+}
+
+.secondary {
+  .icon,
+  .spinner{
+    color: $c-dim-grey;
+  }
+
+  @include button-kind(
+    $c-default: $c-french-blue,
+    $bg-default: $c-white,
+    $bc-default: $c-gainsboro,
+
+    $c-disabled: $c-iceberg,
+    $bc-disabled: $c-gainsboro,
+
+    $c-active: $c-raisin-black,
+    $bc-active: $c-french-blue,
+
+    $c-loading: $c-dim-grey,
+    $bc-loading: $c-air-superiority-blue
+  );
+}
